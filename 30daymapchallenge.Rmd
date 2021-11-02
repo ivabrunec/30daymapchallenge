@@ -1,0 +1,67 @@
+---
+title: "30 Day Map Challenge"
+author: "Iva Brunec"
+date: "31 October 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(sf)
+library(ggplot2)
+#library(leaflet)
+#library(leafgl)
+library(dplyr)
+
+```
+
+## Day 1: Points
+A map with points.
+
+```{r day 1}
+
+phl_base <- read_sf("PhiladelphiaStreetCenterlines2020.shp") %>% 
+  select(geometry) # only geometry
+
+phl_base_all <- read_sf("PhiladelphiaStreetCenterlines2020.shp")
+
+phl_trees <- st_read("69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp")
+
+
+ggplot() +
+  geom_sf(data = phl_base$geometry, color = 'darkgrey', size = .25) +
+  geom_sf(data = phl_trees, size=.05, color='#235347') +
+  coord_sf() +
+  theme_minimal() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+
+```
+
+
+## Day 2 
+A map with lines.
+
+```{r day 2}
+
+phl_base <- read_sf("PhiladelphiaStreetCenterlines2020.shp") %>% 
+  select(geometry) # only geometry
+
+phl_hin <- st_read("high_injury_network_2020.shp")
+
+phl_bike <- st_read("Bike_Network.shp")
+
+
+ggplot() +
+  geom_sf(data = phl_base$geometry, color = 'darkgrey', size = .25, alpha = .3) +
+  geom_sf(data = phl_hin, size=.5, color='darkorange2', alpha = .5) +
+  geom_sf(data = phl_bike, color = 'cyan4', size = .5, alpha = .5) +
+  #coord_sf() +
+  theme_minimal() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = 'black'))
+
+
+
+
+```
