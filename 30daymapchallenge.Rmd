@@ -16,16 +16,15 @@ library(dplyr)
 ```
 
 ## Day 1: Points
-A map with points.
+A map with points. <br>
+Philadelphia base map downloaded from: https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7102 <br>
+Philadelphia stree tree inventory downloaded from: https://www.opendataphilly.org/dataset/philadelphia-street-tree-inventory 
 
 ```{r day 1}
-
-phl_base <- read_sf("PhiladelphiaStreetCenterlines2020.shp") %>% 
+phl_base <- read_sf("data/PhiladelphiaStreetCenterlines2020.shp") %>% 
   select(geometry) # only geometry
 
-phl_base_all <- read_sf("PhiladelphiaStreetCenterlines2020.shp")
-
-phl_trees <- st_read("69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp")
+phl_trees <- st_read("data/69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp")
 
 
 ggplot() +
@@ -35,21 +34,22 @@ ggplot() +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
-
 ```
 
 
 ## Day 2 
-A map with lines.
+A map with lines. <br>
+Philadelphia High Injury Network downloaded from: https://www.opendataphilly.org/dataset/high-injury-network <br>
+Philadelphia bike network downloaded from: https://www.opendataphilly.org/dataset/bike-network 
 
 ```{r day 2}
 
-phl_base <- read_sf("PhiladelphiaStreetCenterlines2020.shp") %>% 
+phl_base <- read_sf("data/PhiladelphiaStreetCenterlines2020.shp") %>% 
   select(geometry) # only geometry
 
-phl_hin <- st_read("high_injury_network_2020.shp")
+phl_hin <- st_read("data/high_injury_network_2020.shp")
 
-phl_bike <- st_read("Bike_Network.shp")
+phl_bike <- st_read("data/Bike_Network.shp")
 
 
 ggplot() +
@@ -60,8 +60,6 @@ ggplot() +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_rect(fill = 'black'))
-
-
 
 
 ```
