@@ -187,14 +187,12 @@ summary {
 
 <div id="day-1-points" class="section level2">
 <h2>Day 1: Points</h2>
-<p>A map with points.</p>
-<pre class="r"><code>phl_base &lt;- read_sf(&quot;PhiladelphiaStreetCenterlines2020.shp&quot;) %&gt;% 
+<p>A map with points. <br> Philadelphia base map downloaded from: <a href="https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7102" class="uri">https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7102</a> <br> Philadelphia stree tree inventory downloaded from: <a href="https://www.opendataphilly.org/dataset/philadelphia-street-tree-inventory" class="uri">https://www.opendataphilly.org/dataset/philadelphia-street-tree-inventory</a></p>
+<pre class="r"><code>phl_base &lt;- read_sf(&quot;data/PhiladelphiaStreetCenterlines2020.shp&quot;) %&gt;% 
   select(geometry) # only geometry
 
-phl_base_all &lt;- read_sf(&quot;PhiladelphiaStreetCenterlines2020.shp&quot;)
-
-phl_trees &lt;- st_read(&quot;69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp&quot;)</code></pre>
-<pre><code>## Reading layer `69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp' using driver `ESRI Shapefile'
+phl_trees &lt;- st_read(&quot;data/69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp&quot;)</code></pre>
+<pre><code>## Reading layer `69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\data\69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb911p.sd1c.shp' using driver `ESRI Shapefile'
 ## Simple feature collection with 111993 features and 4 fields
 ## Geometry type: POINT
 ## Dimension:     XY
@@ -210,19 +208,19 @@ phl_trees &lt;- st_read(&quot;69b39f50-460b-4b7b-b5ad-d8d9c491e4392020328-1-1vb9
 </div>
 <div id="day-2" class="section level2">
 <h2>Day 2</h2>
-<p>A map with lines.</p>
-<pre class="r"><code>phl_base &lt;- read_sf(&quot;PhiladelphiaStreetCenterlines2020.shp&quot;) %&gt;% 
+<p>A map with lines. <br> Philadelphia High Injury Network downloaded from: <a href="https://www.opendataphilly.org/dataset/high-injury-network" class="uri">https://www.opendataphilly.org/dataset/high-injury-network</a> <br> Philadelphia bike network downloaded from: <a href="https://www.opendataphilly.org/dataset/bike-network" class="uri">https://www.opendataphilly.org/dataset/bike-network</a></p>
+<pre class="r"><code>phl_base &lt;- read_sf(&quot;data/PhiladelphiaStreetCenterlines2020.shp&quot;) %&gt;% 
   select(geometry) # only geometry
 
-phl_hin &lt;- st_read(&quot;high_injury_network_2020.shp&quot;)</code></pre>
-<pre><code>## Reading layer `high_injury_network_2020' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\high_injury_network_2020.shp' using driver `ESRI Shapefile'
+phl_hin &lt;- st_read(&quot;data/high_injury_network_2020.shp&quot;)</code></pre>
+<pre><code>## Reading layer `high_injury_network_2020' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\data\high_injury_network_2020.shp' using driver `ESRI Shapefile'
 ## Simple feature collection with 241 features and 3 fields
 ## Geometry type: LINESTRING
 ## Dimension:     XY
 ## Bounding box:  xmin: -75.2803 ymin: 39.8816 xmax: -74.95876 ymax: 40.13436
 ## Geodetic CRS:  WGS 84</code></pre>
-<pre class="r"><code>phl_bike &lt;- st_read(&quot;Bike_Network.shp&quot;)</code></pre>
-<pre><code>## Reading layer `Bike_Network' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\Bike_Network.shp' using driver `ESRI Shapefile'
+<pre class="r"><code>phl_bike &lt;- st_read(&quot;data/Bike_Network.shp&quot;)</code></pre>
+<pre><code>## Reading layer `Bike_Network' from data source `C:\Users\ivakr\Documents\GitHub\30daymapchallenge\data\Bike_Network.shp' using driver `ESRI Shapefile'
 ## Simple feature collection with 5062 features and 8 fields
 ## Geometry type: LINESTRING
 ## Dimension:     XY
