@@ -78,6 +78,7 @@ library(mapdata)
 library(ggmap)
 library(mapproj)
 library(cowplot)
+library(dplyr)
 
 world <- map_data("world")
 
@@ -145,7 +146,7 @@ spiritplot <- ggplot(data = europe) +
         axis.ticks.y=element_blank(), legend.position="bottom",
         legend.key.height = unit(.25, 'cm')) +
   coord_map(xlim = c(-17, 38),  ylim = c(32, 71)) +
-  scale_fill_gradient(name = "", low = "#e0c3fc", high = "#001845", na.value = "grey50", limits = c(0,7)) 
+  scale_fill_gradient(name = "", low = "#63DDDD", high = "#001845", na.value = "grey50", limits = c(0,7)) 
 
 
 
