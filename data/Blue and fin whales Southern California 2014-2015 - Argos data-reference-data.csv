@@ -1,0 +1,14 @@
+tag-id,animal-id,animal-taxon,deploy-on-date,deploy-off-date,animal-life-stage,animal-nickname,animal-sex,attachment-type,deploy-on-latitude,deploy-on-longitude,deployment-id,manipulation-type,tag-manufacturer-name,tag-model,tag-readout-method
+2014CA-MK10-05650,2014CA-Bmu-05650,Balaenoptera musculus,2014-08-04 18:36:00.000,2014-08-23 17:25:53.000,adult,2014_5650,m,implant,33.9758,-119.0048,2014-05650,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05803,2014CA-Bmu-05803,Balaenoptera musculus,2014-08-04 20:23:00.000,2014-08-23 02:23:50.000,adult,2014_5803,f,implant,34.0094,-119.0481,2014-05803,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05644,2014CA-Bmu-05644,Balaenoptera musculus,2014-08-04 20:54:00.000,2014-08-23 17:26:41.000,adult,2014_5644,f,implant,34.001,-119.0433,2014-05644,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05655,2014CA-Bmu-05655,Balaenoptera musculus,2014-08-06 22:23:00.000,2014-08-26 18:04:04.000,adult,2014_5655,f,implant,33.9876,-119.0427,2014-05655,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05685,2014CA-Bph-05685,Balaenoptera physalus,2014-08-06 23:10:00.000,2014-08-18 20:20:42.000,adult,2014_5685,m,implant,33.9825,-119.0008,2014-05685,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05790,2014CA-Bph-05790,Balaenoptera physalus,2014-08-11 17:04:00.000,2014-08-25 01:02:46.000,adult,2014_5790,f,implant,33.9841,-118.9806,2014-05790,none,Wildlife Computers,MK10 PAT,satellite
+2014CA-MK10-05838,2014CA-Bph-05838,Balaenoptera physalus,2014-08-11 22:23:00.000,2014-08-16 20:41:19.000,adult,2014_5838,f,implant,33.9687,-118.9799,2014-05838,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-00838,2015CA-Bmu-00838,Balaenoptera musculus,2015-07-07 19:27:16.000,2015-08-02 17:51:30.000,adult,2015_838,f,implant,34.04875,-119.1408,2015-00838,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-04177,2015CA-Bmu-04177,Balaenoptera musculus,2015-07-08 21:51:37.000,2015-08-05 02:14:18.000,adult,2015_4177,m,implant,34.1113,-120.61992,2015-04177,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-05650,2015CA-Bmu-05650,Balaenoptera musculus,2015-07-08 22:06:48.000,2015-08-06 21:24:00.000,adult,2015_5650,m,implant,34.11111,-120.62099,2015-05650,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-00840,2015CA-Bmu-00840,Balaenoptera musculus,2015-07-08 22:22:49.000,2015-08-02 17:13:24.000,adult,2015_840, ,implant,34.10566,-120.61913,2015-00840,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-05644,2015CA-Bph-05644,Balaenoptera physalus,2015-07-10 20:45:00.000,2015-07-26 05:37:25.000,adult,2015_5644, ,implant,34.08503,-120.59911,2015-05644,none,Wildlife Computers,MK10 PAT,satellite
+2015CA-MK10-05654,2015CA-Bph-05654,Balaenoptera physalus,2015-07-17 17:54:00.000,2015-08-02 17:09:22.000,adult,2015_5654, ,implant,34.12554,-120.61107,2015-05654,none,Wildlife Computers,MK10 PAT,satellite

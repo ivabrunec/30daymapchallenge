@@ -475,3 +475,122 @@ ggsave(plot_title,width=8,height=4,dpi=300)
 }
 
 ```
+
+## Day 8: Blue.
+A map of the Alps.
+
+```{r day 8}
+library(sf)
+library(elevatr)
+library(raster)
+library(rayshader)
+library(dplyr)
+library(magick)
+
+ 
+#alps <- data.frame(x = 14.597570957196247, y = 46.36075461658624) %>%
+alps <- data.frame(x = 14.599516710974358, y = 46.36015759606476) %>%
+  st_as_sf(coords = c('x','y'), crs = 4326)
+
+elev <- get_elev_raster(alps, z = 13)
+
+
+elev <- get_elev_raster(alps, z = 12)
+
+elmat <- raster_to_matrix(elev) 
+
+filename_map = tempfile()
+
+elmat %>%
+  #sphere_shade(texture = 'imhof1')%>%
+  sphere_shade(texture = create_texture("#F2F2F2","#01426F","#61a5c2","#2a6f97","#89c2d9")) %>%
+  #add_shadow(ambient_shade(elmat), 0.3) %>%
+  add_shadow(ray_shade(elmat, sunaltitude=20, sunangle = 90)) %>%
+  plot_3d(elmat, zscale=6, fov = 0, theta = 0, zoom = .58, phi = 40, windowsize = c(1200, 800), background = '#DBDBDB', solid = F, shadow = F)
+  #plot_map() %>%
+
+Sys.sleep(0.2)
+render_snapshot('test', clear = F)
+
+
+
+
+```
+
+
+
+
+## Day 20: Movement.
+Blue & fin whale tracking data: https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-020-00207-x
+https://www.datarepository.movebank.org/handle/10255/move.1065
+
+```{r day 20}
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(mapdata)
+
+
+whales <- read.table("data/Blue and fin whales Southern California 2014-2015 - Argos data.csv", header=T, sep=",")
+
+blue_whales <- filter(whales, individual.taxon.canonical.name == "Balaenoptera musculus")
+
+blue_whales <- filter(blue_whales, location.long > -125 & location.long < -116 & location.lat < 41)
+# filter out specific outlier
+blue_whales <- filter(blue_whales, location.lat != 35.51010)
+
+states <- map_data("state")
+california <- subset(states, region %in% c("california"))
+
+
+ggplot() +
+  geom_polygon(data = california, aes(x=long, y = lat, group = group ), fill= 'grey80') + 
+  #geom_hex(data = whale1, aes(x = decimalLongitude, y = decimalLatitude, fill= stat(log(count))), binwidth = c(.6,.5)) +
+#  geom_point(data=whales, aes(x = location.long, y = location.lat, group = tag.local.identifier, color = tag.local.identifier), size=1) +
+  geom_point(data = blue_whales, aes(x = argos.lon2, y = argos.lat2, group = tag.local.identifier, color = tag.local.identifier), size=1) +
+  geom_path(data = blue_whales[order(blue_whales$timestamp),], aes(x = argos.lon2, y = argos.lat2, group=tag.local.identifier))+
+  coord_fixed(1.3) +
+  #scale_fill_gradientn(colors=c("paleturquoise4", "#D5BB9F", "#C42E2A"))+
+  theme_minimal() 
+  #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+   #      axis.title.x=element_blank(),
+  #       axis.text.x=element_blank(),
+  #       axis.ticks.x=element_blank(),
+  #       axis.title.y=element_blank(),
+  #       axis.text.y=element_blank(),
+  #       axis.ticks.y=element_blank(), legend.position="")
+
+
+```
+
+
+
+## Day 21: Elevation.
+Shenandoah: Old Rag mountain.
+
+```{r day 21}
+library(sf)
+library(elevatr)
+library(raster)
+library(rayshader)
+library(dplyr)
+
+shenandoah <- data.frame(x = -78.3174017258264, y = 38.55778630513009) %>%
+  st_as_sf(coords = c('x','y'), crs = 4326)
+
+elev <- get_elev_raster(shenandoah, z = 6)
+elev <- get_elev_raster(shenandoah, z = 14)
+
+elmat <- raster_to_matrix(elev) 
+
+elmat %>%
+  sphere_shade(texture = 'imhof1')%>%
+  #sphere_shade(texture = create_texture('lightgreen','darkblue','grey','grey','lightblue')) %>%
+  add_shadow(lamb_shade(elmat)) %>%
+  plot_3d(elmat, zscale=10, fov = 0, theta = 60, zoom = 0.7, phi = 65, windowsize = c(1000, 800))
+  #add_shadow(ray_shade(nh_elmat, sunaltitude=20)) %>%
+  #plot_map()
+
+```
+
+
