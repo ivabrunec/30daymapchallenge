@@ -1,7 +1,8 @@
-## Day 10: Elevation.
-## map of Olympic peninsula (WA, USA)
+## Day 10: Raster
 
 ## map of phytoplankton.
+# or
+## map of Olympic peninsula (WA, USA)
 
 library(ggplot2)
 library(sf)
@@ -14,7 +15,7 @@ library(viridis)
 #library(rayshader)
 
 ## plot phytoplankton
-# data from NASA Earth
+# data from NASA Earth Observation
 chlor_raster <- raster("data/RenderData_chlor.tiff")
 chlor_matrix <- as.data.frame(rasterToPoints(chlor_raster)) %>%
   naniar::replace_with_na(replace = list(RenderData_chlor = 255))
