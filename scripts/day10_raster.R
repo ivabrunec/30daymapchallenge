@@ -23,7 +23,8 @@ ggplot() +
   geom_raster(data = chlor_matrix,
               aes(x = x, y = y, fill = RenderData_chlor)) + 
   #scale_fill_gradientn(colors = viridis::inferno(n=50),na.value='black') +
-  scale_fill_gradientn(colors=c("#2a0042","#7400b8","#5e60ce","#4ea8de","#56cfe1","#72efdd","#80ffbb"),na.value='grey20')+
+  #scale_fill_gradientn(colors=c("#11001b","#2a0042","#7400b8","#5e60ce","#4ea8de","#56cfe1","#72efdd","#80ffbb","#f5ffcd"),na.value='grey20')+
+  scale_fill_gradientn(colors=c("#400C2C","#530F39","#563765","#595E91","#6a80ad","#7CA7C8","#75C2E1","#8CE3F4","#9BF7DB"),na.value='grey20')+
   coord_sf(ylim = c(-70, 70), crs = 4326) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         axis.title.x=element_blank(),
@@ -35,7 +36,8 @@ ggplot() +
         plot.background=element_rect(fill = 'grey20', color=NA),
         panel.background = element_rect(fill = 'grey20', color=NA)) 
 
-ggsave('day10_raster.png',width=7, height=4, dpi=300)
+
+ggsave('day10_raster2.png',width=7, height=4, dpi=300)
 
 ## plot olympic peninsula
 
@@ -52,7 +54,8 @@ colnames(elev_matrix) <- c('x','y','z')
 elevplot <- ggplot() +
   geom_raster(data = elev_matrix,
               aes(x = x, y = y, fill = z)) + 
-  scale_fill_viridis(option = 'viridis') +
+  #scale_fill_viridis(option = 'viridis') +
+  scale_fill_gradientn(colors=c("#2a0042","#7400b8","#5e60ce","#4ea8de","#56cfe1","#72efdd","#80ffbb"),na.value='grey20')+
   scale_alpha(range =  c(0.15, 0.89), guide = "none") + 
   geom_polygon(data = wa, aes(x = long, y = lat, group=group), fill = NA, color = 'lightgrey', size=.3) +
   coord_sf(xlim = c(-125, -122), ylim = c(47, 49), crs = 4326) +
