@@ -1,0 +1,294 @@
+﻿Geographic code,Geographic name,Geographic Type,"Geographic Name, province or territory","Geographic Code, province or territory",Global non-response rate,Data quality flag,Dwelling Condition,Housing Tenure - Total (2016 counts),Housing Tenure - Owner (2016 counts),Housing Tenure - Renter (2016 counts),Housing Tenure - Band housing (2016 counts),Housing Tenure - Total (% distribution 2016),Housing Tenure - Owner (% distribution 2016),Housing Tenure - Renter (% distribution 2016),Housing Tenure - Band housing (% distribution 2016),Housing Tenure - Total (% change 2011 to 2016),Housing Tenure - Owner (% change 2011 to 2016),Housing Tenure - Renter (% change 2011 to 2016),Housing Tenure - Band housing (% change 2011 to 2016),Housing Tenure - Total (% change 2006 to 2016),Housing Tenure - Owner (% change 2006 to 2016),Housing Tenure - Renter (% change 2006 to 2016),Housing Tenure - Band housing (% change 2006 to 2016)
+1001,Division No.  1,Census division,Newfoundland and Labrador,10,6.2,0,Total - Dwelling Condition,112620,83450,29175,0,100,74.1,25.9,0,6.3,5.3,9.5,,16.1,13.3,24.9,
+1002,Division No.  2,Census division,Newfoundland and Labrador,10,7.9,0,Total - Dwelling Condition,8735,7535,1205,0,100,86.3,13.8,0,-0.7,1.6,-12.7,,0.3,2.7,-12,
+1003,Division No.  3,Census division,Newfoundland and Labrador,10,8.7,0,Total - Dwelling Condition,6770,5820,920,35,100,86,13.6,0.5,0.7,-1.6,23.5,-46.2,-1.8,-4.4,21.1,-30
+1004,Division No.  4,Census division,Newfoundland and Labrador,10,7.4,0,Total - Dwelling Condition,9345,6885,2460,0,100,73.7,26.3,0,3.2,3.7,2.1,,7.1,6.4,9.3,
+1005,Division No.  5,Census division,Newfoundland and Labrador,10,7.8,0,Total - Dwelling Condition,17890,13220,4670,0,100,73.9,26.1,0,7.3,3.8,18.5,,12.3,6.5,33,
+1006,Division No.  6,Census division,Newfoundland and Labrador,10,7,0,Total - Dwelling Condition,16430,11755,4680,0,100,71.5,28.5,0,6.3,6.5,6,,15.5,9.9,32.6,
+1007,Division No.  7,Census division,Newfoundland and Labrador,10,7.7,0,Total - Dwelling Condition,14575,12345,2225,0,100,84.7,15.3,0,2,2.1,1.4,,4,1.7,19,
+1008,Division No.  8,Census division,Newfoundland and Labrador,10,7.1,0,Total - Dwelling Condition,15590,13615,1970,0,100,87.3,12.6,0,1.1,1.8,-3.4,,1,-0.4,11,
+1009,Division No.  9,Census division,Newfoundland and Labrador,10,8.6,0,Total - Dwelling Condition,6690,5960,730,0,100,89.1,10.9,0,-2.1,-2.9,4.3,,-4.4,-5.4,5,
+1010,Division No. 10,Census division,Newfoundland and Labrador,10,5.3,0,Total - Dwelling Condition,9195,6530,2245,415,100,71,24.4,4.5,3.6,-2.2,22.7,12.2,7.7,8.7,-0.7,56.6
+1011,Division No. 11,Census division,Newfoundland and Labrador,10,14.1,1111,Total - Dwelling Condition,835,575,255,0,100,68.9,30.5,0,3.7,3.6,0,,19.3,35.3,-7.3,
+1101,Kings,County,Prince Edward Island,11,7.3,0,Total - Dwelling Condition,7220,5915,1300,10,100,81.9,18,0.1,0.6,-2,15,0,0.8,-0.6,7,
+1102,Queens,County,Prince Edward Island,11,5.1,0,Total - Dwelling Condition,33975,22580,11335,60,100,66.5,33.4,0.2,8.2,3,19.9,50,18.4,10.8,36.7,500
+1103,Prince,County,Prince Edward Island,11,5.9,0,Total - Dwelling Condition,18275,13285,4945,50,100,72.7,27.1,0.3,2.2,-1.6,14.3,-9.1,5.7,2,17.5,0
+1201,Shelburne,County,Nova Scotia,12,8.9,0,Total - Dwelling Condition,6375,5300,1080,0,100,83.1,16.9,0,0,-0.4,2.4,,-1.6,-2.8,4.9,
+1202,Yarmouth,County,Nova Scotia,12,6.9,0,Total - Dwelling Condition,10800,8015,2715,70,100,74.2,25.1,0.6,0.1,-1.7,5.4,16.7,1.4,-0.4,6.5,16.7
+1203,Digby,County,Nova Scotia,12,8.3,0,Total - Dwelling Condition,8045,6430,1555,50,100,79.9,19.3,0.6,0.7,-1.4,8.4,42.9,-0.3,-1.6,3.7,25
+1204,Queens,County,Nova Scotia,12,7.7,1,Total - Dwelling Condition,4765,3840,900,20,100,80.6,18.9,0.4,-0.9,-2,2.3,100,1.4,-4.1,32.4,33.3
+1205,Annapolis,County,Nova Scotia,12,6.8,0,Total - Dwelling Condition,9375,7510,1865,10,100,80.1,19.9,0.1,1.6,-0.3,10.4,,1.8,0.6,8.1,-33.3
+1206,Lunenburg,County,Nova Scotia,12,5.7,0,Total - Dwelling Condition,21440,17145,4255,40,100,80,19.8,0.2,3.1,0.4,15.6,14.3,6.8,2.9,25.5,60
+1207,Kings,County,Nova Scotia,12,5.5,0,Total - Dwelling Condition,25950,18055,7830,65,100,69.6,30.2,0.3,2.4,-1.2,12.2,-13.3,7.3,4,15.7,0
+1208,Hants,County,Nova Scotia,12,4.5,0,Total - Dwelling Condition,17440,13945,3210,285,100,80,18.4,1.6,4.2,2,15.5,-1.7,10.1,6.5,30.5,3.6
+1209,Halifax,County,Nova Scotia,12,4.7,0,Total - Dwelling Condition,173455,104250,69180,35,100,60.1,39.9,0,5,0.6,12.6,40,11.8,5,23.9,16.7
+1210,Colchester,County,Nova Scotia,12,5.8,0,Total - Dwelling Condition,22225,15430,6545,260,100,69.4,29.4,1.2,2.6,-1.6,13.4,20.9,6.5,1,20.2,85.7
+1211,Cumberland,County,Nova Scotia,12,6.6,0,Total - Dwelling Condition,13615,10390,3225,0,100,76.3,23.7,0,-0.6,-1,0.6,,0.1,-1.3,5,
+1212,Pictou,County,Nova Scotia,12,6.3,0,Total - Dwelling Condition,19305,14435,4735,135,100,74.8,24.5,0.7,-0.8,-1.4,0.5,3.8,0.1,-2.6,8.4,28.6
+1213,Guysborough,County,Nova Scotia,12,8.6,0,Total - Dwelling Condition,3550,3100,450,0,100,87.3,12.7,0,-3.8,-4.5,2.3,,-8.7,-9.6,-1.1,
+1214,Antigonish,County,Nova Scotia,12,4.9,0,Total - Dwelling Condition,8130,6120,1905,110,100,75.3,23.4,1.4,3.5,0.9,13.1,4.8,12.5,6.9,34.6,37.5
+1215,Inverness,County,Nova Scotia,12,6.1,0,Total - Dwelling Condition,7355,5830,1295,225,100,79.3,17.6,3.1,-1.1,-1.9,-0.8,15.4,-1.7,-1.9,-9.8,104.5
+1216,Richmond,County,Nova Scotia,12,9.2,0,Total - Dwelling Condition,3980,3250,605,130,100,81.7,15.2,3.3,1.1,2.8,-9,18.2,0.3,-1.4,5.2,30
+1217,Cape Breton,County,Nova Scotia,12,5.8,0,Total - Dwelling Condition,43080,30470,11875,740,100,70.7,27.6,1.7,1.8,0.2,6.6,-6.3,0,-3.9,10.5,15.6
+1218,Victoria,County,Nova Scotia,12,7.6,0,Total - Dwelling Condition,3100,2600,370,140,100,83.9,11.9,4.5,3.3,6.6,-11.9,0,0,1,-10.8,21.7
+1301,Saint John,County,New Brunswick,13,5.8,0,Total - Dwelling Condition,32855,19145,13700,0,100,58.3,41.7,0,-1.4,-4.6,3.4,,3.3,1.9,5.1,
+1302,Charlotte,County,New Brunswick,13,5.3,0,Total - Dwelling Condition,11130,9085,2050,0,100,81.6,18.4,0,-1.9,-2.6,0.7,,-0.3,-2.3,9.6,
+1303,Sunbury,County,New Brunswick,13,4.3,0,Total - Dwelling Condition,10895,8510,2300,85,100,78.1,21.1,0.8,3.2,3.9,1.3,-10.5,14.5,17.1,6.2,13.3
+1304,Queens,County,New Brunswick,13,5.8,0,Total - Dwelling Condition,4875,4300,580,0,100,88.2,11.9,0,-2,-2.8,5.5,,-4,-2.8,-12.1,
+1305,Kings,County,New Brunswick,13,3.9,0,Total - Dwelling Condition,27025,23655,3375,0,100,87.5,12.5,0,2.3,1.6,8,,10.8,10.6,13.3,
+1306,Albert,County,New Brunswick,13,3.1,0,Total - Dwelling Condition,12220,9955,2265,0,100,81.5,18.5,0,4.2,1.4,18.3,,13.5,9.4,35.6,
+1307,Westmorland,County,New Brunswick,13,4.8,0,Total - Dwelling Condition,64035,44275,19755,10,100,69.1,30.9,0,5.2,2.7,11.2,,17.4,15.4,22.2,
+1308,Kent,County,New Brunswick,13,6,0,Total - Dwelling Condition,13235,10420,2275,540,100,78.7,17.2,4.1,1.8,1.4,2.2,6.9,3.2,2.6,2.5,21.3
+1309,Northumberland,County,New Brunswick,13,4.1,0,Total - Dwelling Condition,19360,15385,3505,470,100,79.5,18.1,2.4,1.1,-0.9,9.9,11.9,2.9,0.2,10.9,54.1
+1310,York,County,New Brunswick,13,4.1,0,Total - Dwelling Condition,42005,29510,12065,430,100,70.3,28.7,1,4,1.5,10.6,4.9,14.1,10.6,22.2,68.6
+1311,Carleton,County,New Brunswick,13,4.5,0,Total - Dwelling Condition,10765,8265,2415,85,100,76.8,22.4,0.8,-1.1,-3,5.5,0,3.7,-1.8,27.8,13.3
+1312,Victoria,County,New Brunswick,13,6.3,0,Total - Dwelling Condition,8155,6130,1900,125,100,75.2,23.3,1.5,-2.7,-1.7,-1.8,-41.9,-0.7,-1,1.9,-19.4
+1313,Madawaska,County,New Brunswick,13,4.7,0,Total - Dwelling Condition,14505,10900,3575,25,100,75.1,24.6,0.2,0.3,-1.1,4.2,25,1.2,1.2,0.4,
+1314,Restigouche,County,New Brunswick,13,6.3,0,Total - Dwelling Condition,13995,10970,2990,35,100,78.4,21.4,0.3,-2.1,-2.1,-2.1,-22.2,-1.2,1.1,-8.7,0
+1315,Gloucester,County,New Brunswick,13,6.3,0,Total - Dwelling Condition,34705,27540,7110,50,100,79.4,20.5,0.1,1.4,0.2,5.6,,4.6,4.6,3.9,400
+2401,Les Îles-de-la-Madeleine,Territoire équivalent,Quebec,24,4.5,0,Total - Dwelling Condition,5535,4220,1315,0,100,76.2,23.8,0,2.9,-2.1,22.3,,6.6,3.2,19.5,
+2402,Le Rocher-Percé,Municipalité régionale de comté,Quebec,24,6.4,0,Total - Dwelling Condition,8025,5855,2170,0,100,73,27,0,0.4,-1.6,6.4,,1.6,2.6,-0.9,
+2403,La Côte-de-Gaspé,Municipalité régionale de comté,Quebec,24,4.3,0,Total - Dwelling Condition,7640,5685,1955,0,100,74.4,25.6,0,-1.3,-1.9,0.3,,4.8,3,10.5,
+2404,La Haute-Gaspésie,Municipalité régionale de comté,Quebec,24,5.2,0,Total - Dwelling Condition,5270,3910,1365,0,100,74.2,25.9,0,-2.5,-5.4,7.1,,-0.4,-3.5,10.5,
+2405,Bonaventure,Municipalité régionale de comté,Quebec,24,5.9,0,Total - Dwelling Condition,7900,5865,2030,0,100,74.2,25.7,0,0.8,-2.7,12.2,,5.1,-0.1,23,
+2406,Avignon,Municipalité régionale de comté,Quebec,24,7.8,0,Total - Dwelling Condition,6570,4930,1500,140,100,75,22.8,2.1,-0.2,3.1,-10.2,0,6.9,10.5,-10.4,833.3
+2407,La Matapédia,Municipalité régionale de comté,Quebec,24,7.2,0,Total - Dwelling Condition,8140,6080,2060,0,100,74.7,25.3,0,1,-0.2,4.3,,2.1,6.1,-8,
+2408,Matane,Municipalité régionale de comté,Quebec,24,5.5,0,Total - Dwelling Condition,10180,7210,2970,0,100,70.8,29.2,0,-0.4,-1,0.8,,1.3,0.5,3.1,
+2409,La Mitis,Municipalité régionale de comté,Quebec,24,6.2,0,Total - Dwelling Condition,8210,6055,2150,0,100,73.8,26.2,0,-1.3,-1.1,-1.8,,0.1,-1.9,6.2,
+2410,Rimouski-Neigette,Municipalité régionale de comté,Quebec,24,3.7,0,Total - Dwelling Condition,26115,17095,9020,0,100,65.5,34.5,0,5.2,5.8,4,,12.6,12.7,12.4,
+2411,Les Basques,Municipalité régionale de comté,Quebec,24,4,0,Total - Dwelling Condition,4065,3115,950,0,100,76.6,23.4,0,-2.3,-0.2,-8.7,,-0.9,-0.2,-2.6,
+2412,Rivière-du-Loup,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,15155,10110,5045,0,100,66.7,33.3,0,1.8,2.1,1.2,,7.2,7.7,6.2,
+2413,Témiscouata,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,8825,6670,2160,0,100,75.6,24.5,0,-1.5,-1,-2.7,,-3.2,-1.9,-6.7,
+2414,Kamouraska,Municipalité régionale de comté,Quebec,24,5,0,Total - Dwelling Condition,9150,6995,2155,0,100,76.4,23.6,0,2,0.7,6.7,,2,2,1.7,
+2415,Charlevoix-Est,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,6980,5235,1745,0,100,75,25,0,-1.6,-0.5,-4.9,,2.8,5.5,-4.9,
+2416,Charlevoix,Municipalité régionale de comté,Quebec,24,5.5,0,Total - Dwelling Condition,5780,4285,1495,0,100,74.1,25.9,0,1.4,-0.3,7.2,,6.6,4.5,13.3,
+2417,L'Islet,Municipalité régionale de comté,Quebec,24,3.4,0,Total - Dwelling Condition,8025,6350,1675,0,100,79.1,20.9,0,-1,-0.8,-1.8,,1.6,1.4,2.4,
+2418,Montmagny,Municipalité régionale de comté,Quebec,24,3.9,0,Total - Dwelling Condition,10420,7440,2980,0,100,71.4,28.6,0,1.7,1.4,2.4,,4.1,5.5,0.8,
+2419,Bellechasse,Municipalité régionale de comté,Quebec,24,4.1,0,Total - Dwelling Condition,15625,12305,3320,0,100,78.8,21.2,0,7.5,4.4,20.7,,17.3,13.7,32.8,
+2420,L'Île-d'Orléans,Municipalité régionale de comté,Quebec,24,4.7,0,Total - Dwelling Condition,3040,2495,545,0,100,82.1,17.9,0,8.2,5.3,23.9,,6.1,4,18.5,
+2421,La Côte-de-Beaupré,Municipalité régionale de comté,Quebec,24,5.4,0,Total - Dwelling Condition,11855,9800,2050,0,100,82.7,17.3,0,9.8,11.1,3.5,,26.3,30.3,9.6,
+2422,La Jacques-Cartier,Municipalité régionale de comté,Quebec,24,3,0,Total - Dwelling Condition,16335,14135,2200,0,100,86.5,13.5,0,16,13.2,37.9,,45.5,46.4,40.1,
+2423,Québec,Territoire équivalent,Quebec,24,4.4,0,Total - Dwelling Condition,267145,146675,120430,35,100,54.9,45.1,0,3.2,4.4,1.7,,10.9,13.7,7.7,
+2425,Lévis,Territoire équivalent,Quebec,24,4.1,0,Total - Dwelling Condition,60775,42185,18590,0,100,69.4,30.6,0,5.2,4.4,7.1,,15.4,15.1,16,
+2426,La Nouvelle-Beauce,Municipalité régionale de comté,Quebec,24,4.2,0,Total - Dwelling Condition,14790,11600,3190,0,100,78.4,21.6,0,4.9,3.9,8.7,,21.4,21.7,20.2,
+2427,Robert-Cliche,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,8000,6045,1960,0,100,75.6,24.5,0,1.5,3.2,-3,,7,9.7,0,
+2428,Les Etchemins,Municipalité régionale de comté,Quebec,24,4.2,0,Total - Dwelling Condition,7320,5895,1425,0,100,80.5,19.5,0,-0.6,-3.7,14,,1.2,2.3,-3.4,
+2429,Beauce-Sartigan,Municipalité régionale de comté,Quebec,24,5.6,0,Total - Dwelling Condition,22860,15960,6905,0,100,69.8,30.2,0,4.9,1.3,14.5,,11.8,13,9.4,
+2430,Le Granit,Municipalité régionale de comté,Quebec,24,5.5,0,Total - Dwelling Condition,9560,7485,2075,0,100,78.3,21.7,0,0.2,-1.1,4.8,,2.1,2.3,1.2,
+2431,Les Appalaches,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,19670,14510,5160,0,100,73.8,26.2,0,0.9,0.2,3.1,,3.7,3,6,
+2432,L'Érable,Municipalité régionale de comté,Quebec,24,5,0,Total - Dwelling Condition,10270,7565,2705,0,100,73.7,26.3,0,2.8,2.7,3,,6.9,9,1.5,
+2433,Lotbinière,Municipalité régionale de comté,Quebec,24,2.5,0,Total - Dwelling Condition,13355,10595,2755,0,100,79.3,20.6,0,10.2,10.2,10,,23.1,24.6,17.7,
+2434,Portneuf,Municipalité régionale de comté,Quebec,24,3.2,0,Total - Dwelling Condition,23135,18180,4960,0,100,78.6,21.4,0,8.5,6.9,14.8,,17.6,19.3,12.1,
+2435,Mékinac,Municipalité régionale de comté,Quebec,24,4.4,0,Total - Dwelling Condition,6010,4830,1185,0,100,80.4,19.7,0,-1.5,0.4,-8.1,,3.4,5.9,-4.8,
+2436,Shawinigan,Territoire équivalent,Quebec,24,5.4,0,Total - Dwelling Condition,24410,13870,10540,0,100,56.8,43.2,0,1,0,2.3,,0.8,1.5,-0.1,
+2437,Francheville,Census division,Quebec,24,4,0,Total - Dwelling Condition,71355,42085,29270,0,100,59,41,0,3.1,3.4,2.7,,10.2,11.3,8.8,
+2438,Bécancour,Municipalité régionale de comté,Quebec,24,4.2,0,Total - Dwelling Condition,9040,6955,2070,15,100,76.9,22.9,0.2,4,3.3,6.7,50,15.4,12.8,24.3,50
+2439,Arthabaska,Municipalité régionale de comté,Quebec,24,4.1,0,Total - Dwelling Condition,31450,21685,9765,0,100,69,31,0,5.1,5.7,3.9,,14,14.3,13.5,
+2440,Les Sources,Municipalité régionale de comté,Quebec,24,6,0,Total - Dwelling Condition,6475,4495,1985,0,100,69.4,30.7,0,-0.2,-3.2,7.9,,1.2,-1.2,7.3,
+2441,Le Haut-Saint-François,Municipalité régionale de comté,Quebec,24,5.4,0,Total - Dwelling Condition,9580,7480,2100,0,100,78.1,21.9,0,4.1,1.3,15.7,,8.5,5.1,22.4,
+2442,Le Val-Saint-François,Municipalité régionale de comté,Quebec,24,5.1,0,Total - Dwelling Condition,13015,9600,3415,0,100,73.8,26.2,0,4.3,3.9,5.6,,9.6,11.4,4.8,
+2443,Sherbrooke,Territoire équivalent,Quebec,24,4,0,Total - Dwelling Condition,73505,37920,35585,0,100,51.6,48.4,0,4.2,6.5,1.8,,11.4,16.2,6.6,
+2444,Coaticook,Municipalité régionale de comté,Quebec,24,4,0,Total - Dwelling Condition,7815,5605,2215,0,100,71.7,28.3,0,1,-0.1,3.7,,7.3,6.9,8.8,
+2445,Memphrémagog,Municipalité régionale de comté,Quebec,24,5.6,0,Total - Dwelling Condition,22915,16670,6245,0,100,72.7,27.3,0,4.9,7.2,-0.7,,15,15,14.9,
+2446,Brome-Missisquoi,Municipalité régionale de comté,Quebec,24,4.7,0,Total - Dwelling Condition,25865,18160,7710,0,100,70.2,29.8,0,6.9,4.3,13.7,,16.3,16.6,15.6,
+2447,La Haute-Yamaska,Municipalité régionale de comté,Quebec,24,5,0,Total - Dwelling Condition,38825,23455,15370,0,100,60.4,39.6,0,5.8,4.7,7.4,,16.6,18.2,14.4,
+2448,Acton,Municipalité régionale de comté,Quebec,24,6,0,Total - Dwelling Condition,6635,4805,1825,0,100,72.4,27.5,0,3.3,2.8,4.3,,5.7,7.9,0,
+2449,Drummond,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,45335,27755,17580,0,100,61.2,38.8,0,5.5,4.3,7.4,,14.7,14.2,15.7,
+2450,Nicolet-Yamaska,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,10085,7525,2545,15,100,74.6,25.2,0.1,3.3,4.6,-0.6,50,6.9,8,3.5,
+2451,Maskinongé,Municipalité régionale de comté,Quebec,24,4.3,0,Total - Dwelling Condition,16450,12495,3960,0,100,76,24.1,0,2,1,5.5,,7.9,8.1,7.5,
+2452,D'Autray,Municipalité régionale de comté,Quebec,24,6.1,0,Total - Dwelling Condition,18220,13565,4660,0,100,74.5,25.6,0,4.2,0.3,17.2,,10.3,7.1,20.9,
+2453,Pierre-De Saurel,Municipalité régionale de comté,Quebec,24,4.2,0,Total - Dwelling Condition,23790,15870,7925,0,100,66.7,33.3,0,2.3,-0.8,9.2,,7.8,6,11.5,
+2454,Les Maskoutains,Municipalité régionale de comté,Quebec,24,3.8,0,Total - Dwelling Condition,38015,23015,15000,0,100,60.5,39.5,0,3.9,3.6,4.4,,12,13.6,9.6,
+2455,Rouville,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,14940,10680,4260,0,100,71.5,28.5,0,3.7,2.8,6,,21.6,21.5,21.7,
+2456,Le Haut-Richelieu,Municipalité régionale de comté,Quebec,24,4.4,0,Total - Dwelling Condition,50060,32920,17145,0,100,65.8,34.2,0,3.9,3.4,4.8,,10.9,12.1,8.7,
+2457,La Vallée-du-Richelieu,Municipalité régionale de comté,Quebec,24,2.9,0,Total - Dwelling Condition,48745,39595,9160,0,100,81.2,18.8,0,8.1,7.7,10.2,,20.1,20.4,18.8,
+2458,Longueuil,Territoire équivalent,Quebec,24,3.4,0,Total - Dwelling Condition,175735,111755,63975,0,100,63.6,36.4,0,3.8,3.9,3.7,,10,12.5,5.8,
+2459,Marguerite-D'Youville,Municipalité régionale de comté,Quebec,24,2.9,0,Total - Dwelling Condition,29945,24090,5850,0,100,80.4,19.5,0,7.3,5.5,15.2,,16.6,14.5,26.1,
+2460,L'Assomption,Municipalité régionale de comté,Quebec,24,2.4,0,Total - Dwelling Condition,49770,37700,12070,0,100,75.7,24.3,0,4,4.2,3.6,,17.3,17,18.1,
+2461,Joliette,Municipalité régionale de comté,Quebec,24,5.3,0,Total - Dwelling Condition,29705,17660,12040,0,100,59.5,40.5,0,5.2,4.9,5.6,,17.9,18.5,17.1,
+2462,Matawinie,Municipalité régionale de comté,Quebec,24,7.3,0,Total - Dwelling Condition,23140,18265,4560,315,100,78.9,19.7,1.4,4.4,2.2,8.7,200,6.5,4.5,14.3,26
+2463,Montcalm,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,21605,16675,4935,0,100,77.2,22.8,0,10.4,9.3,14.5,,27.5,25,37.1,
+2464,Les Moulins,Municipalité régionale de comté,Quebec,24,3.5,0,Total - Dwelling Condition,59700,47375,12325,0,100,79.4,20.6,0,8.2,5.8,18.5,,27.3,23.8,43.1,
+2465,Laval,Territoire équivalent,Quebec,24,3,0,Total - Dwelling Condition,160330,111285,49040,0,100,69.4,30.6,0,3.8,3.9,3.5,,11.2,12,9.3,
+2466,Montréal,Territoire équivalent,Quebec,24,4.4,0,Total - Dwelling Condition,870375,348230,522140,0,100,40,60,0,2.5,4.4,1.2,,4.7,10.4,1.2,
+2467,Roussillon,Municipalité régionale de comté,Quebec,24,2.5,20000,Total - Dwelling Condition,66265,52245,14020,0,100,78.8,21.2,0,7,4.5,17.9,,18,17.2,21,
+2468,Les Jardins-de-Napierville,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,11205,8360,2840,0,100,74.6,25.3,0,9.4,4.4,27.6,,22.3,18.2,35.9,
+2469,Le Haut-Saint-Laurent,Municipalité régionale de comté,Quebec,24,6.6,0,Total - Dwelling Condition,9665,7555,2050,60,100,78.2,21.2,0.6,7.3,6.2,7.9,,6.9,3.8,15.8,
+2470,Beauharnois-Salaberry,Municipalité régionale de comté,Quebec,24,3.7,0,Total - Dwelling Condition,28865,17815,11050,0,100,61.7,38.3,0,4.4,3.6,5.8,,10.3,8.8,12.7,
+2471,Vaudreuil-Soulanges,Municipalité régionale de comté,Quebec,24,2.6,0,Total - Dwelling Condition,57515,47365,10145,0,100,82.4,17.6,0,7.9,7.6,9.3,,25.5,25.7,24.6,
+2472,Deux-Montagnes,Municipalité régionale de comté,Quebec,24,2.8,20000,Total - Dwelling Condition,39750,30130,9620,0,100,75.8,24.2,0,4.3,3.8,5.9,,16.7,15.2,21.6,
+2473,Thérèse-De Blainville,Municipalité régionale de comté,Quebec,24,3.4,0,Total - Dwelling Condition,60760,44240,16520,0,100,72.8,27.2,0,4.7,2.7,10.2,,14.1,12.1,20,
+2474,Mirabel,Territoire équivalent,Quebec,24,2.8,0,Total - Dwelling Condition,19630,13895,5740,0,100,70.8,29.2,0,24.5,21.1,33.8,,54.4,43.5,89.4,
+2475,La Rivière-du-Nord,Municipalité régionale de comté,Quebec,24,4.6,0,Total - Dwelling Condition,55010,36555,18455,0,100,66.5,33.5,0,11.1,13.3,7,,29.6,31.1,26.8,
+2476,Argenteuil,Municipalité régionale de comté,Quebec,24,5.6,0,Total - Dwelling Condition,14785,10145,4645,0,100,68.6,31.4,0,4.4,-0.3,16.7,,15.1,9.1,30.5,
+2477,Les Pays-d'en-Haut,Municipalité régionale de comté,Quebec,24,7,0,Total - Dwelling Condition,20695,15725,4975,0,100,76,24,0,5.9,3.2,15.8,,20.8,18.5,28.9,
+2478,Les Laurentides,Municipalité régionale de comté,Quebec,24,6.5,20000,Total - Dwelling Condition,21970,15895,6075,0,100,72.3,27.7,0,5.3,3,12,,15.2,10.7,29.1,
+2479,Antoine-Labelle,Municipalité régionale de comté,Quebec,24,7.3,0,Total - Dwelling Condition,16470,11980,4495,0,100,72.7,27.3,0,2.9,2.9,3.1,,7.6,5.6,13.8,
+2480,Papineau,Municipalité régionale de comté,Quebec,24,5.6,0,Total - Dwelling Condition,10400,8220,2185,0,100,79,21,0,3.3,5.2,-2.9,,9.3,11.2,3.3,
+2481,Gatineau,Territoire équivalent,Quebec,24,3.9,0,Total - Dwelling Condition,118385,74035,44355,0,100,62.5,37.5,0,5,2.1,10.1,,18.1,15,23.5,
+2482,Les Collines-de-l'Outaouais,Municipalité régionale de comté,Quebec,24,4.8,0,Total - Dwelling Condition,18755,16705,2055,0,100,89.1,11,0,7.5,5.9,23.1,,18.8,19.2,15.8,
+2483,La Vallée-de-la-Gatineau,Municipalité régionale de comté,Quebec,24,10.5,20011,Total - Dwelling Condition,9395,7080,2275,35,100,75.4,24.2,0.4,1.6,-1.5,11.5,40,4.9,1.4,16.4,75
+2484,Pontiac,Municipalité régionale de comté,Quebec,24,10.7,11,Total - Dwelling Condition,6205,4875,1330,0,100,78.6,21.4,0,2.2,0.7,7.7,,4,2.7,9,
+2485,Témiscamingue,Municipalité régionale de comté,Quebec,24,7.3,0,Total - Dwelling Condition,7130,5385,1640,100,100,75.5,23,1.4,1,0.2,3.5,-4.8,0.2,2.7,-7.1,-9.1
+2486,Rouyn-Noranda,Territoire équivalent,Quebec,24,6,0,Total - Dwelling Condition,18855,11970,6885,0,100,63.5,36.5,0,4.8,7.1,1.2,,8.3,14.8,-1.4,
+2487,Abitibi-Ouest,Municipalité régionale de comté,Quebec,24,4.6,0,Total - Dwelling Condition,9025,6865,2160,0,100,76.1,23.9,0,0.1,0.3,-0.5,,3,4.4,-1.1,
+2488,Abitibi,Municipalité régionale de comté,Quebec,24,6.4,0,Total - Dwelling Condition,10525,7510,2905,115,100,71.4,27.6,1.1,3.6,4.4,3.4,-23.3,6.1,5.5,5.3,187.5
+2489,La Vallée-de-l'Or,Municipalité régionale de comté,Quebec,24,5.7,0,Total - Dwelling Condition,19040,12235,6615,195,100,64.3,34.7,1,3.6,5.6,2.2,-37.1,7.8,13.8,-1.9,18.2
+2490,La Tuque,Territoire équivalent,Quebec,24,7.5,0,Total - Dwelling Condition,6375,3925,2030,420,100,61.6,31.8,6.6,0.9,6.1,3.8,-36.4,0.6,0.1,11.2,-28.8
+2491,Le Domaine-du-Roy,Municipalité régionale de comté,Quebec,24,5.5,0,Total - Dwelling Condition,13730,9910,3710,110,100,72.2,27,0.8,0.6,2.5,-2.5,-37.1,3.2,5.9,-3.6,22.2
+2492,Maria-Chapdelaine,Municipalité régionale de comté,Quebec,24,4.5,0,Total - Dwelling Condition,10805,7945,2860,0,100,73.5,26.5,0,-0.8,2.5,-9.1,,-0.7,4.2,-12.1,
+2493,Lac-Saint-Jean-Est,Municipalité régionale de comté,Quebec,24,5.2,0,Total - Dwelling Condition,22910,16610,6305,0,100,72.5,27.5,0,3.5,3.4,3.9,,8.8,12,1.4,
+2494,Le Saguenay-et-son-Fjord,Census division,Quebec,24,4.7,0,Total - Dwelling Condition,75350,48980,26370,0,100,65,35,0,3.8,4.1,3.3,,8.9,9.7,7.4,
+2495,La Haute-Côte-Nord,Municipalité régionale de comté,Quebec,24,12.6,11,Total - Dwelling Condition,4985,3815,1150,20,100,76.5,23.1,0.4,-0.5,1.1,-7.3,,-3.6,-0.3,-14.5,
+2496,Manicouagan,Municipalité régionale de comté,Quebec,24,8.4,0,Total - Dwelling Condition,13735,9975,3390,380,100,72.6,24.7,2.8,0.3,1,0.6,-15.6,0.4,-2.2,-1.2,533.3
+2497,Sept-Rivières--Caniapiscau,Census division,Quebec,24,7.6,0,Total - Dwelling Condition,16765,10960,5105,700,100,65.4,30.5,4.2,0.7,2.8,-0.3,-19.1,3.7,4.5,-2.1,48.9
+2498,Minganie--Le Golfe-du-Saint-Laurent,Census division,Quebec,24,10.5,11,Total - Dwelling Condition,4460,3180,665,615,100,71.3,14.9,13.8,0.9,1.8,1.5,-3.1,2.8,-6.6,-3.6,151
+2499,Nord-du-Québec,Census division,Quebec,24,9.6,1101,Total - Dwelling Condition,13670,5070,5945,2660,100,37.1,43.5,19.5,5.7,3.7,12.3,-3.1,14.5,2.9,10,66.3
+3501,"Stormont, Dundas and Glengarry",United counties,Ontario,35,5.2,0,Total - Dwelling Condition,47830,33885,13945,10,100,70.8,29.2,0,3.9,1.6,10,,8.1,4.6,17.6,
+3502,Prescott and Russell,United counties,Ontario,35,4.8,0,Total - Dwelling Condition,35390,27370,8020,0,100,77.3,22.7,0,6.8,6.1,9.2,,17.6,15.2,26.5,
+3506,Ottawa,Census division,Ontario,35,4,0,Total - Dwelling Condition,373755,245475,128285,0,100,65.7,34.3,0,5.8,3.3,10.9,,16.4,15.9,17.4,
+3507,Leeds and Grenville,United counties,Ontario,35,5.8,0,Total - Dwelling Condition,42750,33345,9400,0,100,78,22,0,4.1,2.8,8.8,,7.1,5.8,12,
+3509,Lanark,County,Ontario,35,6.8,0,Total - Dwelling Condition,28580,22555,6025,0,100,78.9,21.1,0,6.5,3.6,19.2,,13.6,12.6,17.4,
+3510,Frontenac,County,Ontario,35,4.5,0,Total - Dwelling Condition,64295,41745,22550,0,100,64.9,35.1,0,2.4,-0.1,7.3,,8.6,5,16,
+3511,Lennox and Addington,County,Ontario,35,4,0,Total - Dwelling Condition,17050,13775,3280,0,100,80.8,19.2,0,5,3.6,11.4,,9.7,10.5,7,
+3512,Hastings,County,Ontario,35,6,0,Total - Dwelling Condition,57020,40995,16025,0,100,71.9,28.1,0,2.6,1,6.9,,8.3,6.8,12.3,
+3513,Prince Edward,Census division,Ontario,35,5,0,Total - Dwelling Condition,10725,8915,1815,0,100,83.1,16.9,0,1.7,2.2,-0.8,,4.1,6.7,-6.7,
+3514,Northumberland,County,Ontario,35,5.1,0,Total - Dwelling Condition,35690,28915,6760,0,100,81,18.9,0,7.1,5.9,12.8,-100,13.1,12.6,15.2,-100
+3515,Peterborough,County,Ontario,35,5.1,0,Total - Dwelling Condition,57745,42205,15535,10,100,73.1,26.9,0,3.8,0,15.7,0,7.8,5.2,15.6,-33.3
+3516,Kawartha Lakes,Census division,Ontario,35,5.5,0,Total - Dwelling Condition,31105,25780,5325,0,100,82.9,17.1,0,4.8,4.8,4.5,,5.4,5.2,6.8,
+3518,Durham,Regional municipality,Ontario,35,4,0,Total - Dwelling Condition,227905,184965,42930,10,100,81.2,18.8,0,6.6,4.7,15.9,0,17.1,15.7,23.4,0
+3519,York,Regional municipality,Ontario,35,3.5,0,Total - Dwelling Condition,357085,306535,50535,10,100,85.8,14.2,0,10.4,7.1,35.7,,29.5,26,56.2,
+3520,Toronto,Census division,Ontario,35,4.9,0,Total - Dwelling Condition,1112925,587095,525835,0,100,52.8,47.2,0,6.2,2.7,10.4,,13.6,10.2,17.7,
+3521,Peel,Regional municipality,Ontario,35,3.8,0,Total - Dwelling Condition,430180,327830,102355,0,100,76.2,23.8,0,6.8,4,16.7,,19.8,16.9,30.2,
+3522,Dufferin,County,Ontario,35,3.7,0,Total - Dwelling Condition,21915,18095,3825,0,100,82.6,17.5,0,9.2,7.5,18.4,,16.8,13.7,34.7,
+3523,Wellington,County,Ontario,35,4.4,0,Total - Dwelling Condition,85280,63035,22250,0,100,73.9,26.1,0,7.9,4.9,17.1,,14.1,11.5,22.4,
+3524,Halton,Regional municipality,Ontario,35,3.2,0,Total - Dwelling Condition,192975,156160,36810,0,100,80.9,19.1,0,7.8,5,21.3,,22.9,19.8,37.7,
+3525,Hamilton,Census division,Ontario,35,4.9,0,Total - Dwelling Condition,211600,143055,68540,0,100,67.6,32.4,0,3.8,2.7,6.3,,8.8,7.7,11.1,
+3526,Niagara,Regional municipality,Ontario,35,5,0,Total - Dwelling Condition,183825,136115,47715,0,100,74,26,0,5.2,3.2,11.6,,8.4,6.2,15.5,
+3528,Haldimand-Norfolk,Census division,Ontario,35,5.4,20000,Total - Dwelling Condition,43560,35400,8155,10,100,81.3,18.7,0,3.1,2.1,7.6,,7.3,6.7,10.2,
+3529,Brant,Census division,Ontario,35,5.4,20000,Total - Dwelling Condition,52725,38155,14550,15,100,72.4,27.6,0,-0.3,-2.6,7.4,-91.2,9.8,7.7,15.6,50
+3530,Waterloo,Regional municipality,Ontario,35,4.4,0,Total - Dwelling Condition,203830,139070,64760,0,100,68.2,31.8,0,6.4,2.1,17.1,,14.4,10.5,23.9,
+3531,Perth,County,Ontario,35,3.7,0,Total - Dwelling Condition,30715,22475,8235,0,100,73.2,26.8,0,4.5,0.9,15.4,,7.6,4.9,15.3,
+3532,Oxford,County,Ontario,35,4.7,0,Total - Dwelling Condition,44265,32650,11615,0,100,73.8,26.2,0,6.5,3.8,14.8,,12.5,10,20.4,
+3534,Elgin,County,Ontario,35,4.5,0,Total - Dwelling Condition,34995,26400,8595,0,100,75.4,24.6,0,4.5,1.4,15.2,,8.7,7.2,13.2,
+3536,Chatham-Kent,Census division,Ontario,35,4.9,0,Total - Dwelling Condition,43175,31180,11970,15,100,72.2,27.7,0,0.4,-0.7,3.5,-25,-1.1,-2.3,1.9,50
+3537,Essex,County,Ontario,35,5.1,0,Total - Dwelling Condition,159055,115780,43270,0,100,72.8,27.2,0,4.4,2.4,10.4,,5.4,1.7,16.9,
+3538,Lambton,County,Ontario,35,4.6,0,Total - Dwelling Condition,54480,40575,13755,150,100,74.5,25.2,0.3,3.3,1.4,8,650,4.9,3.4,10.1,-30.2
+3539,Middlesex,County,Ontario,35,4.4,20000,Total - Dwelling Condition,190045,120670,69375,0,100,63.5,36.5,0,5.4,1.1,13.8,-100,11.5,8,18.3,-100
+3540,Huron,County,Ontario,35,6.4,0,Total - Dwelling Condition,24190,18870,5320,0,100,78,22,0,2.3,0.8,8.2,,5.6,4.9,8,
+3541,Bruce,County,Ontario,35,6,0,Total - Dwelling Condition,28865,23530,5285,50,100,81.5,18.3,0.2,5.3,2.6,18.5,100,9.6,8.1,16,
+3542,Grey,County,Ontario,35,6.4,0,Total - Dwelling Condition,39565,30340,9225,0,100,76.7,23.3,0,4,1.4,13.7,,6.4,4,15,
+3543,Simcoe,County,Ontario,35,4.5,0,Total - Dwelling Condition,183535,144705,38705,130,100,78.8,21.1,0.1,8.3,5.3,21.6,0,17.2,13.8,31.2,550
+3544,Muskoka,District municipality,Ontario,35,6.3,20000,Total - Dwelling Condition,25430,20755,4635,40,100,81.6,18.2,0.2,7.5,5.8,16.2,-11.1,9.8,8.7,15.4,-11.1
+3546,Haliburton,County,Ontario,35,8.6,1,Total - Dwelling Condition,8445,7375,1075,0,100,87.3,12.7,0,10.7,10.7,10.8,,21.1,21.7,17.5,
+3547,Renfrew,County,Ontario,35,5.2,0,Total - Dwelling Condition,42780,32410,10360,10,100,75.8,24.2,0,2.4,-0.1,11.2,-50,9,7.3,14.8,0
+3548,Nipissing,District,Ontario,35,6.3,0,Total - Dwelling Condition,36050,24180,11800,60,100,67.1,32.7,0.2,-0.1,-0.2,0,140,2.6,2,3.4,200
+3549,Parry Sound,District,Ontario,35,8.2,0,Total - Dwelling Condition,18680,15415,3215,50,100,82.5,17.2,0.3,3.3,0.7,19.5,-33.3,8.6,7.5,14.4,66.7
+3551,Manitoulin,District,Ontario,35,9.8,101,Total - Dwelling Condition,5745,4210,1235,305,100,73.3,21.5,5.3,2.9,-2.1,60.4,-41.3,9,10.2,26.7,-35.1
+3552,Sudbury,District,Ontario,35,9.7,1,Total - Dwelling Condition,9375,7685,1610,85,100,82,17.2,0.9,3.5,1.7,12.2,30.8,3.5,7.6,-9.3,-37
+3553,Greater Sudbury,Census division,Ontario,35,5.5,0,Total - Dwelling Condition,69200,45515,23680,10,100,65.8,34.2,0,2.3,-1,9.3,0,6.5,4.6,10.4,
+3554,Timiskaming,District,Ontario,35,7,0,Total - Dwelling Condition,14395,10615,3770,0,100,73.7,26.2,0,1.6,-0.7,8.8,,1.1,-1.1,7.7,
+3556,Cochrane,District,Ontario,35,7.1,0,Total - Dwelling Condition,34015,23040,10410,560,100,67.7,30.6,1.6,1.7,-1.4,5.1,261.3,2,-0.9,6.1,103.6
+3557,Algoma,District,Ontario,35,6.6,20000,Total - Dwelling Condition,51070,36515,14280,275,100,71.5,28,0.5,1,0.6,2.1,-11.3,2.1,2.5,2.1,-32.1
+3558,Thunder Bay,District,Ontario,35,6,0,Total - Dwelling Condition,62995,45830,16425,740,100,72.8,26.1,1.2,1.1,0.4,1.5,60.9,1.9,0.8,4.5,17.5
+3559,Rainy River,District,Ontario,35,8,1,Total - Dwelling Condition,8435,6330,1765,335,100,75,20.9,4,1.4,1.1,10.3,-28,-1.8,-1,0.9,-24.7
+3560,Kenora,District,Ontario,35,10.6,21111,Total - Dwelling Condition,23930,14285,4890,4760,100,59.7,20.4,19.9,11.5,2.6,4.6,66.1,4,-0.6,14.4,8.7
+4601,Division No.  1,Census division,Manitoba,46,9,101,Total - Dwelling Condition,8080,6945,1105,30,100,86,13.7,0.4,7.9,5.1,25.6,,10,9.1,12.8,
+4602,Division No.  2,Census division,Manitoba,46,6.4,0,Total - Dwelling Condition,25465,20420,4860,185,100,80.2,19.1,0.7,16.7,13.3,33.7,8.8,36.1,32.9,51.2,32.1
+4603,Division No.  3,Census division,Manitoba,46,5.8,0,Total - Dwelling Condition,18720,14865,3860,0,100,79.4,20.6,0,9,6.2,21.6,,21.6,21.5,21.8,
+4604,Division No.  4,Census division,Manitoba,46,6,0,Total - Dwelling Condition,3700,3000,575,120,100,81.1,15.5,3.2,0.1,-3.4,18.6,14.3,-0.4,-3.8,13.9,33.3
+4605,Division No.  5,Census division,Manitoba,46,7.2,0,Total - Dwelling Condition,5445,4600,840,0,100,84.5,15.4,0,1.9,0.2,12,,-0.3,0.9,-6.7,
+4606,Division No.  6,Census division,Manitoba,46,3.9,0,Total - Dwelling Condition,4100,2945,770,390,100,71.8,18.8,9.5,3.1,-1,37.5,-11.4,5.8,-1.7,36.3,25.8
+4607,Division No.  7,Census division,Manitoba,46,4.8,0,Total - Dwelling Condition,27630,18290,9345,0,100,66.2,33.8,0,4.6,1.4,11.7,,11.8,10.2,15.1,
+4608,Division No.  8,Census division,Manitoba,46,6.4,0,Total - Dwelling Condition,4640,3450,650,540,100,74.4,14,11.6,4.9,4.1,5.7,10.2,5.6,1.2,13,30.1
+4609,Division No.  9,Census division,Manitoba,46,6.9,0,Total - Dwelling Condition,9170,6280,2550,345,100,68.5,27.8,3.8,4,-1.3,20.9,-1.4,6,0.4,21.1,16.9
+4610,Division No. 10,Census division,Manitoba,46,6.1,0,Total - Dwelling Condition,3680,3410,275,0,100,92.7,7.5,0,13.8,12.4,34.1,,24.1,24.2,27.9,
+4611,Division No. 11,Census division,Manitoba,46,3.9,0,Total - Dwelling Condition,282115,183395,98725,0,100,65,35,0,4.6,2.8,8.3,,7.7,7.5,8.2,
+4612,Division No. 12,Census division,Manitoba,46,6.4,0,Total - Dwelling Condition,8875,8200,670,0,100,92.4,7.5,0,9.6,9,17.5,,22.2,23.5,7.2,
+4613,Division No. 13,Census division,Manitoba,46,4.3,0,Total - Dwelling Condition,18425,16145,2170,115,100,87.6,11.8,0.6,6.6,3.2,31.5,,12.6,11.7,18.9,27.8
+4614,Division No. 14,Census division,Manitoba,46,7.1,0,Total - Dwelling Condition,6655,5985,670,0,100,89.9,10.1,0,1.1,2.9,-11.8,,6,10,-20.7,
+4615,Division No. 15,Census division,Manitoba,46,8,0,Total - Dwelling Condition,8565,6740,1440,390,100,78.7,16.8,4.6,0.8,-3,18.5,13,0,-1.3,2.1,16.4
+4616,Division No. 16,Census division,Manitoba,46,8.6,1,Total - Dwelling Condition,4120,2915,660,545,100,70.8,16,13.2,-0.5,-6.4,9.1,29.8,0.7,-0.9,-6.4,22.5
+4617,Division No. 17,Census division,Manitoba,46,7.4,0,Total - Dwelling Condition,9460,6890,2200,370,100,72.8,23.3,3.9,-1.6,-5.9,15.5,-6.3,-0.7,-5,10.8,29.8
+4618,Division No. 18,Census division,Manitoba,46,11.2,111,Total - Dwelling Condition,10040,7955,1490,595,100,79.2,14.8,5.9,2.9,3.8,-2.6,6.3,3.7,2.5,-0.7,40
+4619,Division No. 19,Census division,Manitoba,46,9.1,101,Total - Dwelling Condition,4820,1470,450,2900,100,30.5,9.3,60.2,0.6,9.3,-21.1,0.9,0.8,36.7,-31.3,-4.8
+4620,Division No. 20,Census division,Manitoba,46,11.2,11,Total - Dwelling Condition,4180,3145,1030,0,100,75.2,24.6,0,-0.9,-5.8,17,,-4.3,-7.2,5.1,
+4621,Division No. 21,Census division,Manitoba,46,12.6,1111,Total - Dwelling Condition,7865,5090,1935,840,100,64.7,24.6,10.7,-0.3,2.7,-8.3,1.8,-0.9,0.3,-14.4,38.8
+4622,Division No. 22,Census division,Manitoba,46,11.2,111,Total - Dwelling Condition,10890,3545,2945,4400,100,32.6,27,40.4,2.3,-4.7,13.1,2,3.5,-0.7,15.3,0.1
+4623,Division No. 23,Census division,Manitoba,46,15.1,1212,Total - Dwelling Condition,2425,495,1070,860,100,20.4,44.1,35.5,8,-6.6,26.6,-0.6,5.4,-25.6,13.8,22
+4701,Division No.  1,Census division,Saskatchewan,47,5.8,0,Total - Dwelling Condition,12890,10060,2620,210,100,78,20.3,1.6,2.5,0.1,11.3,20,8.1,7.5,13.4,-19.2
+4702,Division No.  2,Census division,Saskatchewan,47,7.5,0,Total - Dwelling Condition,9385,7430,1960,0,100,79.2,20.9,0,1.7,0.7,6.2,,9.6,11.2,4,
+4703,Division No.  3,Census division,Saskatchewan,47,11.4,11,Total - Dwelling Condition,5355,4375,980,10,100,81.7,18.3,0.2,-1.3,-2.3,4.8,,-3.2,-4.9,4.8,
+4704,Division No.  4,Census division,Saskatchewan,47,7.8,0,Total - Dwelling Condition,4180,3345,795,45,100,80,19,1.1,0.6,-5.1,33.6,12.5,-2.1,-6.8,27.2,-10
+4705,Division No.  5,Census division,Saskatchewan,47,6.7,0,Total - Dwelling Condition,13560,10670,2435,450,100,78.7,18,3.3,0.8,-0.6,10.9,-15.1,5.1,2.6,16.5,7.1
+4706,Division No.  6,Census division,Saskatchewan,47,5.6,0,Total - Dwelling Condition,105685,74855,30000,830,100,70.8,28.4,0.8,9.7,7.6,16,-7.3,16.8,16.1,18.5,13.7
+4707,Division No.  7,Census division,Saskatchewan,47,5.9,0,Total - Dwelling Condition,19760,14495,5270,0,100,73.4,26.7,0,0.4,2,-3.7,,5.1,4.4,7.2,
+4708,Division No.  8,Census division,Saskatchewan,47,5.7,0,Total - Dwelling Condition,12760,9930,2835,0,100,77.8,22.2,0,2.1,0.7,7.6,,4.5,4.8,3.7,
+4709,Division No.  9,Census division,Saskatchewan,47,6,0,Total - Dwelling Condition,15300,11765,3180,350,100,76.9,20.8,2.3,-0.1,-0.9,4.1,-10.3,0.9,1.2,-2.2,22.8
+4710,Division No. 10,Census division,Saskatchewan,47,6.9,0,Total - Dwelling Condition,6980,5190,1105,685,100,74.4,15.8,9.8,-3.7,-4.9,5.2,-6.8,-4.3,-7.5,3.8,9.6
+4711,Division No. 11,Census division,Saskatchewan,47,4.9,0,Total - Dwelling Condition,119130,83860,35195,75,100,70.4,29.5,0.1,9.4,10.5,6.9,-28.6,19.2,24.3,8.7,87.5
+4712,Division No. 12,Census division,Saskatchewan,47,7.8,1,Total - Dwelling Condition,9225,7505,1360,365,100,81.4,14.7,4,3.4,4.2,5,-13.1,8.7,8.7,11.9,1.4
+4713,Division No. 13,Census division,Saskatchewan,47,7.1,0,Total - Dwelling Condition,9105,7255,1490,365,100,79.7,16.4,4,-0.8,-0.6,-2.3,4.3,3.5,4.5,-2,10.6
+4714,Division No. 14,Census division,Saskatchewan,47,6.9,0,Total - Dwelling Condition,15225,11875,2910,440,100,78,19.1,2.9,-0.5,-1,1.9,-2.2,2,0.3,8.8,8.6
+4715,Division No. 15,Census division,Saskatchewan,47,8.2,1,Total - Dwelling Condition,32230,23530,7595,1110,100,73,23.6,3.4,2.7,3.3,0.9,4.2,7,7.3,4,26.1
+4716,Division No. 16,Census division,Saskatchewan,47,8.5,1,Total - Dwelling Condition,14660,10005,3220,1440,100,68.2,22,9.8,1.5,-1.7,9.5,8.7,4.2,4.2,0.6,13.8
+4717,Division No. 17,Census division,Saskatchewan,47,9.3,101,Total - Dwelling Condition,16950,11490,3945,1515,100,67.8,23.3,8.9,8.6,7.1,18.6,-2.6,17.3,13.9,34,7.1
+4718,Division No. 18,Census division,Saskatchewan,47,8.9,101,Total - Dwelling Condition,10230,3850,2795,3590,100,37.6,27.3,35.1,2.9,-4.2,7.5,8.3,10.6,13.7,0.9,16
+4801,Division No.  1,Census division,Alberta,48,4.6,0,Total - Dwelling Condition,33230,24450,8785,0,100,73.6,26.4,0,4.8,0.9,17.2,,12.4,12,13.8,
+4802,Division No.  2,Census division,Alberta,48,6.5,0,Total - Dwelling Condition,62820,45455,17365,0,100,72.4,27.6,0,7.4,2.2,24,,17.5,14.5,26.3,
+4803,Division No.  3,Census division,Alberta,48,10.1,111,Total - Dwelling Condition,13380,10520,2530,330,100,78.6,18.9,2.5,1.5,1,21.3,-51.5,4,5.4,12.7,-48.4
+4804,Division No.  4,Census division,Alberta,48,7.1,0,Total - Dwelling Condition,3735,3090,650,0,100,82.7,17.4,0,-4.2,-0.2,-19.3,,-7.9,-4.2,-21.7,
+4805,Division No.  5,Census division,Alberta,48,6.4,1,Total - Dwelling Condition,20020,15245,4230,545,100,76.1,21.1,2.7,6.2,1.8,30.6,-14.8,11.4,8.9,18.3,34.6
+4806,Division No.  6,Census division,Alberta,48,4.9,0,Total - Dwelling Condition,558910,411880,146860,170,100,73.7,26.3,0,11.8,10.3,16.3,-43.3,25.4,23.6,30.6,161.5
+4807,Division No.  7,Census division,Alberta,48,5.5,0,Total - Dwelling Condition,16010,13065,2940,0,100,81.6,18.4,0,4.5,4.8,2.8,,5.9,5.9,5.8,
+4808,Division No.  8,Census division,Alberta,48,6.6,0,Total - Dwelling Condition,80645,58350,21400,895,100,72.4,26.5,1.1,10.8,7.3,23.1,-9.1,21.9,20.1,28,5.3
+4809,Division No.  9,Census division,Alberta,48,12.3,111,Total - Dwelling Condition,7935,6305,1245,380,100,79.5,15.7,4.8,-0.4,2.4,-11.1,-6.2,5.2,8.2,-17.3,81
+4810,Division No. 10,Census division,Alberta,48,5.7,0,Total - Dwelling Condition,38245,29935,8260,40,100,78.3,21.6,0.1,4.4,4.3,4.4,60,12.8,12.9,12,300
+4811,Division No. 11,Census division,Alberta,48,5.8,0,Total - Dwelling Condition,518950,362170,155210,1570,100,69.8,29.9,0.3,11.1,9.6,14.6,21.2,23.4,23.8,22.3,18
+4812,Division No. 12,Census division,Alberta,48,10,20111,Total - Dwelling Condition,24500,18440,4865,1195,100,75.3,19.9,4.9,6.5,6.3,5.3,16.6,14.2,15.1,12.5,7.2
+4813,Division No. 13,Census division,Alberta,48,7.7,1,Total - Dwelling Condition,27840,22565,5125,150,100,81.1,18.4,0.5,3.8,2.5,10.7,-16.7,8.3,6.4,18.4,-6.3
+4814,Division No. 14,Census division,Alberta,48,7.1,1,Total - Dwelling Condition,11600,8780,2820,0,100,75.7,24.3,0,3.1,0.7,11.5,,9.8,7.3,18.2,
+4815,Division No. 15,Census division,Alberta,48,9.3,1201,Total - Dwelling Condition,13900,8680,4575,645,100,62.4,32.9,4.6,5.3,7.6,3.6,-10.4,6.8,9.9,-0.8,27.7
+4816,Division No. 16,Census division,Alberta,48,20.7,1122,Total - Dwelling Condition,26335,17445,8295,600,100,66.2,31.5,2.3,11.4,7.9,17.8,41.2,42.6,33.2,66.6,51.9
+4817,Division No. 17,Census division,Alberta,48,10.9,111,Total - Dwelling Condition,19745,13305,3760,2675,100,67.4,19,13.5,0.9,1.4,-1.7,1.7,5.3,3.1,-1.8,32.1
+4818,Division No. 18,Census division,Alberta,48,6.3,101,Total - Dwelling Condition,5320,3860,1085,380,100,72.6,20.4,7.1,-1,-5.9,4.3,58.3,3,0.3,0.9,58.3
+4819,Division No. 19,Census division,Alberta,48,6.6,1,Total - Dwelling Condition,44545,32240,12155,155,100,72.4,27.3,0.3,7.6,6.6,10.4,3.3,23.4,18.9,36.4,106.7
+5901,East Kootenay,Regional district,British Columbia,59,8.7,1,Total - Dwelling Condition,25865,20185,5670,15,100,78,21.9,0.1,7.6,6.4,12.5,-50,10.4,8.8,17.1,-57.1
+5903,Central Kootenay,Regional district,British Columbia,59,9.4,1,Total - Dwelling Condition,27015,20760,6255,0,100,76.8,23.2,0,4.7,0.4,22.4,-100,9.4,6.9,18.7,-100
+5905,Kootenay Boundary,Regional district,British Columbia,59,8.8,1,Total - Dwelling Condition,14340,11510,2825,0,100,80.3,19.7,0,2.9,0,16.5,,5.2,2.6,17,
+5907,Okanagan-Similkameen,Regional district,British Columbia,59,7.5,0,Total - Dwelling Condition,37675,27675,9950,45,100,73.5,26.4,0.1,4.5,0.6,17.5,-30.8,6.9,3.9,16.4,0
+5909,Fraser Valley,Regional district,British Columbia,59,5.7,0,Total - Dwelling Condition,108390,79250,28900,250,100,73.1,26.7,0.2,6.5,2.5,20,-37.5,14.5,12.1,22.5,-27.5
+5915,Greater Vancouver,Regional district,British Columbia,59,5.7,1,Total - Dwelling Condition,960890,612010,348695,190,100,63.7,36.3,0,7.8,4.9,13.4,-43.3,17.6,15.1,22.3,-58.7
+5917,Capital,Regional district,British Columbia,59,5,20000,Total - Dwelling Condition,170155,107780,62265,115,100,63.3,36.6,0.1,5.9,1.7,14.3,-11.5,11.6,7.8,18.9,-36.1
+5919,Cowichan Valley,Regional district,British Columbia,59,6.9,1,Total - Dwelling Condition,35275,27255,7810,210,100,77.3,22.1,0.6,6.4,2.6,24.2,-30,12.8,9.7,25.8,-4.5
+5921,Nanaimo,Regional district,British Columbia,59,4.8,0,Total - Dwelling Condition,68905,50930,17900,70,100,73.9,26,0.1,6.9,2.1,24.2,-61.1,15.1,11.8,25.1,
+5923,Alberni-Clayoquot,Regional district,British Columbia,59,8.3,101,Total - Dwelling Condition,13655,9830,3805,15,100,72,27.9,0.1,2.1,3.5,2.6,-91.4,6.1,1.8,21.6,-83.3
+5924,Strathcona,Regional district,British Columbia,59,5.5,0,Total - Dwelling Condition,19610,14460,5090,60,100,73.7,26,0.3,5.3,2,16.6,-36.8,12.7,10.3,20.2,0
+5926,Comox Valley,Regional district,British Columbia,59,4.9,0,Total - Dwelling Condition,29575,22590,6980,0,100,76.4,23.6,0,6.1,4.3,12.3,-100,15.6,13.3,23.8,-100
+5927,Powell River,Regional district,British Columbia,59,5.9,100,Total - Dwelling Condition,9410,7245,2120,45,100,77,22.5,0.5,2.8,1.7,7.6,-30.8,7.2,5.2,18.4,-50
+5929,Sunshine Coast,Regional district,British Columbia,59,8.6,101,Total - Dwelling Condition,13995,10890,3075,30,100,77.8,22,0.2,9,4.4,32.3,-60,14.9,10.9,32,0
+5931,Squamish-Lillooet,Regional district,British Columbia,59,9.1,101,Total - Dwelling Condition,16415,11520,4640,255,100,70.2,28.3,1.6,9.4,9.8,12.9,-36.3,17.3,20.8,7.7,82.1
+5933,Thompson-Nicola,Regional district,British Columbia,59,7.7,1,Total - Dwelling Condition,55505,41515,13805,180,100,74.8,24.9,0.3,4,2,11.7,-44.6,10.2,8.7,17.3,-56.1
+5935,Central Okanagan,Regional district,British Columbia,59,6,0,Total - Dwelling Condition,81385,59665,21700,15,100,73.3,26.7,0,8.6,4.5,21.6,0,21.5,15.3,42.5,0
+5937,North Okanagan,Regional district,British Columbia,59,6.8,1,Total - Dwelling Condition,35875,27255,8565,50,100,76,23.9,0.1,6.3,3.8,15,-37.5,12.5,10.7,18.2,150
+5939,Columbia-Shuswap,Regional district,British Columbia,59,8.7,1,Total - Dwelling Condition,22455,17890,4525,40,100,79.7,20.2,0.2,3.3,2.4,7,33.3,6,3.9,15.4,-11.1
+5941,Cariboo,Regional district,British Columbia,59,8.1,101,Total - Dwelling Condition,26700,20470,5785,450,100,76.7,21.7,1.7,2.1,0.7,9.4,-18.2,5.8,6.4,5,-8.2
+5943,Mount Waddington,Regional district,British Columbia,59,8.2,101,Total - Dwelling Condition,4855,3325,1450,85,100,68.5,29.9,1.8,-0.4,-8.3,31.2,-43.3,3.4,-0.7,17.9,-22.7
+5945,Central Coast,Regional district,British Columbia,59,7.3,1201,Total - Dwelling Condition,1280,845,340,95,100,66,26.6,7.4,5.8,-5.1,65.9,-17.4,8,19.9,0,-32.1
+5947,Skeena-Queen Charlotte,Regional district,British Columbia,59,7.3,101,Total - Dwelling Condition,7415,4795,2575,45,100,64.7,34.7,0.6,-1.9,-5.9,8.6,-50,-5,-8.1,0.8,80
+5949,Kitimat-Stikine,Regional district,British Columbia,59,6.9,101,Total - Dwelling Condition,14820,10965,3515,345,100,74,23.7,2.3,0.4,2.4,-2.1,-25,1.8,2,1.4,1.5
+5951,Bulkley-Nechako,Regional district,British Columbia,59,11.4,111,Total - Dwelling Condition,15100,11580,3105,420,100,76.7,20.6,2.8,-0.6,-0.2,0.6,-14.3,3.8,4.6,3.5,-12.5
+5953,Fraser-Fort George,Regional district,British Columbia,59,5.8,0,Total - Dwelling Condition,38600,28060,10495,50,100,72.7,27.2,0.1,3.5,2,7.6,25,5.9,3.9,11.3,66.7
+5955,Peace River,Regional district,British Columbia,59,9.1,101,Total - Dwelling Condition,24260,17085,6860,320,100,70.4,28.3,1.3,4.6,3.9,4.9,56.1,8.6,3.4,22.1,73
+5957,Stikine,Region,British Columbia,59,28.6,3323,Total - Dwelling Condition,355,210,65,85,100,59.2,18.3,23.9,10.9,35.5,-38.1,41.7,14.5,31.3,-18.8,21.4
+5959,Northern Rockies,Regional district,British Columbia,59,11.7,111,Total - Dwelling Condition,2185,1490,595,95,100,68.2,27.2,4.3,0.2,-6.6,12.3,90,-5.2,-11,0.8,111.1
+6001,Yukon,Territory,Yukon,60,6.8,101,Total - Dwelling Condition,15215,9680,5005,525,100,63.6,32.9,3.5,7.8,3.1,20.9,-11.8,20.6,20.2,30.3,-27.1
+6101,Region 1,Region,Northwest Territories,61,8.9,101,Total - Dwelling Condition,2250,750,1500,0,100,33.3,66.7,0,-4.9,-6.3,-2.9,-100,-3,-7.4,0,-100
+6102,Region 2,Region,Northwest Territories,61,9,101,Total - Dwelling Condition,860,380,470,10,100,44.2,54.7,1.2,4.2,4.1,5.6,-33.3,3.6,4.1,3.3,0
+6103,Region 3,Region,Northwest Territories,61,11.1,1212,Total - Dwelling Condition,705,380,320,0,100,53.9,45.4,0,3.7,4.1,18.5,-100,6,-1.3,23.1,-100
+6104,Region 4,Region,Northwest Territories,61,10.9,1212,Total - Dwelling Condition,1135,690,440,0,100,60.8,38.8,0,-2.6,3,-3.3,-100,5.6,5.3,20.5,-100
+6105,Region 5,Region,Northwest Territories,61,7,101,Total - Dwelling Condition,2695,1665,1025,0,100,61.8,38,0,6.1,4.4,9.6,,7.4,4.7,14.5,-100
+6106,Region 6,Region,Northwest Territories,61,8.8,101,Total - Dwelling Condition,7340,4170,3165,0,100,56.8,43.1,0,2.9,10.3,-5,-100,7.4,12.1,2.4,-100
+6204,Baffin,Region,Nunavut,62,9.3,101,Total - Dwelling Condition,5525,1065,4460,0,100,19.3,80.7,0,13.1,10.4,13.6,,25.4,17.7,27.8,
+6205,Keewatin,Region,Nunavut,62,8,101,Total - Dwelling Condition,2630,585,2045,0,100,22.2,77.8,0,17.7,12.5,19.6,,26.4,6.4,34.1,-100
+6208,Kitikmeot,Region,Nunavut,62,7.9,101,Total - Dwelling Condition,1665,310,1355,0,100,18.6,81.4,0,8.1,-6.1,12,,21.5,-3.1,29,

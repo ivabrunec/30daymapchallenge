@@ -1,0 +1,294 @@
+Geographic code,"Geographic name, english","Geographic name, french","Geographic type, english","Geographic type, french","Province / territory, english","Province / territory, french","Geographic code, Province / territory","Population, 2016","Incompletely enumerated Indian reserves and Indian settlements, 2016","Population, 2011",2011 adjusted population flag,"Incompletely enumerated Indian reserves and Indian settlements, 2011","Population, % change","Total private dwellings, 2016","Total private dwellings, 2011",2011 adjusted total private dwellings flag,"Total private dwellings, % change","Private dwellings occupied by usual residents, 2016","Private dwellings occupied by usual residents, 2011",2011 adjusted private dwellings occupied by usual residents flag,"Private dwellings occupied by usual residents, % change","Land area in square kilometres, 2016","Population density per square kilometre, 2016","National population rank, 2016","Provincial/territorial population rank, 2016"
+1001,Division No.  1,Division No.  1,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,270348,F,262410,F,F,3,131336,120500,F,9,112620,105921,F,6.3,9220.61,29.3,26,1
+1002,Division No.  2,Division No.  2,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,20372,F,21351,F,F,-4.6,11497,11648,F,-1.3,8737,8796,F,-0.7,6099.08,3.3,219,8
+1003,Division No.  3,Division No.  3,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,15560,F,16306,F,F,-4.6,8289,8346,F,-0.7,6773,6718,F,0.8,19912.67,0.8,249,10
+1004,Division No.  4,Division No.  4,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,20387,F,20840,F,F,-2.2,11338,11232,F,0.9,9345,9052,F,3.2,7087.65,2.9,218,7
+1005,Division No.  5,Division No.  5,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,42014,F,41004,F,F,2.5,20924,19287,F,8.5,17890,16676,F,7.3,10366.48,4.1,145,2
+1006,Division No.  6,Division No.  6,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,38345,F,37304,F,F,2.8,19296,18537,F,4.1,16434,15451,F,6.4,16238.16,2.4,151,3
+1007,Division No.  7,Division No.  7,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,34092,F,34686,F,F,-1.7,20097,19843,F,1.3,14571,14292,F,2,9672.91,3.5,165,5
+1008,Division No.  8,Division No.  8,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,35794,F,37121,F,F,-3.6,21913,20739,F,5.7,15587,15418,F,1.1,9314.57,3.8,162,4
+1009,Division No.  9,Division No.  9,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,15607,F,16786,F,F,-7,9346,9120,F,2.5,6689,6834,F,-2.1,13527.12,1.2,247,9
+1010,Division No. 10,Division No. 10,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,24639,F,24111,F,F,2.2,10758,10128,F,6.2,9193,8877,F,3.6,199703.36,0.1,192,6
+1011,Division No. 11,Division No. 11,Census division,Division de recensement,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10,2558,F,2617,F,F,-2.3,945,895,F,5.6,834,807,F,3.3,69371.46,0,291,11
+1101,Kings,Kings,County,County,Prince Edward Island,Île-du-Prince-Édouard,11,17160,F,17990,F,F,-4.6,10026,9607,F,4.4,7222,7173,F,0.7,1686.34,10.2,241,3
+1102,Queens,Queens,County,County,Prince Edward Island,Île-du-Prince-Édouard,11,82017,F,77866,F,F,5.3,39399,36213,F,8.8,33975,31413,F,8.2,2020.48,40.6,80,1
+1103,Prince,Prince,County,County,Prince Edward Island,Île-du-Prince-Édouard,11,43730,F,44348,F,F,-1.4,21694,21123,F,2.7,18275,17876,F,2.2,1979.21,22.1,134,2
+1201,Shelburne,Shelburne,County,County,Nova Scotia,Nouvelle-Écosse,12,13966,F,14496,F,F,-3.7,7765,7907,F,-1.8,6378,6374,F,0.1,2467.39,5.7,257,14
+1202,Yarmouth,Yarmouth,County,County,Nova Scotia,Nouvelle-Écosse,12,24419,F,25275,F,F,-3.4,12342,12317,F,0.2,10798,10788,F,0.1,2125.7,11.5,194,9
+1203,Digby,Digby,County,County,Nova Scotia,Nouvelle-Écosse,12,17323,F,18036,F,F,-4,9927,10015,F,-0.9,8043,7990,F,0.7,2516.43,6.9,238,12
+1204,Queens,Queens,County,County,Nova Scotia,Nouvelle-Écosse,12,10351,F,10960,F,F,-5.6,6608,6446,F,2.5,4764,4815,F,-1.1,2398.51,4.3,272,15
+1205,Annapolis,Annapolis,County,County,Nova Scotia,Nouvelle-Écosse,12,20591,F,20756,F,F,-0.8,11391,11166,F,2,9377,9228,F,1.6,3189.14,6.5,215,10
+1206,Lunenburg,Lunenburg,County,County,Nova Scotia,Nouvelle-Écosse,12,47126,F,47313,F,F,-0.4,26648,25263,F,5.5,21439,20797,F,3.1,2909.77,16.2,128,5
+1207,Kings,Kings,County,County,Nova Scotia,Nouvelle-Écosse,12,60600,F,60589,F,F,0,29187,28178,F,3.6,25951,25330,F,2.5,2126.71,28.5,104,3
+1208,Hants,Hants,County,County,Nova Scotia,Nouvelle-Écosse,12,42558,F,42304,F,F,0.6,19202,18141,F,5.8,17439,16742,F,4.2,3051.93,13.9,140,7
+1209,Halifax,Halifax,County,County,Nova Scotia,Nouvelle-Écosse,12,403390,F,390328,F,F,3.3,187478,177295,F,5.7,173459,165153,F,5,5496.31,73.4,20,1
+1210,Colchester,Colchester,County,County,Nova Scotia,Nouvelle-Écosse,12,50585,F,50968,F,F,-0.8,25378,24478,F,3.7,22229,21657,F,2.6,3628.12,13.9,119,4
+1211,Cumberland,Cumberland,County,County,Nova Scotia,Nouvelle-Écosse,12,30005,F,31353,F,F,-4.3,18445,18422,F,0.1,13614,13699,F,-0.6,4277.86,7,181,8
+1212,Pictou,Pictou,County,County,Nova Scotia,Nouvelle-Écosse,12,43748,F,45643,F,F,-4.2,22525,22192,F,1.5,19305,19468,F,-0.8,2846.28,15.4,133,6
+1213,Guysborough,Guysborough,County,County,Nova Scotia,Nouvelle-Écosse,12,7625,F,8143,F,F,-6.4,5190,5310,F,-2.3,3549,3686,F,-3.7,4044.15,1.9,281,17
+1214,Antigonish,Antigonish,County,County,Nova Scotia,Nouvelle-Écosse,12,19301,F,19589,F,F,-1.5,9842,9591,F,2.6,8129,7857,F,3.5,1457.99,13.2,225,11
+1215,Inverness,Inverness,County,County,Nova Scotia,Nouvelle-Écosse,12,17235,F,17947,F,F,-4,9876,9577,F,3.1,7351,7437,F,-1.2,3831.17,4.5,240,13
+1216,Richmond,Richmond,County,County,Nova Scotia,Nouvelle-Écosse,12,8964,F,9293,F,F,-3.5,5122,4947,F,3.5,3983,3934,F,1.2,1249.33,7.2,279,16
+1217,Cape Breton,Cape Breton,County,County,Nova Scotia,Nouvelle-Écosse,12,98722,F,101619,F,F,-2.9,47205,46632,F,1.2,43081,42325,F,1.8,2467.74,40,64,2
+1218,Victoria,Victoria,County,County,Nova Scotia,Nouvelle-Écosse,12,7089,F,7115,F,F,-0.4,4437,4278,F,3.7,3101,2999,F,3.4,2857.74,2.5,282,18
+1301,Saint John,Saint John,County,Comté,New Brunswick,Nouveau-Brunswick,13,74020,F,76550,F,F,-3.3,36825,36426,F,1.1,32852,33315,F,-1.4,1463.7,50.6,87,4
+1302,Charlotte,Charlotte,County,Comté,New Brunswick,Nouveau-Brunswick,13,25428,F,26549,F,F,-4.2,13513,13486,F,0.2,11132,11354,F,-2,3426.97,7.4,189,13
+1303,Sunbury,Sunbury,County,Comté,New Brunswick,Nouveau-Brunswick,13,27644,F,27143,F,F,1.8,11853,11095,F,6.8,10898,10555,F,3.2,2696.53,10.3,187,11
+1304,Queens,Queens,County,Comté,New Brunswick,Nouveau-Brunswick,13,10472,F,11086,F,F,-5.5,7289,7337,F,-0.7,4877,4977,F,-2,3686.05,2.8,270,15
+1305,Kings,Kings,County,Comté,New Brunswick,Nouveau-Brunswick,13,68941,F,69665,F,F,-1,29570,28684,F,3.1,27027,26412,F,2.3,3484.22,19.8,91,5
+1306,Albert,Albert,County,Comté,New Brunswick,Nouveau-Brunswick,13,29158,F,28846,F,F,1.1,13111,12573,F,4.3,12219,11733,F,4.1,1807.88,16.1,184,10
+1307,Westmorland,Westmorland,County,Comté,New Brunswick,Nouveau-Brunswick,13,149623,F,144158,F,F,3.8,71839,67842,F,5.9,64038,60888,F,5.2,3666.15,40.8,41,1
+1308,Kent,Kent,County,Comté,New Brunswick,Nouveau-Brunswick,13,30475,F,30833,F,F,-1.2,16251,16030,F,1.4,13236,13002,F,1.8,4552.92,6.7,180,9
+1309,Northumberland,Northumberland,County,Comté,New Brunswick,Nouveau-Brunswick,13,44952,F,46204,T,F,-2.7,21792,21196,T,2.8,19362,19131,T,1.2,12868.78,3.5,130,6
+1310,York,York,County,Comté,New Brunswick,Nouveau-Brunswick,13,99411,F,97238,F,F,2.2,46855,44366,F,5.6,42009,40376,F,4,8131.77,12.2,63,2
+1311,Carleton,Carleton,County,Comté,New Brunswick,Nouveau-Brunswick,13,26220,F,27019,F,F,-3,11823,11742,F,0.7,10765,10893,F,-1.2,3312.72,7.9,188,12
+1312,Victoria,Victoria,County,Comté,New Brunswick,Nouveau-Brunswick,13,18617,F,19921,F,F,-6.5,9178,9342,F,-1.8,8159,8385,F,-2.7,5505.56,3.4,229,14
+1313,Madawaska,Madawaska,County,Comté,New Brunswick,Nouveau-Brunswick,13,32741,F,33422,F,F,-2,15774,15514,F,1.7,14505,14468,F,0.3,3461.89,9.5,167,7
+1314,Restigouche,Restigouche,County,Comté,New Brunswick,Nouveau-Brunswick,13,30955,F,32594,F,F,-5,15259,15468,F,-1.4,13993,14291,F,-2.1,8580,3.6,177,8
+1315,Gloucester,Gloucester,County,Comté,New Brunswick,Nouveau-Brunswick,13,78444,F,79943,T,F,-1.9,38789,37364,T,3.8,34701,34227,T,1.4,4743.67,16.5,82,3
+2401,Les Îles-de-la-Madeleine,Les Îles-de-la-Madeleine,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,12475,F,12781,F,F,-2.4,6477,6153,F,5.3,5534,5382,F,2.8,210.3,59.3,262,92
+2402,Le Rocher-Percé,Le Rocher-Percé,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,17282,F,17979,F,F,-3.9,8969,8622,F,4,8022,7989,F,0.4,3076.8,5.6,239,81
+2403,La Côte-de-Gaspé,La Côte-de-Gaspé,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,17117,F,17985,F,F,-4.8,8648,8486,F,1.9,7637,7740,F,-1.3,4098.8,4.2,242,82
+2404,La Haute-Gaspésie,La Haute-Gaspésie,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,11316,F,12088,F,F,-6.4,6282,6292,F,-0.2,5270,5408,F,-2.6,5066.06,2.2,266,95
+2405,Bonaventure,Bonaventure,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,17660,F,18000,F,F,-1.9,8744,8525,F,2.6,7898,7842,F,0.7,4379.4,4,237,80
+2406,Avignon,Avignon,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,14461,F,15246,F,F,-5.1,7340,7472,F,-1.8,6570,6607,F,-0.6,3487.51,4.1,253,88
+2407,La Matapédia,La Matapédia,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,17925,F,18573,F,F,-3.5,9142,9116,F,0.3,8139,8060,F,1,5374.57,3.3,235,78
+2408,Matane,Matane,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,21301,F,21786,F,F,-2.2,11948,11656,F,2.5,10178,10227,F,-0.5,3318.34,6.4,212,69
+2409,La Mitis,La Mitis,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,18210,F,18942,F,F,-3.9,9692,9471,F,2.3,8206,8320,F,-1.4,2281.25,8,232,77
+2410,Rimouski-Neigette,Rimouski-Neigette,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,56650,F,55095,F,F,2.8,28811,27127,F,6.2,26113,24830,F,5.2,2715.17,20.9,110,27
+2411,Les Basques,Les Basques,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,8694,F,9142,F,F,-4.9,5185,5144,F,0.8,4065,4159,F,-2.3,1121.82,7.7,280,97
+2412,Rivière-du-Loup,Rivière-du-Loup,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,33958,F,34375,F,F,-1.2,17019,16779,F,1.4,15155,14890,F,1.8,1277.15,26.6,166,52
+2413,Témiscouata,Témiscouata,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,19574,F,20572,F,F,-4.9,10778,10627,F,1.4,8827,8954,F,-1.4,3904.03,5,224,74
+2414,Kamouraska,Kamouraska,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,21073,F,21492,F,F,-1.9,10645,10383,F,2.5,9150,8968,F,2,2244.73,9.4,213,70
+2415,Charlevoix-Est,Charlevoix-Est,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,15509,F,16240,F,F,-4.5,8707,8606,F,1.2,6980,7094,F,-1.6,2307.23,6.7,250,86
+2416,Charlevoix,Charlevoix,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,12997,F,13338,F,F,-2.6,7330,7325,F,0.1,5781,5698,F,1.5,3763.22,3.5,260,91
+2417,L'Islet,L'Islet,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,17798,F,18517,F,F,-3.9,9924,9771,F,1.6,8023,8107,F,-1,2100.02,8.5,236,79
+2418,Montmagny,Montmagny,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,22698,F,22877,F,F,-0.8,12079,11559,F,4.5,10421,10251,F,1.7,1698.13,13.4,204,65
+2419,Bellechasse,Bellechasse,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,37233,F,35318,F,F,5.4,17740,16712,F,6.2,15625,14541,F,7.5,1751.06,21.3,155,47
+2420,L'Île-d'Orléans,L'Île-d'Orléans,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,7082,F,6711,F,F,5.5,3703,3470,F,6.7,3040,2811,F,8.1,192.85,36.7,283,98
+2421,La Côte-de-Beaupré,La Côte-de-Beaupré,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,28199,F,26172,F,F,7.7,14244,12599,F,13.1,11851,10799,F,9.7,4865.97,5.8,185,58
+2422,La Jacques-Cartier,La Jacques-Cartier,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,43485,F,36929,T,F,17.8,18401,16218,T,13.5,16332,14094,T,15.9,3195.75,13.6,135,40
+2423,Québec,Québec,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,569717,F,551856,T,T,3.2,282180,269589,T,4.7,267144,258860,T,3.2,548.72,1038.3,11,2
+2425,Lévis,Lévis,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,143414,F,138769,F,F,3.3,62585,59024,F,6,60779,57766,F,5.2,449.05,319.4,44,13
+2426,La Nouvelle-Beauce,La Nouvelle-Beauce,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,36785,F,35107,F,F,4.8,15501,14975,F,3.5,14791,14098,F,4.9,905.58,40.6,157,48
+2427,Robert-Cliche,Robert-Cliche,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,19125,F,19288,F,F,-0.8,8698,8532,F,1.9,8002,7884,F,1.5,840.1,22.8,226,75
+2428,Les Etchemins,Les Etchemins,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,16536,F,17254,F,F,-4.2,8764,8651,F,1.3,7322,7365,F,-0.6,1810.05,9.1,244,83
+2429,Beauce-Sartigan,Beauce-Sartigan,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,52406,F,51011,T,F,2.7,24195,23427,T,3.3,22861,21811,T,4.8,1954.5,26.8,116,31
+2430,Le Granit,Le Granit,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,21462,F,22210,T,F,-3.4,12478,12328,T,1.2,9559,9532,T,0.3,2735.21,7.8,210,68
+2431,Les Appalaches,Les Appalaches,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,42346,F,43120,F,F,-1.8,22714,22306,F,1.8,19669,19487,F,0.9,1912.49,22.1,141,42
+2432,L'Érable,L'Érable,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,23425,F,23366,F,F,0.3,11315,10721,F,5.5,10270,9990,F,2.8,1287.86,18.2,199,62
+2433,Lotbinière,Lotbinière,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,31741,F,29617,F,F,7.2,14642,13321,F,9.9,13352,12116,F,10.2,1662.27,19.1,172,54
+2434,Portneuf,Portneuf,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,53008,F,49370,F,F,7.4,26586,24901,F,6.8,23137,21330,F,8.5,3923.7,13.5,113,28
+2435,Mékinac,Mékinac,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,12358,F,12924,F,F,-4.4,8324,8237,F,1.1,6013,6096,F,-1.4,5222.1,2.4,263,93
+2436,Shawinigan,Shawinigan,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,49349,F,50060,F,F,-1.4,26953,26302,F,2.5,24410,24166,F,1,734.84,67.2,123,36
+2437,Francheville,Francheville,Census division,Division de recensement,Quebec,Québec,24,153030,F,149203,F,F,2.6,76859,73921,F,4,71357,69200,F,3.1,1162.21,131.7,39,11
+2438,Bécancour,Bécancour,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,20404,F,20081,F,F,1.6,9947,9513,F,4.6,9041,8689,F,4.1,1144.67,17.8,217,72
+2439,Arthabaska,Arthabaska,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,72014,F,69237,F,F,4,33483,31901,F,5,31447,29908,F,5.1,1890.18,38.1,89,23
+2440,Les Sources,Les Sources,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,14286,F,14756,F,F,-3.2,7226,7026,F,2.8,6478,6488,F,-0.2,787.13,18.1,254,89
+2441,Le Haut-Saint-François,Le Haut-Saint-François,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,22335,F,22065,F,F,1.2,11203,10762,F,4.1,9581,9206,F,4.1,2273.39,9.8,206,67
+2442,Le Val-Saint-François,Le Val-Saint-François,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,30686,F,29654,F,F,3.5,14359,13640,F,5.3,13015,12478,F,4.3,1403.43,21.9,179,57
+2443,Sherbrooke,Sherbrooke,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,161323,F,154601,F,F,4.3,80341,75880,F,5.9,73506,70572,F,4.2,353.76,456,35,8
+2444,Coaticook,Coaticook,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,18497,F,18847,F,F,-1.9,8747,8557,F,2.2,7817,7740,F,1,1339.8,13.8,231,76
+2445,Memphrémagog,Memphrémagog,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,50415,F,48551,F,F,3.8,30430,28760,F,5.8,22919,21846,F,4.9,1319.29,38.2,122,35
+2446,Brome-Missisquoi,Brome-Missisquoi,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,58314,F,55621,F,F,4.8,31470,29296,F,7.4,25865,24190,F,6.9,1652.08,35.3,109,26
+2447,La Haute-Yamaska,La Haute-Yamaska,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,88306,F,85042,F,F,3.8,40364,38099,F,5.9,38826,36707,F,5.8,636.81,138.7,71,20
+2448,Acton,Acton,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,15594,F,15381,F,F,1.4,7101,6806,F,4.3,6637,6421,F,3.4,579.8,26.9,248,85
+2449,Drummond,Drummond,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,103397,F,98681,F,F,4.8,47581,45249,F,5.2,45334,42972,F,5.5,1600.26,64.6,59,18
+2450,Nicolet-Yamaska,Nicolet-Yamaska,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,23159,F,22798,F,F,1.6,11045,10661,F,3.6,10085,9764,F,3.3,1007.09,23,201,63
+2451,Maskinongé,Maskinongé,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,36316,F,36286,F,F,0.1,19075,18483,F,3.2,16452,16130,F,2,2384.76,15.2,159,50
+2452,D'Autray,D'Autray,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,42189,F,41650,F,F,1.3,20768,19924,F,4.2,18223,17490,F,4.2,1249.3,33.8,143,44
+2453,Pierre-De Saurel,Pierre-De Saurel,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,51025,F,50900,F,F,0.2,25425,24648,F,3.2,23793,23261,F,2.3,597.55,85.4,118,32
+2454,Les Maskoutains,Les Maskoutains,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,87099,F,84248,F,F,3.4,40244,38387,F,4.8,38016,36589,F,3.9,1302.9,66.9,72,21
+2455,Rouville,Rouville,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,36536,F,35690,F,F,2.4,15470,14819,F,4.4,14939,14412,F,3.7,483.12,75.6,158,49
+2456,Le Haut-Richelieu,Le Haut-Richelieu,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,117443,F,114344,F,F,2.7,52461,50665,F,3.5,50061,48189,F,3.9,936.02,125.5,54,17
+2457,La Vallée-du-Richelieu,La Vallée-du-Richelieu,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,124420,F,116773,F,F,6.5,49971,46215,F,8.1,48748,45077,F,8.1,588.6,211.4,52,16
+2458,Longueuil,Longueuil,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,415347,F,399097,F,F,4.1,183008,175704,F,4.2,175735,169281,F,3.8,282.21,1471.8,19,4
+2459,Marguerite-D'Youville,Marguerite-D'Youville,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,77550,F,74416,F,F,4.2,30532,28622,F,6.7,29942,27914,F,7.3,346.04,224.1,83,22
+2460,L'Assomption,L'Assomption,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,124759,F,119840,F,F,4.1,50828,49153,F,3.4,49768,47835,F,4,255.65,488,51,15
+2461,Joliette,Joliette,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,66550,F,63551,F,F,4.7,30969,29446,F,5.2,29703,28238,F,5.2,418.12,159.2,96,24
+2462,Matawinie,Matawinie,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,50435,F,49516,F,F,1.9,35858,34229,F,4.8,23139,22172,F,4.4,9528.17,5.3,121,34
+2463,Montcalm,Montcalm,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,52596,F,48378,F,F,8.7,23295,21430,F,8.7,21608,19564,F,10.4,711.02,74,115,30
+2464,Les Moulins,Les Moulins,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,158267,F,148813,F,F,6.4,60944,56572,F,7.7,59701,55177,F,8.2,261.13,606.1,36,9
+2465,Laval,Laval,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,422993,F,401553,F,F,5.3,165686,159509,F,3.9,160328,154456,F,3.8,247.23,1710.9,18,3
+2466,Montréal,Montréal,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,1942044,F,1886481,F,F,2.9,939112,907393,F,3.5,870373,849443,F,2.5,499.26,3889.8,3,1
+2467,Roussillon,Roussillon,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,171443,T,162187,F,T,5.7,67868,63441,F,7,66264,61908,F,7,423.82,404.5,31,6
+2468,Les Jardins-de-Napierville,Les Jardins-de-Napierville,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,27870,F,26234,F,F,6.2,11789,10742,F,9.7,11205,10237,F,9.5,803.07,34.7,186,59
+2469,Le Haut-Saint-Laurent,Le Haut-Saint-Laurent,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,22454,F,21197,F,T,5.9,12016,10744,F,11.8,9666,9011,F,7.3,1173.51,19.1,205,66
+2470,Beauharnois-Salaberry,Beauharnois-Salaberry,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,64320,F,61950,F,F,3.8,30151,28829,F,4.6,28865,27642,F,4.4,471.26,136.5,99,25
+2471,Vaudreuil-Soulanges,Vaudreuil-Soulanges,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,149349,F,139353,F,F,7.2,59474,55203,F,7.7,57515,53288,F,7.9,855.56,174.6,42,12
+2472,Deux-Montagnes,Deux-Montagnes,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,98203,T,95670,F,T,2.6,40728,39100,F,4.2,39748,38100,F,4.3,243.42,403.4,65,19
+2473,Thérèse-De Blainville,Thérèse-De Blainville,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,157103,F,154144,F,F,1.9,62218,59951,F,3.8,60762,58055,F,4.7,207.2,758.2,37,10
+2474,Mirabel,Mirabel,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,50513,F,41957,F,F,20.4,20395,16374,F,24.6,19631,15763,F,24.5,485.07,104.1,120,33
+2475,La Rivière-du-Nord,La Rivière-du-Nord,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,128170,F,115165,F,F,11.3,58580,52997,F,10.5,55009,49525,F,11.1,451.02,284.2,49,14
+2476,Argenteuil,Argenteuil,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,32389,F,32117,F,F,0.8,19081,18351,T,4,14789,14160,F,4.4,1252.97,25.8,168,53
+2477,Les Pays-d'en-Haut,Les Pays-d'en-Haut,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,41877,F,40331,F,F,3.8,29723,28594,T,3.9,20698,19532,F,6,683.46,61.3,146,45
+2478,Les Laurentides,Les Laurentides,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,45902,T,45157,F,T,1.6,36150,33866,F,6.7,21972,20859,F,5.3,2479.05,18.5,129,38
+2479,Antoine-Labelle,Antoine-Labelle,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,35243,F,35159,F,F,0.2,23399,23139,F,1.1,16474,15999,F,3,14976.99,2.4,164,51
+2480,Papineau,Papineau,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,22832,F,22541,F,F,1.3,15893,14569,F,9.1,10401,10067,F,3.3,2941.79,7.8,202,64
+2481,Gatineau,Gatineau,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,276245,F,265349,F,F,4.1,125608,117769,F,6.7,118385,112758,F,5,342.8,805.8,25,5
+2482,Les Collines-de-l'Outaouais,Les Collines-de-l'Outaouais,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,49094,F,46393,F,F,5.8,23164,22056,F,5,18756,17448,F,7.5,2051.77,23.9,124,37
+2483,La Vallée-de-la-Gatineau,La Vallée-de-la-Gatineau,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,20182,T,20530,F,T,-1.7,15363,14294,F,7.5,9392,9247,F,1.6,12480.5,1.6,220,73
+2484,Pontiac,Pontiac,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,14251,F,14358,F,F,-0.7,10208,9224,F,10.7,6203,6072,F,2.2,12991.82,1.1,255,90
+2485,Témiscamingue,Témiscamingue,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,15980,F,16425,F,F,-2.7,8992,8494,F,5.9,7129,7051,F,1.1,16420.32,1,246,84
+2486,Rouyn-Noranda,Rouyn-Noranda,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,42334,F,41012,F,F,3.2,20568,19224,F,7,18851,17985,F,4.8,6009.86,7,142,43
+2487,Abitibi-Ouest,Abitibi-Ouest,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,20538,F,21003,F,F,-2.2,10053,9698,F,3.7,9026,9014,F,0.1,3334.92,6.2,216,71
+2488,Abitibi,Abitibi,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,24639,F,24354,F,F,1.2,11374,11109,F,2.4,10529,10152,F,3.7,7679.36,3.2,192,61
+2489,La Vallée-de-l'Or,La Vallée-de-l'Or,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,43226,F,42896,F,F,0.8,20224,19532,F,3.5,19040,18372,F,3.6,24292.04,1.8,136,41
+2490,La Tuque,La Tuque,Territoire équivalent,Territoire équivalent,Quebec,Québec,24,15059,F,15130,F,F,-0.5,8360,9040,F,-7.5,6377,6320,F,0.9,26356.13,0.6,251,87
+2491,Le Domaine-du-Roy,Le Domaine-du-Roy,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,31285,F,31870,F,F,-1.8,16549,17494,F,-5.4,13729,13648,F,0.6,17803.47,1.8,174,55
+2492,Maria-Chapdelaine,Maria-Chapdelaine,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,24793,F,25279,F,F,-1.9,11916,12098,F,-1.5,10805,10894,F,-0.8,36768.21,0.7,190,60
+2493,Lac-Saint-Jean-Est,Lac-Saint-Jean-Est,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,52741,F,52520,F,F,0.4,25450,24653,F,3.2,22909,22134,F,3.5,2779.97,19,114,29
+2494,Le Saguenay-et-son-Fjord,Le Saguenay-et-son-Fjord,Census division,Division de recensement,Quebec,Québec,24,167549,F,165211,F,F,1.4,81769,77817,F,5.1,75351,72599,F,3.8,41361.06,4.1,33,7
+2495,La Haute-Côte-Nord,La Haute-Côte-Nord,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,10846,F,11546,F,F,-6.1,5708,5511,F,3.6,4982,5124,F,-2.8,11612.68,0.9,269,96
+2496,Manicouagan,Manicouagan,Municipalité régionale de comté,Municipalité régionale de comté,Quebec,Québec,24,31027,F,32012,F,F,-3.1,14844,14580,F,1.8,13738,13696,F,0.3,35705.48,0.9,175,56
+2497,Sept-Rivières--Caniapiscau,Sept-Rivières--Caniapiscau,Census division,Division de recensement,Quebec,Québec,24,39322,F,39500,F,F,-0.5,19307,18018,F,7.2,16764,16660,F,0.6,100868.87,0.4,148,46
+2498,Minganie--Le Golfe-du-Saint-Laurent,Minganie--Le Golfe-du-Saint-Laurent,Census division,Division de recensement,Quebec,Québec,24,11323,F,11708,F,F,-3.3,5297,5203,F,1.8,4462,4417,F,1,99468.3,0.1,265,94
+2499,Nord-du-Québec,Nord-du-Québec,Census division,Division de recensement,Quebec,Québec,24,44561,F,42579,F,F,4.7,16179,14515,F,11.5,13673,12925,F,5.8,747191.93,0.1,132,39
+3501,"Stormont, Dundas and Glengarry","Stormont, Dundas and Glengarry",United counties,United counties,Ontario,Ontario,35,113429,F,111164,F,T,2,50455,48290,F,4.5,47829,46015,F,3.9,3309.87,34.3,56,22
+3502,Prescott and Russell,Prescott and Russell,United counties,United counties,Ontario,Ontario,35,89333,F,85381,F,F,4.6,36783,34400,F,6.9,35389,33130,F,6.8,2004.47,44.6,69,29
+3506,Ottawa,Ottawa,Census division,Division de recensement,Ontario,Ontario,35,934243,F,883391,F,F,5.8,395985,370217,F,7,373756,353244,F,5.8,2790.3,334.8,8,4
+3507,Leeds and Grenville,Leeds and Grenville,United counties,United counties,Ontario,Ontario,35,100546,F,99306,F,F,1.2,48226,45938,F,5,42749,41074,F,4.1,3382.89,29.7,62,27
+3509,Lanark,Lanark,County,County,Ontario,Ontario,35,68698,F,65667,F,F,4.6,32695,31361,F,4.3,28580,26832,F,6.5,3035.64,22.6,93,36
+3510,Frontenac,Frontenac,County,County,Ontario,Ontario,35,150475,F,149753,T,F,0.5,77155,74084,T,4.1,64295,62805,T,2.4,3787.76,39.7,40,15
+3511,Lennox and Addington,Lennox and Addington,County,County,Ontario,Ontario,35,42888,F,41809,T,F,2.6,19684,18285,T,7.7,17053,16233,T,5.1,2839.68,15.1,137,42
+3512,Hastings,Hastings,County,County,Ontario,Ontario,35,136445,F,134934,F,F,1.1,65136,63014,F,3.4,57017,55575,F,2.6,6103.92,22.4,46,18
+3513,Prince Edward,Prince Edward,Census division,Division de recensement,Ontario,Ontario,35,24735,F,25258,F,F,-2.1,12899,12397,F,4,10728,10549,F,1.7,1050.49,23.5,191,45
+3514,Northumberland,Northumberland,County,County,Ontario,Ontario,35,85598,F,82126,F,F,4.2,39032,37226,F,4.9,35686,33313,F,7.1,1905.15,44.9,74,31
+3515,Peterborough,Peterborough,County,County,Ontario,Ontario,35,138236,F,134928,T,F,2.5,70551,68005,T,3.7,57743,55634,T,3.8,3848.2,35.9,45,17
+3516,Kawartha Lakes,Kawartha Lakes,Census division,Division de recensement,Ontario,Ontario,35,75423,F,73219,T,F,3,38444,37165,T,3.4,31106,29684,T,4.8,3084.38,24.5,86,35
+3518,Durham,Durham,Regional municipality,Regional municipality,Ontario,Ontario,35,645862,F,608124,F,F,6.2,233936,220598,F,6,227906,213746,F,6.6,2523.8,255.9,10,5
+3519,York,York,Regional municipality,Regional municipality,Ontario,Ontario,35,1109909,F,1032524,F,F,7.5,369928,334447,F,10.6,357084,323543,F,10.4,1762.13,629.9,7,3
+3520,Toronto,Toronto,Census division,Division de recensement,Ontario,Ontario,35,2731571,F,2615060,F,F,4.5,1179057,1107851,F,6.4,1112929,1047877,F,6.2,630.2,4334.4,1,1
+3521,Peel,Peel,Regional municipality,Regional municipality,Ontario,Ontario,35,1381739,F,1296809,T,F,6.5,443918,416848,T,6.5,430180,402938,T,6.8,1246.95,1108.1,5,2
+3522,Dufferin,Dufferin,County,County,Ontario,Ontario,35,61735,F,56881,F,F,8.5,22889,21257,F,7.7,21918,20073,F,9.2,1486.44,41.5,102,39
+3523,Wellington,Wellington,County,County,Ontario,Ontario,35,222726,F,208360,F,F,6.9,90846,85510,F,6.2,85281,79072,F,7.9,2660.57,83.7,28,13
+3524,Halton,Halton,Regional municipality,Regional municipality,Ontario,Ontario,35,548435,F,501674,T,F,9.3,198164,182306,T,8.7,192977,179014,T,7.8,964.05,568.9,12,6
+3525,Hamilton,Hamilton,Census division,Division de recensement,Ontario,Ontario,35,536917,F,519949,F,F,3.3,222918,214542,F,3.9,211596,203806,F,3.8,1117.29,480.6,13,7
+3526,Niagara,Niagara,Regional municipality,Regional municipality,Ontario,Ontario,35,447888,F,431346,F,F,3.8,196241,188877,F,3.9,183828,174685,F,5.2,1854.23,241.5,17,11
+3528,Haldimand-Norfolk,Haldimand-Norfolk,Census division,Division de recensement,Ontario,Ontario,35,109787,T,109118,F,F,0.6,48249,47364,F,1.9,43559,42255,F,3.1,2894.76,37.9,58,24
+3529,Brant,Brant,Census division,Division de recensement,Ontario,Ontario,35,134808,T,136035,F,F,-0.9,54626,55307,F,-1.2,52722,52903,F,-0.3,1093.22,123.3,47,19
+3530,Waterloo,Waterloo,Regional municipality,Regional municipality,Ontario,Ontario,35,535154,F,507096,F,F,5.5,214299,202121,F,6,203832,191599,F,6.4,1368.92,390.9,14,8
+3531,Perth,Perth,County,County,Ontario,Ontario,35,76796,F,75112,F,F,2.2,31747,30631,F,3.6,30713,29400,F,4.5,2218.52,34.6,84,34
+3532,Oxford,Oxford,County,County,Ontario,Ontario,35,110862,F,105719,F,F,4.9,45350,43367,F,4.6,44266,41554,F,6.5,2039.61,54.4,57,23
+3534,Elgin,Elgin,County,County,Ontario,Ontario,35,88978,F,87461,F,F,1.7,36613,35348,F,3.6,34995,33488,F,4.5,1881.03,47.3,70,30
+3536,Chatham-Kent,Chatham-Kent,Census division,Division de recensement,Ontario,Ontario,35,102042,F,104075,F,F,-2,46287,46391,F,-0.2,43174,42992,F,0.4,2470.52,41.3,61,26
+3537,Essex,Essex,County,County,Ontario,Ontario,35,398953,F,388782,F,F,2.6,168569,164733,F,2.3,159053,152293,F,4.4,1850.9,215.5,21,12
+3538,Lambton,Lambton,County,County,Ontario,Ontario,35,126638,F,126199,F,T,0.3,59777,58243,F,2.6,54481,52764,F,3.3,3002.25,42.2,50,20
+3539,Middlesex,Middlesex,County,County,Ontario,Ontario,35,455526,T,439151,F,F,3.7,203349,195679,F,3.9,190045,180278,F,5.4,3317.27,137.3,16,10
+3540,Huron,Huron,County,County,Ontario,Ontario,35,59297,F,59100,F,F,0.3,28369,28049,F,1.1,24194,23637,F,2.4,3399.27,17.4,108,41
+3541,Bruce,Bruce,County,County,Ontario,Ontario,35,68147,F,66102,F,F,3.1,41183,40033,F,2.9,28866,27447,F,5.2,4090.2,16.7,94,37
+3542,Grey,Grey,County,County,Ontario,Ontario,35,93830,F,92568,F,F,1.4,47560,46481,F,2.3,39563,38042,F,4,4513.5,20.8,68,28
+3543,Simcoe,Simcoe,County,County,Ontario,Ontario,35,479650,F,446063,F,F,7.5,206549,195388,F,5.7,183536,169463,F,8.3,4859.64,98.7,15,9
+3544,Muskoka,Muskoka,District municipality,District municipality,Ontario,Ontario,35,60599,T,58017,T,T,4.5,46207,44601,T,3.6,25431,23633,T,7.6,3940.48,15.4,105,40
+3546,Haliburton,Haliburton,County,County,Ontario,Ontario,35,18062,F,17056,T,F,5.9,21113,21383,T,-1.3,8443,7646,T,10.4,4076.08,4.4,234,48
+3547,Renfrew,Renfrew,County,County,Ontario,Ontario,35,102394,F,101326,F,F,1.1,49860,48229,F,3.4,42779,41761,F,2.4,7448.57,13.7,60,25
+3548,Nipissing,Nipissing,District,District,Ontario,Ontario,35,83150,F,84736,F,T,-1.9,41200,41023,F,0.4,36050,36145,F,-0.3,17103.78,4.9,77,32
+3549,Parry Sound,Parry Sound,District,District,Ontario,Ontario,35,42824,F,42162,F,F,1.6,35226,33764,F,4.3,18679,18076,F,3.3,9326.48,4.6,138,43
+3551,Manitoulin,Manitoulin,District,District,Ontario,Ontario,35,13255,F,13048,F,F,1.6,9537,9281,F,2.8,5748,5548,F,3.6,3107.23,4.3,258,49
+3552,Sudbury,Sudbury,District,District,Ontario,Ontario,35,21546,F,21196,F,F,1.7,12557,11918,F,5.4,9375,9072,F,3.3,40204.77,0.5,209,46
+3553,Greater Sudbury,Grand Sudbury,Census division,Division de recensement,Ontario,Ontario,35,161647,F,160376,F,F,0.8,75103,72479,F,3.6,69200,67636,F,2.3,3239.02,49.9,34,14
+3554,Timiskaming,Timiskaming,District,District,Ontario,Ontario,35,32251,F,32634,F,F,-1.2,16862,16330,F,3.3,14395,14166,F,1.6,13303.3,2.4,169,44
+3556,Cochrane,Cochrane,District,District,Ontario,Ontario,35,79682,F,81122,F,F,-1.8,37974,37242,F,2,34012,33746,F,0.8,141268.51,0.6,81,33
+3557,Algoma,Algoma,District,District,Ontario,Ontario,35,114094,T,115870,F,T,-1.5,60324,59149,F,2,51071,50580,F,1,48814.88,2.3,55,21
+3558,Thunder Bay,Thunder Bay,District,District,Ontario,Ontario,35,146048,F,146057,F,F,0,72551,71235,F,1.8,62999,62318,F,1.1,103722.82,1.4,43,16
+3559,Rainy River,Rainy River,District,District,Ontario,Ontario,35,20110,F,20370,F,F,-1.3,11217,10792,F,3.9,8432,8374,F,0.7,15486.75,1.3,221,47
+3560,Kenora,Kenora,District,District,Ontario,Ontario,35,65533,T,57607,F,T,13.8,31191,29606,F,5.4,23931,21850,F,9.5,407268.65,0.2,98,38
+4601,Division No.  1,Division No.  1,Census division,Division de recensement,Manitoba,Manitoba,46,18534,F,17331,F,F,6.9,17236,16660,F,3.5,8080,7493,F,7.8,14871.94,1.2,230,14
+4602,Division No.  2,Division No.  2,Census division,Division de recensement,Manitoba,Manitoba,46,75571,F,66045,T,F,14.4,26604,22600,T,17.7,25466,21746,T,17.1,4429.61,17.1,85,2
+4603,Division No.  3,Division No.  3,Census division,Division de recensement,Manitoba,Manitoba,46,54796,F,50679,T,F,8.1,19419,17774,T,9.3,18719,17249,T,8.5,5283.96,10.4,112,4
+4604,Division No.  4,Division No.  4,Census division,Division de recensement,Manitoba,Manitoba,46,9986,F,9989,T,F,0,4206,4085,T,3,3702,3705,T,-0.1,4481.09,2.2,274,20
+4605,Division No.  5,Division No.  5,Census division,Division de recensement,Manitoba,Manitoba,46,13176,F,12922,F,F,2,6945,6786,F,2.3,5442,5345,F,1.8,8229.91,1.6,259,17
+4606,Division No.  6,Division No.  6,Census division,Division de recensement,Manitoba,Manitoba,46,10317,F,10025,F,F,2.9,4703,4468,F,5.3,4102,3970,F,3.3,3943.25,2.6,273,19
+4607,Division No.  7,Division No.  7,Census division,Division de recensement,Manitoba,Manitoba,46,68746,F,65084,T,F,5.6,29333,27699,T,5.9,27632,26391,T,4.7,6309.28,10.9,92,3
+4608,Division No.  8,Division No.  8,Census division,Division de recensement,Manitoba,Manitoba,46,13968,F,13444,T,F,3.9,5008,4708,T,6.4,4638,4422,T,4.9,5751.75,2.4,256,16
+4609,Division No.  9,Division No.  9,Census division,Division de recensement,Manitoba,Manitoba,46,24391,F,23489,F,F,3.8,9807,9542,F,2.8,9169,8816,F,4,2987.91,8.2,195,7
+4610,Division No. 10,Division No. 10,Census division,Division de recensement,Manitoba,Manitoba,46,11941,F,10673,F,F,11.9,3786,3353,F,12.9,3678,3237,F,13.6,1916.28,6.2,264,18
+4611,Division No. 11,Division No. 11,Census division,Division de recensement,Manitoba,Manitoba,46,708823,F,666832,F,F,6.3,295343,281425,F,4.9,282116,269665,F,4.6,571.6,1240.1,9,1
+4612,Division No. 12,Division No. 12,Census division,Division de recensement,Manitoba,Manitoba,46,23683,F,21830,F,F,8.5,9300,8475,F,9.7,8875,8095,F,9.6,1858.35,12.7,198,9
+4613,Division No. 13,Division No. 13,Census division,Division de recensement,Manitoba,Manitoba,46,49086,F,46888,F,T,4.7,20847,19849,F,5,18426,17293,F,6.6,1694.91,29,125,5
+4614,Division No. 14,Division No. 14,Census division,Division de recensement,Manitoba,Manitoba,46,18621,F,18497,F,F,0.7,6967,6796,F,2.5,6652,6576,F,1.2,2828.75,6.6,228,13
+4615,Division No. 15,Division No. 15,Census division,Division de recensement,Manitoba,Manitoba,46,21379,F,20837,T,F,2.6,10696,10694,T,0,8564,8516,T,0.6,8765.77,2.4,211,12
+4616,Division No. 16,Division No. 16,Census division,Division de recensement,Manitoba,Manitoba,46,9848,F,9928,F,F,-0.8,4986,4826,F,3.3,4121,4140,F,-0.5,4717.05,2.1,275,21
+4617,Division No. 17,Division No. 17,Census division,Division de recensement,Manitoba,Manitoba,46,22205,F,22208,F,F,0,11646,11493,F,1.3,9459,9611,F,-1.6,13641.15,1.6,207,10
+4618,Division No. 18,Division No. 18,Census division,Division de recensement,Manitoba,Manitoba,46,24036,F,23469,F,F,2.4,15528,15037,F,3.3,10038,9752,F,2.9,11331.94,2.1,196,8
+4619,Division No. 19,Division No. 19,Census division,Division de recensement,Manitoba,Manitoba,46,16518,F,17240,F,T,-4.2,7984,7508,F,6.3,4817,5123,F,-6,61074.94,0.3,245,15
+4620,Division No. 20,Division No. 20,Census division,Division de recensement,Manitoba,Manitoba,46,9621,F,9952,F,F,-3.3,4919,4973,F,-1.1,4177,4222,F,-1.1,9869.16,1,276,22
+4621,Division No. 21,Division No. 21,Census division,Division de recensement,Manitoba,Manitoba,46,21983,F,21393,F,F,2.8,9162,9160,F,0,7863,7888,F,-0.3,43361.8,0.5,208,11
+4622,Division No. 22,Division No. 22,Census division,Division de recensement,Manitoba,Manitoba,46,42165,F,40923,F,F,3,12356,11865,F,4.1,10891,10641,F,2.3,92083.25,0.5,144,6
+4623,Division No. 23,Division No. 23,Census division,Division de recensement,Manitoba,Manitoba,46,8971,F,8590,F,F,4.4,2967,2913,F,1.9,2423,2242,F,8.1,242367.35,0,278,23
+4701,Division No.  1,Division No.  1,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,31766,F,31333,F,F,1.4,15738,14789,F,6.4,12890,12578,F,2.5,14998.19,2.1,170,10
+4702,Division No.  2,Division No.  2,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,22825,F,22266,F,F,2.5,10741,9979,F,7.6,9389,9226,F,1.8,16859.18,1.4,203,15
+4703,Division No.  3,Division No.  3,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,12610,F,12691,F,F,-0.6,6173,6276,F,-1.6,5358,5425,F,-1.2,18553.99,0.7,261,17
+4704,Division No.  4,Division No.  4,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,10854,F,10879,F,F,-0.2,5262,5139,F,2.4,4181,4153,F,0.7,21366.27,0.5,268,18
+4705,Division No.  5,Division No.  5,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,31750,F,32007,F,F,-0.8,15738,15205,F,3.5,13560,13452,F,0.8,14779.44,2.1,171,11
+4706,Division No.  6,Division No.  6,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,262837,F,237746,F,F,10.6,116531,104694,F,11.3,105686,96326,F,9.7,17548.18,15,27,2
+4707,Division No.  7,Division No.  7,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,47195,F,46648,F,F,1.2,22895,22319,F,2.6,19760,19684,F,0.4,18836.58,2.5,127,5
+4708,Division No.  8,Division No.  8,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,30718,F,29962,F,F,2.5,14534,14170,F,2.6,12759,12495,F,2.1,22244.1,1.4,178,12
+4709,Division No.  9,Division No.  9,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,35634,F,35314,F,F,0.9,18041,18026,F,0.1,15297,15318,F,-0.1,15281.8,2.3,163,9
+4710,Division No. 10,Division No. 10,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,16563,F,17546,F,F,-5.6,8427,8728,F,-3.4,6980,7239,F,-3.6,12220.36,1.4,243,16
+4711,Division No. 11,Division No. 11,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,303423,F,271170,F,F,11.9,129632,116065,F,11.7,119128,108926,F,9.4,16692.08,18.2,23,1
+4712,Division No. 12,Division No. 12,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,23986,F,23228,F,F,3.3,10076,9840,F,2.4,9226,8917,F,3.5,13887.42,1.7,197,13
+4713,Division No. 13,Division No. 13,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,23224,F,23089,F,F,0.6,10510,10201,F,3,9107,9173,F,-0.7,17258.71,1.3,200,14
+4714,Division No. 14,Division No. 14,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,36096,F,37195,F,F,-3,18261,17982,F,1.6,15225,15376,F,-1,33821.12,1.1,160,8
+4715,Division No. 15,Division No. 15,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,85908,F,83725,F,F,2.6,38751,36889,F,5,32232,31370,F,2.7,19613.27,4.4,73,3
+4716,Division No. 16,Division No. 16,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,37999,F,37845,F,F,0.4,18762,18175,F,3.2,14663,14523,F,1,21828.49,1.7,152,6
+4717,Division No. 17,Division No. 17,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,47900,F,44180,F,T,8.4,22846,20258,F,12.8,16947,15602,F,8.6,22457.1,2.1,126,4
+4718,Division No. 18,Division No. 18,Census division,Division de recensement,Saskatchewan,Saskatchewan,47,37064,F,36557,F,F,1.4,12664,11777,F,7.5,10234,9862,F,3.8,269997.26,0.1,156,7
+4801,Division No.  1,Division No.  1,Census division,Division de recensement,Alberta,Alberta,48,82627,F,78694,F,F,5,35331,34458,F,2.5,33230,31724,F,4.7,20558.81,4,79,7
+4802,Division No.  2,Division No.  2,Census division,Division de recensement,Alberta,Alberta,48,169729,F,156536,F,F,8.4,66991,63778,F,5,62823,58495,F,7.4,17673.32,9.6,32,4
+4803,Division No.  3,Division No.  3,Census division,Division de recensement,Alberta,Alberta,48,38956,F,38566,F,F,1,15405,14764,F,4.3,13378,13185,F,1.5,13887.06,2.8,149,14
+4804,Division No.  4,Division No.  4,Census division,Division de recensement,Alberta,Alberta,48,9573,F,10078,F,F,-5,4174,4274,F,-2.3,3739,3900,F,-4.1,21479.85,0.4,277,19
+4805,Division No.  5,Division No.  5,Census division,Division de recensement,Alberta,Alberta,48,55708,F,53263,F,F,4.6,22044,21075,F,4.6,20020,18858,F,6.2,16795.05,3.3,111,12
+4806,Division No.  6,Division No.  6,Census division,Division de recensement,Alberta,Alberta,48,1498778,F,1311022,F,F,14.3,586269,527608,F,11.1,558912,500103,F,11.8,12655.32,118.4,4,1
+4807,Division No.  7,Division No.  7,Census division,Division de recensement,Alberta,Alberta,48,41574,F,40232,F,F,3.3,18246,17303,F,5.4,16009,15325,F,4.5,19227.61,2.2,147,13
+4808,Division No.  8,Division No.  8,Census division,Division de recensement,Alberta,Alberta,48,209395,F,189243,F,F,10.6,88994,80324,F,10.8,80649,72774,F,10.8,9939.43,21.1,29,3
+4809,Division No.  9,Division No.  9,Census division,Division de recensement,Alberta,Alberta,48,20869,F,21290,F,F,-2,9210,8935,F,3.1,7933,7962,F,-0.4,18913.39,1.1,214,17
+4810,Division No. 10,Division No. 10,Census division,Division de recensement,Alberta,Alberta,48,97449,F,93039,F,F,4.7,42796,40083,F,6.8,38242,36620,F,4.4,20466.09,4.8,66,6
+4811,Division No. 11,Division No. 11,Census division,Division de recensement,Alberta,Alberta,48,1366050,F,1203115,F,F,13.5,557547,500940,F,11.3,518951,467064,F,11.1,15783.77,86.5,6,2
+4812,Division No. 12,Division No. 12,Census division,Division de recensement,Alberta,Alberta,48,67120,T,63427,F,T,5.8,30281,26256,F,15.3,24500,22986,F,6.6,31981.64,2.1,95,10
+4813,Division No. 13,Division No. 13,Census division,Division de recensement,Alberta,Alberta,48,71016,F,68919,F,F,3,34788,32789,F,6.1,27840,26830,F,3.8,24385.17,2.9,90,9
+4814,Division No. 14,Division No. 14,Census division,Division de recensement,Alberta,Alberta,48,29291,F,28584,F,F,2.5,13153,12552,F,4.8,11598,11250,F,3.1,26962.03,1.1,183,16
+4815,Division No. 15,Division No. 15,Census division,Division de recensement,Alberta,Alberta,48,38594,F,35983,F,F,7.3,17542,17606,F,-0.4,13900,13199,F,5.3,28403.35,1.4,150,15
+4816,Division No. 16,Division No. 16,Census division,Division de recensement,Alberta,Alberta,48,73988,F,67516,F,F,9.6,31535,28662,F,10,26338,23653,F,11.4,95348.4,0.8,88,8
+4817,Division No. 17,Division No. 17,Census division,Division de recensement,Alberta,Alberta,48,61590,F,61504,F,F,0.1,23895,22683,F,5.3,19747,19572,F,0.9,192152.54,0.3,103,11
+4818,Division No. 18,Division No. 18,Census division,Division de recensement,Alberta,Alberta,48,14488,F,14534,F,F,-0.3,6590,6066,F,8.6,5320,5376,F,-1,33200.73,0.4,252,18
+4819,Division No. 19,Division No. 19,Census division,Division de recensement,Alberta,Alberta,48,120380,F,109712,F,F,9.7,49338,44851,F,10,44549,41399,F,7.6,20516.9,5.9,53,5
+5901,East Kootenay,East Kootenay,Regional district,Regional district,British Columbia,Colombie-Britannique,59,60439,F,56685,F,F,6.6,34197,33081,F,3.4,25863,24044,F,7.6,27541.84,2.2,106,14
+5903,Central Kootenay,Central Kootenay,Regional district,Regional district,British Columbia,Colombie-Britannique,59,59517,F,58441,F,F,1.8,30726,29474,F,4.2,27016,25806,F,4.7,22094.94,2.7,107,15
+5905,Kootenay Boundary,Kootenay Boundary,Regional district,Regional district,British Columbia,Colombie-Britannique,59,31447,F,31138,F,F,1,18321,18448,F,-0.7,14339,13928,F,3,8084.52,3.9,173,21
+5907,Okanagan-Similkameen,Okanagan-Similkameen,Regional district,Regional district,British Columbia,Colombie-Britannique,59,83022,F,80742,F,F,2.8,42894,41168,F,4.2,37673,36050,F,4.5,10411.68,8,78,10
+5909,Fraser Valley,Fraser Valley,Regional district,Regional district,British Columbia,Colombie-Britannique,59,295934,F,277593,F,F,6.6,116080,110940,F,4.6,108393,101775,F,6.5,13335.28,22.2,24,3
+5915,Greater Vancouver,Greater Vancouver,Regional district,Regional district,British Columbia,Colombie-Britannique,59,2463431,F,2313328,F,F,6.5,1027613,949565,F,8.2,960894,891336,F,7.8,2882.68,854.6,2,1
+5917,Capital,Capital,Regional district,Regional district,British Columbia,Colombie-Britannique,59,383360,T,359991,F,T,6.5,183562,177977,F,3.1,170157,160634,F,5.9,2340.49,163.8,22,2
+5919,Cowichan Valley,Cowichan Valley,Regional district,Regional district,British Columbia,Colombie-Britannique,59,83739,F,80332,F,F,4.2,37919,35922,F,5.6,35272,33163,F,6.4,3474.52,24.1,76,9
+5921,Nanaimo,Nanaimo,Regional district,Regional district,British Columbia,Colombie-Britannique,59,155698,F,146574,F,F,6.2,73622,70687,F,4.2,68904,64463,F,6.9,2038.04,76.4,38,5
+5923,Alberni-Clayoquot,Alberni-Clayoquot,Regional district,Regional district,British Columbia,Colombie-Britannique,59,30981,F,31061,F,F,-0.3,15490,15305,F,1.2,13654,13389,F,2,6589.15,4.7,176,22
+5924,Strathcona,Strathcona,Regional district,Regional district,British Columbia,Colombie-Britannique,59,44671,F,43252,F,F,3.3,21681,21033,F,3.1,19610,18630,F,5.3,18278.06,2.4,131,17
+5926,Comox Valley,Comox Valley,Regional district,Regional district,British Columbia,Colombie-Britannique,59,66527,F,63538,F,F,4.7,32076,30156,F,6.4,29573,27885,F,6.1,1699.9,39.1,97,11
+5927,Powell River,Powell River,Regional district,Regional district,British Columbia,Colombie-Britannique,59,20070,F,19906,F,F,0.8,11400,11000,F,3.6,9412,9111,F,3.3,5075.33,4,223,24
+5929,Sunshine Coast,Sunshine Coast,Regional district,Regional district,British Columbia,Colombie-Britannique,59,29970,F,28619,F,F,4.7,17379,16498,F,5.3,13995,12839,F,9,3773.73,7.9,182,23
+5931,Squamish-Lillooet,Squamish-Lillooet,Regional district,Regional district,British Columbia,Colombie-Britannique,59,42665,F,38173,T,F,11.8,23965,22156,T,8.2,16416,15000,T,9.4,16311.62,2.6,139,18
+5933,Thompson-Nicola,Thompson-Nicola,Regional district,Regional district,British Columbia,Colombie-Britannique,59,132663,F,128471,T,F,3.3,62157,59878,T,3.8,55504,53372,T,4,44449.42,3,48,6
+5935,Central Okanagan,Central Okanagan,Regional district,Regional district,British Columbia,Colombie-Britannique,59,194882,F,179839,F,F,8.4,88374,83836,F,5.4,81383,74942,F,8.6,2904.86,67.1,30,4
+5937,North Okanagan,North Okanagan,Regional district,Regional district,British Columbia,Colombie-Britannique,59,84354,F,81237,F,F,3.8,39970,38208,F,4.6,35875,33747,F,6.3,7502.6,11.2,75,8
+5939,Columbia-Shuswap,Columbia-Shuswap,Regional district,Regional district,British Columbia,Colombie-Britannique,59,51366,F,50512,F,F,1.7,29798,28430,F,4.8,22454,21746,F,3.3,28929.19,1.8,117,16
+5941,Cariboo,Cariboo,Regional district,Regional district,British Columbia,Colombie-Britannique,59,61988,F,62392,F,F,-0.6,31680,30452,F,4,26699,26153,F,2.1,80609.75,0.8,101,13
+5943,Mount Waddington,Mount Waddington,Regional district,Regional district,British Columbia,Colombie-Britannique,59,11035,F,11506,F,F,-4.1,5963,5969,F,-0.1,4850,4875,F,-0.5,20244.27,0.5,267,26
+5945,Central Coast,Central Coast,Regional district,Regional district,British Columbia,Colombie-Britannique,59,3319,F,3206,F,F,3.5,1531,1413,F,8.4,1284,1210,F,6.1,24491.85,0.1,288,28
+5947,Skeena-Queen Charlotte,Skeena-Queen Charlotte,Regional district,Regional district,British Columbia,Colombie-Britannique,59,18133,F,18784,F,F,-3.5,8911,9143,F,-2.5,7413,7574,F,-2.1,19775.41,0.9,233,25
+5949,Kitimat-Stikine,Kitimat-Stikine,Regional district,Regional district,British Columbia,Colombie-Britannique,59,37367,F,37361,F,F,0,16922,16780,F,0.8,14822,14763,F,0.4,104464.61,0.4,154,20
+5951,Bulkley-Nechako,Bulkley-Nechako,Regional district,Regional district,British Columbia,Colombie-Britannique,59,37896,F,39208,F,F,-3.3,17564,17406,F,0.9,15101,15169,F,-0.4,73361,0.5,153,19
+5953,Fraser-Fort George,Fraser-Fort George,Regional district,Regional district,British Columbia,Colombie-Britannique,59,94506,F,91879,F,F,2.9,41666,41520,F,0.4,38600,37333,F,3.4,50676.1,1.9,67,7
+5955,Peace River,Peace River,Regional district,Regional district,British Columbia,Colombie-Britannique,59,62942,F,60082,F,F,4.8,28746,25854,F,11.2,24264,23196,F,4.6,117387.55,0.5,100,12
+5957,Stikine,Stikine,Region,Region,British Columbia,Colombie-Britannique,59,740,F,629,F,F,17.6,617,571,F,8.1,367,326,F,12.6,118663.53,0,293,29
+5959,Northern Rockies,Northern Rockies,Regional district,Regional district,British Columbia,Colombie-Britannique,59,5393,F,5578,F,F,-3.3,2593,2495,F,3.9,2182,2178,F,0.2,85111.07,0.1,287,27
+6001,Yukon,Yukon,Territory,Territoire,Yukon,Yukon,60,35874,F,33897,F,F,5.8,17987,16259,F,10.6,15215,14117,F,7.8,474712.68,0.1,161,1
+6101,Region 1,Region 1,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,6372,F,6712,F,F,-5.1,2741,2910,F,-5.8,2248,2362,F,-4.8,365094.4,0,286,3
+6102,Region 2,Region 2,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,2433,F,2341,F,F,3.9,1111,1063,F,4.5,858,825,F,4,220752.16,0,292,6
+6103,Region 3,Region 3,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,2751,F,2812,F,F,-2.2,861,892,F,-3.5,705,679,F,3.8,25080.97,0.1,290,5
+6104,Region 4,Region 4,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,3160,F,3256,T,F,-2.9,1495,1502,T,-0.5,1138,1166,T,-2.4,194494.15,0,289,4
+6105,Region 5,Region 5,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,6980,F,6616,T,F,5.5,3199,3110,T,2.9,2692,2537,T,6.1,153468.37,0,284,2
+6106,Region 6,Region 6,Region,Region,Northwest Territories,Territoires du Nord-Ouest,61,20090,F,19725,T,F,1.9,8259,7698,T,7.3,7340,7131,T,2.9,184903.81,0.1,222,1
+6204,Baffin,Baffin,Region,Region,Nunavut,Nunavut,62,18988,F,16939,F,F,12.1,6556,5817,F,12.7,5525,4886,F,13.1,989879.35,0,227,1
+6205,Keewatin,Keewatin,Region,Region,Nunavut,Nunavut,62,10413,F,8955,F,F,16.3,3007,2550,F,17.9,2631,2234,F,17.8,444621.71,0,271,2
+6208,Kitikmeot,Kitikmeot,Region,Region,Nunavut,Nunavut,62,6543,F,6012,F,F,8.8,1870,1710,F,9.4,1663,1541,F,7.9,443277.47,0,285,3
