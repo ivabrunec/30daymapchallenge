@@ -38,9 +38,8 @@ sf_cent$population_renters <- 100 - sf_cent$population
 
 ggplot()+
   geom_sf(data = canada_base$geometry, fill='black', color='grey36', size=.35) +
-  geom_point(data = sf_cent, aes(x = lon, y = lat, size=population_density, color=population), alpha=.9) +
-  scale_color_gradientn(colors = c('lightgoldenrod1','turquoise4'), limits=c(20,90)) +
-  #scale_color_gradientn(colors=c('#fdeea3','#6ecb69',"#3b959a"))+
+  geom_point(data = sf_cent, aes(x = lon, y = lat, size=population_density, color=population_renters), alpha=.9) +
+  scale_color_gradientn(colors = c('turquoise4','lightgoldenrod1')) +
   scale_size_continuous(breaks = c(0,10,50,100,1000,2000,3000),range=c(2,20))+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         axis.title.x=element_blank(),
