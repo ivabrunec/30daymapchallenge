@@ -33,13 +33,15 @@ sf_cent$lat <- as.numeric(paste0(sf_cent$lat))
 sf_cent$population <- canada_pop$Housing.Tenure...Owner....distribution.2016.[match(sf_cent$CDUID,canada_pop$ï..Geographic.code)]
 sf_cent$population_density <- canada_pop_all$Population.density.per.square.kilometre..2016[match(sf_cent$CDUID,canada_pop_all$Geographic.code)]
 #sf_cent$population <- as.numeric(as.character(sf_cent$population))
-
+sf_cent$population_renters <- 100 - sf_cent$population
+#sf_cent$pop_dens_log <- log(sf_cent$population_density)
 
 ggplot()+
   geom_sf(data = canada_base$geometry, fill='black', color='grey36', size=.35) +
   geom_point(data = sf_cent, aes(x = lon, y = lat, size=population_density, color=population), alpha=.9) +
-  scale_color_gradientn(colors = c('lightgoldenrod1','turquoise4')) +
-  scale_radius(range=c(3, 18)) + 
+  scale_color_gradientn(colors = c('lightgoldenrod1','turquoise4'), limits=c(20,90)) +
+  #scale_color_gradientn(colors=c('#fdeea3','#6ecb69',"#3b959a"))+
+  scale_size_continuous(breaks = c(0,10,50,100,1000,2000,3000),range=c(2,20))+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         axis.title.x=element_blank(),
         axis.text.x=element_blank(),
