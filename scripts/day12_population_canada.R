@@ -1,6 +1,7 @@
 ## Day 12: Population
 
 # % of renters/houseowners by census division 
+# data from stat canada 2016 census https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/index-eng.cfm
 
 library(tidyverse)
 library(sf)

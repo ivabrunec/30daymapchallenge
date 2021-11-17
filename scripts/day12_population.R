@@ -1,6 +1,7 @@
 ## Day 12: Population. 
 
 # population of lynx, bear, wolves in Europe
+# data from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.pc866t1p3 
 
 library(tidyverse)
 library(sf)
