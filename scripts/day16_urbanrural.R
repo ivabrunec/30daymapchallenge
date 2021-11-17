@@ -35,7 +35,7 @@ isl_plot <- ggplot() +
   geom_polygon(data = iceland_base, aes(x = long, y = lat), fill="#132157") +
   geom_tile(data = pop_density_mat,
             aes(x = x, y = y, fill = population_isl_2019.07.01)) +
-  geom_sf(data = iceland_urb$geometry, color = 'white', fill=NA, alpha = 1, size=.7) +
+  geom_sf(data = iceland_urb$geometry, color = 'grey90', fill=NA, alpha = 1, size=.7) +
   scale_x_continuous("X") +
   scale_y_continuous("Y") +
   scale_fill_gradientn("Z", colors=rev(lacroix_palette(name = "Apricot", n = 256))) +
@@ -51,15 +51,14 @@ isl_plot <- ggplot() +
         legend.key.width = unit(.4, 'cm'),
         legend.title=element_blank(),
         legend.key = element_blank(),
-        legend.text = element_text(size=36),# this looks absurd in the plot viewer but fine when saved!
+        legend.text = element_text(size=42),# this looks absurd in the plot viewer but fine when saved!
         legend.background=element_blank(),
-        plot.margin = unit(c(t=.6,r=.8,b=.6,l=0.8), "cm"),
-        plot.background=element_rect(fill = '#f7cfd1', color=NA),
-        panel.background = element_rect(fill = '#f7cfd1', color=NA)) 
+        plot.background=element_rect(fill = '#edc0c3', color=NA),
+        panel.background = element_rect(fill = '#edc0c3', color=NA)) 
 
 isl_plot
 
-ggsave('day16.png', height = 5, width = 7, dpi= 500)
+ggsave('day16.png', height = 6, width = 7, dpi= 500)
 
 
 
