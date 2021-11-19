@@ -46,7 +46,7 @@ ggplot() +
         legend.key.width = unit(.8, 'cm'),
         legend.title=element_blank(),
         legend.key = element_blank(),
-        legend.text = element_text(size=5),
+        legend.text = element_text(size=5, color='white'),
         legend.background=element_blank(),
         plot.margin = unit(c(t=0,r=0,b=0.1,l=0), "cm"),
         plot.background=element_rect(fill = '#FE8D76', color=NA),
