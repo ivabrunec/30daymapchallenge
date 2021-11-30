@@ -68,9 +68,9 @@ nba_3 <- merge(can_only, nba_sum, by=c("NAME_1"), all=T)
 
 ggplot()+
   geom_polygon(data = can_us, aes(x = long, y = lat, group=group), fill=NA, color='white')+
-  geom_sf(data = nba_3, fill = '#FD5017', color = NA) +
+  geom_sf(data = nba_3, fill ='#ABC3AC', color = NA) +
   coord_sf(xlim = c(-130, - 70), ylim=c(25,60)) +
-  #scale_fill_gradientn(colors = c('#ABC3AC','#FDD78D', '#FD7515', '#FD5017'), na.value = 'grey60') +
+  scale_fill_gradientn(colors = c('#ABC3AC','#FDD78D', '#FD7515', '#FD5017'), na.value = 'grey60') +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         axis.title.x=element_blank(),
         axis.text.x=element_blank(),
