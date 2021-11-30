@@ -19,6 +19,6 @@ elmat <- raster_to_matrix(elev)
 
 elmat %>%
   sphere_shade(texture = create_texture('#E87620', '#000000', '#103D05','#7D462B',  '#8CA9BE')) %>%
-  plot_3d(elmat, zscale = 5, theta = 0, phi=45, zoom = .56, windowsize = c(1200, 800), background = '#ffffff', solid = T)
+  plot_3d(elmat, zscale = 6, theta = 0, phi=45, zoom = .56, windowsize = c(1200, 800), background = '#ffffff', solid = T)
 
 render_snapshot('day28_flatearth', clear = F)
