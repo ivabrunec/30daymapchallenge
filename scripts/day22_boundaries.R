@@ -48,9 +48,12 @@ europe_plot <- ggplot() +
         axis.ticks.x=element_blank(),
         axis.title.y=element_blank(),
         axis.text.y=element_blank(),
-        axis.ticks.y=element_blank(), legend.position="",
-        #legend.key.height = unit(.25, 'cm'),
-        plot.margin = unit(c(t=1.5,r=0,b=1.5,l=0), "cm"),
+        axis.ticks.y=element_blank(), legend.position=c(.98,0),
+        legend.title=element_blank(),
+        legend.background=element_blank(),
+        #legend.key = element_blank(),
+        legend.text = element_text(color = 'white'),
+        plot.margin = unit(c(t=1.5,r=.5,b=1.5,l=0), "cm"),
         panel.background = element_rect(fill = 'grey30', color = 'grey30'),
         plot.background = element_rect(fill = 'grey30', color = 'grey30')) 
 
@@ -128,6 +131,7 @@ usa_plot <- ggplot() +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="",
         legend.key.height = unit(.25, 'cm'),
+        plot.margin = unit(c(t=.5,r=.5,b=.5,l=0), "cm"),
         panel.background = element_rect(fill = 'grey30', color = 'grey30'),
         plot.background = element_rect(fill = 'grey30', color = 'grey30')) 
 
