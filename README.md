@@ -1,6 +1,6 @@
 # 30DayMapChallenge
-The details of the challenge can be found [here](https://github.com/tjukanovt/30DayMapChallenge){:target="_blank"}. <br>
-For a post containing all maps in one place and links to all my data sources, click [here](https://ivabrunec.github.io/30daymap){:target="_blank"}. I also included a link to the data source in each of my scripts (found in /scripts). <br>
+The details of the challenge can be found [here](https://github.com/tjukanovt/30DayMapChallenge). <br>
+For a post containing all maps in one place and links to all my data sources, click [here](https://ivabrunec.github.io/30daymap). I also included a link to the data source in each of my scripts (found in /scripts). <br>
 ![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/allmaps.png?raw=true)
 
 ## Day 1
@@ -13,4 +13,7 @@ For a post containing all maps in one place and links to all my data sources, cl
 ![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/day3_europe.png?raw=true)
 
 ## Day 4
+(https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/day4_cardinals.png?raw=true)
+
+## Day 5
 ![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/day4_cardinals.png?raw=true)
