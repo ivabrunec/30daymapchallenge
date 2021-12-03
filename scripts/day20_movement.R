@@ -21,7 +21,7 @@ emi_data <- emi_data %>%
 
 ggplot() +
   geom_polygon(data = world, aes(x =long, y = lat, group=group), fill='grey20',color=NA)+
-  geom_curve(data = emi_data, aes(x = long1, y = lat1, xend = long2, yend = lat2, color = tert),  arrow = arrow(length = unit(0.01, "npc"))) +
+  geom_curve(data = emi_data, aes(x = long1, y = lat1, xend = long2, yend = lat2, color = log(number)),  arrow = arrow(length = unit(0.01, "npc"))) +
   scale_color_gradientn(colors=c('#118ab2','#ef476f','#fcbf49')) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         axis.title.x=element_blank(),
@@ -40,3 +40,5 @@ ggplot() +
         plot.background=element_rect(fill = 'black', color=NA),
         panel.background = element_rect(fill = 'black', color=NA))+
   guides(size=FALSE)
+
+ggsave('day20_movement.png', width=7,height=4)
