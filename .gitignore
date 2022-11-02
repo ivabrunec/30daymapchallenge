@@ -20,3 +20,4 @@ scripts/data/AgencyHistoricFirePerimeters_2010_2019.shp
 scripts/data/AgencyHistoricFirePerimeters_2010_2019.shx
 scripts/data/AgencyHistoricFirePerimeters_2010_2019.prj
 scripts/data/dist2coast.signed.txt
+scripts/2022/data/Street Tree Data.geojson
