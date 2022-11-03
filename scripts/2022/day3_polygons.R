@@ -40,11 +40,11 @@ for (i in 1:nrow(us_source)){
 }
 
 # the loop above takes a while, wrote this to this csv
-us_source <- read.csv('us_source_counties.csv')
+us_source <- read.csv('data/us_source_counties.csv')
 
 us_source$subregion <- tolower(gsub(' County', '',us_source$zip_out))
 
-state_abbr <- read.csv('state_abbr.csv')
+state_abbr <- read.csv('data/state_abbr.csv')
 us_source <- merge(us_source, state_abbr, 
                    by = c('state'))
 
@@ -52,7 +52,7 @@ us_source <- merge(us_source, state_abbr,
 us_source$corr6[us_source$corr6 == 0] <- NA
 us_source$corr6[us_source$corr6 == 2] <- 0
 
-# remove PR, not on the map
+# remove PR and DC, not on the map
 us_source <- filter(us_source, state != 'PR' & state != 'DC')
 
 # calculate the difference between actual and perceived ability
@@ -76,8 +76,6 @@ us$mean_diff <- us_sum$mean_diff[match(us$region,us_sum$region)]
 # plot
 col_pal <- colorRampPalette(c('#651b3b','#b23038', '#ff7f45', '#7dad82','#51bc96'))
 
-#36454f
-#342135
 ggplot(data = us) + 
   geom_polygon(aes(x = long, y = lat, group = as.factor(group), 
                    fill = mean_diff), 
@@ -108,7 +106,7 @@ ggplot(data = us) +
         plot.caption = element_text(color = 'grey80', size = 18,
                                     family = 'PT Mono', hjust = .5)) +
   labs(title = 'United Scents of America',
-       subtitle = 'In 1986, National Geographic surveyed 26,200 Americans about their self-perceived and actual sense of smell.
+       subtitle = 'In 1986, National Geographic surveyed 26,200 Americans about their self-reported and actual sense of smell.
        \n\nResidents of New Jersey, Nevada, and Massachusetts were most likely to overestimate their sense of smell.
        \nResidents of Idaho, New Mexico, and Kentucky were most likely to underestimate their sense of smell.',
        caption = 'Data: Nat Geo via {pyrfume}')
