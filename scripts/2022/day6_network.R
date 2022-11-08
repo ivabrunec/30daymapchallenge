@@ -47,7 +47,7 @@ underground_limit = st_filter(underground$osm_lines, limits_outer$geometry)
 
 road_limit = st_filter(main_roads$osm_lines, limits_outer$geometry)
 
-# stations from https://github.com/oobrien/vis/
+# stations & count data below from https://github.com/oobrien/vis/
 stn_ids <- read.csv('data/london_combinedstations_630.csv') |>
   filter(category == 'LU')
 
