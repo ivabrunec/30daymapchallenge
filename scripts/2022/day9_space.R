@@ -12,17 +12,17 @@ library(dplyr)
 
 # testing rayrender
 scene = 
-  add_object(sphere(y=0.2,material=glossy(image_texture = 'moon.png',reflectance=0.05),angle=c(0,-90,0))) |>
+  add_object(sphere(y=0.2,material=glossy(image_texture = 'data/moon.png',reflectance=0.05),angle=c(0,-90,0))) |>
   add_object(sphere(y=1.5, x = 1.5, radius = .25, 
-                    material=glossy(image_texture = '2kearth.png',reflectance=0.05),angle=c(0,-90,0))) 
+                    material=glossy(image_texture = 'data/2kearth.png',reflectance=0.05),angle=c(0,-90,0))) 
 
 # static/interactive image
 render_scene(scene, parallel = TRUE, width = 800, 
              ambient_light = TRUE,
              height = 800, samples = 800,
-             environment_light = 'free_nature.png',
+             environment_light = 'data/pexels-hristo-fidanov-1252890.jpg',
              intensity_env = 3,
-             filename = 'moon_earth4.png')
+             filename = 'moon_earth6.png')
 
 
 # short video: render times are a bit silly so i abandoned this, but it would work
