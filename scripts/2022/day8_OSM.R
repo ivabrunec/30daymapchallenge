@@ -7,6 +7,7 @@ library(ggplot2)
 library(osmdata)
 library(showtext)
 library(dplyr)
+library(raster)
 
 font_add_google(name = 'Barlow', family = 'Barlow')
 showtext_auto()
@@ -45,6 +46,10 @@ leisure <- opq(bb) |>
 
 natural <- opq(bbox = bb) |>
   add_osm_feature(key = 'natural') |>
+  osmdata_sf()
+
+river <- opq(bbox = bb) |>
+  add_osm_feature(key = 'water') |>
   osmdata_sf()
 
 # circle
