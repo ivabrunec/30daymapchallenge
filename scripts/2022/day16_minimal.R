@@ -26,14 +26,14 @@ faroe_above0 <- filter(faroe_df, elev > -5)
 
 ggplot() +
   geom_contour(data = faroe_above0, aes(x = x, y = y, z = elev, color = ..level..), size=.25) +
-  scale_color_gradientn(colors=c("#710a48","#81d0b0"), breaks = c(0, 250, 400)) +
+  scale_color_gradientn(colors=c("#673c4f","#81d0b0"), breaks = c(0, 250, 400)) +
   theme_void() +
   theme(plot.background = element_rect(fill = 'grey10'),
         legend.position = '',
         plot.caption = element_text(color = "#A4C7AE", hjust = 0.05,
-                                    family = 'Squada One', size = 50)) +
+                                    family = 'Squada One', size = 60)) +
   labs(caption = 'Faroe Islands | Føroyar | Færøerne')
 
-ggsave('test.png', width =6, height = 7)
+ggsave('day16_minimal.png', width = 6, height = 7, dpi = 400)
 
 
