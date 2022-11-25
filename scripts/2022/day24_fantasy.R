@@ -1,5 +1,4 @@
-## same idea as first version
-## but instead of moving to a common reference, move London to New York
+## Day 24: Fantasy.
 
 library(dplyr)
 library(sf)
@@ -103,9 +102,9 @@ ggplot() +
         plot.background = element_rect(fill = 'grey85', color='grey85'),
         panel.background = element_rect(fill = 'grey85', color = 'grey85'),
         plot.title = element_text(size = 35, color = 'black', 
-                                  hjust = .5, family = 'London Tube', vjust = .65),
+                                  hjust = .5, family = 'London Tube'),
         legend.text = element_text(family = 'London Tube')) +
-  labs(title = 'Transport for NYC')
+  labs(title = 'Transport for New York')
 
 ggsave('day24_fantasy.png', width = 6, height = 5, dpi = 400)
 #
