@@ -107,6 +107,6 @@ a <- ggplot()+
 
 a
 
-b <- animate(a, duration = 20, height = 800, width = 600,
+b <- animate(a, duration = 20, height = 600, width = 800,
              fps = 60, renderer = av_renderer())
-anim_save("day23_clip.mp4", b)
+anim_save("day23_clip_2.mp4", b)
