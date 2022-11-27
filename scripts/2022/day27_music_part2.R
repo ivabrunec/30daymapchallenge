@@ -17,25 +17,28 @@ showtext_auto()
 # read in spectrogram as raster
 spect <- raster('audio_spectro_cropped.tif')
 
-# read in canada geom
-canada_geom <-
-  giscoR::gisco_get_countries(resolution = "20", country = "Canada")
+# read in world countries
+world_geom <-
+  giscoR::gisco_get_countries(resolution = "20")
 
-bb <- extent(canada_geom)
+# get just the outlines
+limits_outer <- world_geom |>
+  summarise(geometry = sf::st_union(geometry)) 
+
+# get extent
+bb <- extent(limits_outer)
 extent(spect) <- bb
 spect <- setExtent(spect, bb, keepres=TRUE)
 
-raster::plot(spect)
-plot(canada_geom, add = T)
-
-r2 <- crop(spect, extent(canada_geom))
-r3 <- mask(r2, canada_geom)
+# crop & mask raster
+r2 <- crop(spect, extent(limits_outer))
+r3 <- mask(r2, limits_outer)
 
 spect_df <- as.data.frame(rasterToPoints(r3))
 colnames(spect_df) <- c('x','y','hz')
 
 ggplot()+
-  geom_raster(data = spect_df, aes(x = x, y = y, fill = hz)) +
+  geom_tile(data = spect_df, aes(x = x, y = y, fill = hz)) +
   colorspace::scale_fill_continuous_sequential(palette = 'BuPu') +
   theme_void() +
   theme(plot.background = element_rect(fill = '#010101', color = NA),
@@ -44,8 +47,7 @@ ggplot()+
                                   hjust = .1, size = 40,lineheight = 0.3),
         plot.caption = element_text(family  = 'Syne', color = '#c8dfeb',
                                     hjust = .95, size = 20)) +
-  coord_fixed(1.6) +
   labs(title = "There is a crack, a crack in everything \nThat's how the light gets in",
        caption = 'Leonard Cohen: Anthem')
 
-ggsave('day27_music.png', width = 4, height = 4, dpi = 300)
+ggsave('day27_music.png', width = 6, height = 4, dpi = 300)
