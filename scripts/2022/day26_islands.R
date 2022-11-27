@@ -24,4 +24,6 @@ galapagos_mat |>
           windowsize = c(800, 600))
 
 render_camera(zoom = .50, phi = 90)
-render_highquality(filename = 'galapagos2.png', lightdirection = 300, samples = 400)
+render_highquality(filename = 'day26_islands.png', lightdirection = 300, samples = 400)
+
+
