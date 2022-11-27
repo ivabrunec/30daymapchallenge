@@ -15,7 +15,7 @@ showtext_auto()
 
 # see part 1 for converting .wav into spectrogram
 # read in spectrogram as raster
-spect <- raster('audio_spectro_cropped.tif')
+spect <- raster('data/audio_spectro_cropped.tif')
 
 # read in world countries
 world_geom <-
