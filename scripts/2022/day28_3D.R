@@ -8,7 +8,7 @@ library(ggplot2)
 library(elevatr)
 library(purrr)
 library(tidyr)
-
+library(dplyr)
 
 tdp_slice <- data.frame(x = c(-73.15019769318883, -73.0528926591736), 
                         y = c(-51.04076380296734, -50.957990256593526))
@@ -21,19 +21,21 @@ elev_ra <- as.data.frame(rasterToPoints(elev))
 colnames(elev_ra) <- c('x','y','elev')
 
 library(isoband)
+library(rayshader)
+library(rayrender)
 elmat <- raster_to_matrix(elev)
 
-volcano_contours = isoband::isolines(x = 1:ncol(elmat), 
+mountain_contours = isoband::isolines(x = 1:ncol(elmat), 
                                      y = 1:nrow(elmat), 
                                      z = elmat, 
-                                     levels=seq(100,2000,by=200))
+                                     levels=seq(100,2200,by=200))
 
-contours = isoband::iso_to_sfg(volcano_contours)
+contours = isoband::iso_to_sfg(mountain_contours)
 sf_contours = sf::st_sf(level = names(contours), geometry = sf::st_sfc(contours))
 sf_contours$level <- as.numeric(sf_contours$level)
 ggplot(sf_contours) + geom_sf(aes(color = level))
 
-# code from here on is from @dakvid
+# code from here on is from David Friggens: @dakvid
 # incredibly helpful: https://gist.github.com/dakvid/414006d86417880c2dfc2aa236d9ae6f
 NUM_CONTOURS <- length(contours)
 
@@ -41,7 +43,7 @@ NUM_CONTOURS <- length(contours)
 # HEIGHT_LOWER (I think) determines where the model starts
 # HEIGHT_OFFSET (I think) determines how centered the isobands are 
 HEIGHT_LOWER <- 0
-HEIGHT_REDUCE <- 200
+HEIGHT_REDUCE <- 150
 HEIGHT_OFFSET <- 0
 
 # I centered mine
@@ -49,20 +51,37 @@ X_OFFSET <- 0
 Y_OFFSET <- 0
 
 # radius of isobands: higher numbers mean thicker lines
-RADIUS <- 0.3
+RADIUS <- 0.15
+INTENSITY = .8
 
-create_segment_test <- 
+create_segment <- 
   function(start_x, start_y, start_z,
            end_x, end_y, end_z,
            heat_color) {
     segment(start = c(start_x, start_y, start_z),
             end = c(end_x, end_y, end_z),
             radius = RADIUS,
-            material = light(intensity = 2,
+            material = light(intensity = INTENSITY,
                              color = heat_color))
+            #material = diffuse(color = heat_color))
   }
 
-process_each_contour_test <- 
+create_sphere <- 
+  function(start_x, start_y, start_z,
+           heat_color,
+           ...) {
+    sphere(x = start_x,
+           y = start_y,
+           z = start_z,
+           radius = RADIUS,
+           material = light(intensity = INTENSITY,
+                            color = heat_color))
+           
+           #material = diffuse(color = heat_color))
+  
+           }
+
+process_each_contour <- 
   function(the_contour, the_height, the_color) {
     
     # (h - L) / R - O
@@ -72,9 +91,8 @@ process_each_contour_test <-
       magrittr::subtract(HEIGHT_LOWER) %>% 
       magrittr::divide_by(HEIGHT_REDUCE) %>% 
       magrittr::subtract(HEIGHT_OFFSET)
-    
     # Don't know about you, but I find x,y + h => x,y,z confusing...
-    contour_segments <- 
+    contour_coordinates <- 
       the_contour %>% 
       as_tibble() %>% 
       group_by(id) %>% 
@@ -86,23 +104,35 @@ process_each_contour_test <-
              end_z = lead(y) - Y_OFFSET,
              heat_color = the_color) %>% 
       ungroup() %>% 
-      drop_na() %>% 
       select(start_x, start_y, start_z,
              end_x, end_y, end_z,
-             heat_color) %>% 
-      pmap_df(create_segment_test)
+             heat_color)
     
-    return(contour_segments)
+    # Same segments as before
+    contour_segments <- 
+      contour_coordinates %>% 
+      drop_na() %>% 
+      pmap_df(create_segment)
+    
+    # Add spheres at corners
+    contour_spheres <- 
+      contour_coordinates %>% 
+      pmap_df(create_sphere)
+    
+    return(bind_rows(contour_segments,
+                     contour_spheres))
   }
 
 ki_scene_test <- 
-  pmap_df(list(the_contour = volcano_contours,
-               the_height = names(volcano_contours),
-               the_color = 'khaki'),
-          process_each_contour_test)
+  pmap_df(list(the_contour = mountain_contours,
+               the_height = names(mountain_contours),
+               the_color = terrain.colors(NUM_CONTOURS)),
+          process_each_contour)
 
-FROM_TEST <- c(0, 45, 100)
-AT_TEST <- c(20, -1, 10)
+#FROM_TEST <- c(0, 45, 100)
+FROM_TEST <- c(82, 24, 63)
+#AT_TEST <- c(20, -1, 10)
+AT_TEST <- c(13, -1.2, 18)
 FOV_TEST <- 30
 
 APERTURE_TEST <- 0
@@ -114,22 +144,7 @@ generate_ground(material = diffuse(color="grey20")) %>%
   render_scene(fov = FOV_TEST,
                lookfrom = FROM_TEST, lookat = AT_TEST,
                samples = 200, aperture = APERTURE_TEST,
-               width = WIDTH_TEST, height = HEIGHT_TEST)
+               width = WIDTH_TEST, height = HEIGHT_TEST,
+               filename = 'day28_3d_6.png')
 
 
-
-
-raster::plot(elev)
-elmat <- raster_to_matrix(elev_cut)
-elmat[elmat < -2000] = 0
-elmat[elmat > 2000] = 0
-
-
-
-elmat |>
-  sphere_shade(texture = 'imhof1') |>
-  ##sphere_shade(texture = create_texture('#723d46', '#472d30', '#e26d5c','#ffe1a8',  '#c9cba3'), sunangle = 90) |>
-  #sphere_shade(texture = create_texture('#723d46', '#695958', '#6D7789','#cfffe5',  '#A2C6AD'), sunangle = 90) |>
-  #add_shadow(ray_shade(ukr_mat,sunaltitude=30, sunangle = 0),max_darken=0.65) |>
-  plot_3d(elmat, zscale = .1, windowsize = (c(1000,800)),
-          theta = 90, zoom = .8, solid =F)
