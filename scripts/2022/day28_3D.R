@@ -36,7 +36,9 @@ sf_contours$level <- as.numeric(sf_contours$level)
 ggplot(sf_contours) + geom_sf(aes(color = level))
 
 # code from here on is from David Friggens: @dakvid
-# incredibly helpful: https://gist.github.com/dakvid/414006d86417880c2dfc2aa236d9ae6f
+# incredibly helpful in breaking down the process: 
+# https://gist.github.com/dakvid/414006d86417880c2dfc2aa236d9ae6f
+
 NUM_CONTOURS <- length(contours)
 
 # increase HEIGHT_REDUCE to shrink the gaps between
@@ -123,7 +125,7 @@ process_each_contour <-
                      contour_spheres))
   }
 
-ki_scene_test <- 
+tdp_scene_test <- 
   pmap_df(list(the_contour = mountain_contours,
                the_height = names(mountain_contours),
                the_color = terrain.colors(NUM_CONTOURS)),
@@ -140,7 +142,7 @@ WIDTH_TEST <- 1200
 HEIGHT_TEST <- 800
 
 generate_ground(material = metal(color="grey20", fuzz = .05)) %>% 
-  add_object(ki_scene_test) %>% 
+  add_object(tdp_scene_test) %>% 
   render_scene(fov = FOV_TEST,
                lookfrom = FROM_TEST, lookat = AT_TEST,
                samples = 200, aperture = APERTURE_TEST,
