@@ -139,12 +139,12 @@ APERTURE_TEST <- 0
 WIDTH_TEST <- 1200
 HEIGHT_TEST <- 800
 
-generate_ground(material = diffuse(color="grey20")) %>% 
+generate_ground(material = metal(color="grey20", fuzz = .05)) %>% 
   add_object(ki_scene_test) %>% 
   render_scene(fov = FOV_TEST,
                lookfrom = FROM_TEST, lookat = AT_TEST,
                samples = 200, aperture = APERTURE_TEST,
                width = WIDTH_TEST, height = HEIGHT_TEST,
-               filename = 'day28_3d_6.png')
+               filename = 'day28_3d_8.png')
 
 
