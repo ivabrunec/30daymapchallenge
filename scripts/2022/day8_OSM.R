@@ -85,8 +85,7 @@ ggplot() +
   geom_sf(data = roads_all_lines, color = 'grey60', fill = 'grey60', size = .3) +
   theme_void() +
   theme(plot.caption = element_text(hjust = .5, color = '#fee3eb', 
-                                    family = 'Barlow', size = 60), 
-        plot.background = element_rect(fill = "#3a3b3c", color = NA)) +
+                                    family = 'Barlow', size = 60)) +
   labs(caption = 'Ljubljana, Slovenia')
   
 ggsave('day8_OSM.png', width = 6, height = 6.5, dpi = 300)  

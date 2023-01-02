@@ -6,17 +6,22 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(sf)
 library(dplyr)
 library(ggplot2)
-
+library(raster)
 # calculate area of each polygon so we can plot normalized population.
 # I was unable to figure out how to do this with a simple sf file, so I used the raster package to calculate it
 # and then append the resulting area to the clean data frame
 # it's not the most elegant, but it works (and doesn't take a lot of time to run).
 
 # read in canada base file
-canada_base <- raster::shapefile("data/lfsa000b16a_e.shp") 
+canada_base <- shapefile("data/lfsa000b16a_e.shp", verbose=T) 
 
 raster::crs(canada_base)
 canada_base$area_sqkm <- raster::area(canada_base) / 1000000
+
+# updated in 2023: there is a way to calculate this that is much faster
+# in sf only
+st_crs(canada_base)
+canada_base$area_sqkm <- st_area(canada_base) / 1000000
 
 areas <- cbind(canada_base$area_sqkm, canada_base$CFSAUID)
 colnames(areas) <- c("area_sqkm","Geographic.code")
@@ -24,6 +29,7 @@ areas <- as.data.frame(areas)
 
 # now read in the clean version of the canada shapefile
 canada_base <- read_sf("data/lfsa000b16a_e.shp") 
+
 
 # read in toronto postcodes and filter base file
 toronto_postcodes <- read.table("data/postcodes_toronto.csv",header=T,sep=",")
@@ -74,4 +80,4 @@ plot_gg(to_plot,width=7,height=5,scale=90,windowsize=c(1600,866),
 
 render_snapshot('day11', clear = F)
 
-rayshader::render_highquality('day11.png')
+rayshader::render_highquality('day11_hires.png',samples=200)
