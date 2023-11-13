@@ -68,7 +68,7 @@ ggplot() +
   theme(legend.position = 'none',
     plot.background = element_rect(fill = '#c5cef9', color=NA),
     axis.title = element_blank(),
-    axis.text = element_text(size = 38, color = '#2f2a27', family = 'Rubik'))
+    axis.text = element_text(size = 46, color = '#9d5a58', family = 'Rubik'))
 
 ggsave('day_12_tierra_del_fuego.png', height = 12, width = 12, dpi = 300)
 
