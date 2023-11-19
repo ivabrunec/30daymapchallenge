@@ -22,12 +22,12 @@ elev <- get_elev_raster(tnp, z = 8, clip = 'bbox',
 elev_df <- as.data.frame(rasterToPoints(elev))
 colnames(elev_df) <- c('x','y','z')
 
-color_pal <- rev(c("#59322b", 
+color_pal <- c("#59322b", 
                "#a15334", 
                "#b27f4d", 
                "#87aa74", 
                "#75c398", 
-               "#afc5b7"))
+               "#afc5b7")
 
 ggplot(elev_df, aes(x, y)) +
   geom_contour_fill(aes(z = z)) +
@@ -52,7 +52,8 @@ ggplot(elev_df, aes(x, y)) +
         plot.title = element_text(color = '#59322b', size = 145, 
                                   hjust = .5, family = 'Alfa',
                                   vjust = 0),
-        plot.background = element_rect(fill = '#75c398', color = NA)) +
+        plot.background = element_rect(fill = '#afc5b7', color = NA)) +
   labs(title = 'Triglav National Park') 
 
 ggsave('day_19_6_min.png', dpi = 300, width = 8, height = 6)
+  
