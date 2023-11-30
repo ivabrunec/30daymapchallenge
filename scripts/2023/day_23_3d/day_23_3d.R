@@ -54,4 +54,6 @@ av::av_encode_video(glue::glue("gbr_{1:360}.png"), framerate=30, output = "gbr_d
 file.remove(glue::glue("gbr_{1:360}.png"))
 
 
-
+render_highquality(ground_material = rayrender::metal(color = '#6094e0'),
+                   width=800,height=800, sample_method="sobol_blue",
+                   filename=sprintf("temp.png",i),verbose=T)
