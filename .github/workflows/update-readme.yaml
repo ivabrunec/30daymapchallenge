@@ -18,27 +18,32 @@ jobs:
           # Initialize the year variable
           year=""
           
-          # Loop through modified files to find the year
-          for path in ${{ github.event.head_commit.modified }}; do
+          # Loop through modified files to find the year from paths
+          for path in "${{ github.event.head_commit.modified }}"; do
             if [[ $path =~ ([0-9]{4}) ]]; then
               year="${BASH_REMATCH[1]}"
               break  # Exit loop after finding the first match
             fi
           done
           
+          # If year not found in paths, try the commit message
+          if [ -z "$year" ]; then
+            year=$(echo "${{ github.event.head_commit.message }}" | grep -oP '20\d{2}')
+          fi
+          
           # Set the README file path based on the year
           if [ -n "$year" ]; then
             README_FILE="$year/README.md"
             echo "README_FILE=$README_FILE" >> $GITHUB_ENV
           else
-            echo "Year not found in file path. Exiting."
+            echo "Year not found in file path or commit message. Exiting."
             exit 1
           fi
 
       - name: Update README
         if: env.README_FILE  # Only run if README_FILE is set
         run: |
-          # Generate header and new entries
+          # Create a temporary content file
           echo "## Daily Challenge Images" > new_content.md
           
           # Loop through each "day_*" folder within the detected year
@@ -49,15 +54,19 @@ jobs:
               # Format day and description from directory name
               day=$(echo "$dir" | cut -d'_' -f 2)
               description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
-              # Append to new content
+              # Append to the temporary content file
               echo "## Day $day: $description" >> new_content.md
               echo "[![alt text]($image_path)]($dir/)" >> new_content.md
               echo "" >> new_content.md
             fi
           done
 
-          # Replace existing README content with new content
-          cat new_content.md > $README_FILE
+          # Append new content to the existing README file
+          if [ -f $README_FILE ]; then
+            cat new_content.md >> $README_FILE
+          else
+            cat new_content.md > $README_FILE  # If README doesn't exist, create it
+          fi
 
       - name: Commit changes
         run: |
