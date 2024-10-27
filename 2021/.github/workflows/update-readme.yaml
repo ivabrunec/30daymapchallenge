@@ -1,0 +1,49 @@
+name: Update README with new images
+
+on:
+  push:
+    paths:
+      - "day_*/*"  # Triggers only when files in "day_" folders are added/changed
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Update README
+        id: update-readme
+        run: |
+          # Define README path
+          README_FILE="README.md"
+
+          # Generate header and new entries
+          echo "## Daily Challenge Images" > new_content.md
+          
+          # Loop through folders
+          for dir in day_*; do
+            # Find the PNG image in the directory
+            image_path="$dir/$(ls "$dir" | grep .png)"
+            # Format day and description from directory name
+            day=$(echo "$dir" | cut -d'_' -f 2)
+            description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
+            # Append to new content
+            echo "## Day $day: $description" >> new_content.md
+            echo "[![alt text]($image_path)]($dir/)" >> new_content.md
+            echo "" >> new_content.md
+          done
+
+          # Replace existing README content with new content
+          cat new_content.md > $README_FILE
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with new images" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
