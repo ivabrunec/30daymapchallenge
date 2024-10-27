@@ -57,6 +57,7 @@ jobs:
             if [ -d "$dir" ]; then
               # Find the PNG image in the directory
               image_path="$dir/$(ls "$dir" | grep -E '\.png$' | head -n 1)"
+              echo image_path
               
               # Check if the image path was found
               if [ -n "$image_path" ] && [ -f "$image_path" ]; then
