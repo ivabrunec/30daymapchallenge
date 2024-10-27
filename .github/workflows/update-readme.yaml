@@ -3,8 +3,7 @@ name: Update README with new images
 on:
   push:
     paths:
-      - "2021/day_*/*"
-      - "2022/day_*/*"
+      - "20*/day_*/*"  # Trigger for day folders in any year directory
 
 jobs:
   update-readme:
@@ -13,18 +12,29 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
-      - name: Update README
-  id: update-readme
-  run: |
-        # Define README path (adjust to the correct year if needed, or make it dynamic)
-        README_FILE="2021/README.md"  # For example, to update README in the 2021 folder
+      - name: Set README Path Dynamically
+        id: set-readme-path
+        run: |
+          # Extract the year from the path of the changed file
+          year=$(echo "${{ github.event.head_commit.message }}" | grep -oP '20\d{2}')
+          
+          # Set the README file path based on the year
+          if [ -n "$year" ]; then
+            README_FILE="$year/README.md"
+            echo "README_FILE=$README_FILE" >> $GITHUB_ENV
+          else
+            echo "Year not found in file path. Exiting."
+            exit 1
+          fi
 
-        # Generate header and new entries
-        echo "## Daily Challenge Images" > new_content.md
-        
-        # Loop through each "day_*" folder within the year folders
-        for year_dir in 20*; do
-          for dir in "$year_dir"/day_*; do
+      - name: Update README
+        if: env.README_FILE  # Only run if README_FILE is set
+        run: |
+          # Generate header and new entries
+          echo "## Daily Challenge Images" > new_content.md
+          
+          # Loop through each "day_*" folder within the detected year
+          for dir in "$year"/day_*; do
             if [ -d "$dir" ]; then
               # Find the PNG image in the directory
               image_path="$dir/$(ls "$dir" | grep .png)"
@@ -37,16 +47,15 @@ jobs:
               echo "" >> new_content.md
             fi
           done
-        done
 
-        # Replace existing README content with new content
-        cat new_content.md > $README_FILE
+          # Replace existing README content with new content
+          cat new_content.md > $README_FILE
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add $README_FILE
           git commit -m "Update README with new images" || echo "No changes to commit"
 
       - name: Push changes
