@@ -18,25 +18,20 @@ jobs:
           # Initialize the year variable
           year=""
           
-          # Loop through modified files to find the year from paths
-          for path in "${{ github.event.head_commit.modified }}"; do
+          # Loop through modified files to find the year
+          for path in ${{ github.event.head_commit.modified }}; do
             if [[ $path =~ ([0-9]{4}) ]]; then
               year="${BASH_REMATCH[1]}"
               break  # Exit loop after finding the first match
             fi
           done
           
-          # If year not found in paths, try the commit message
-          if [ -z "$year" ]; then
-            year=$(echo "${{ github.event.head_commit.message }}" | grep -oP '20\d{2}')
-          fi
-          
           # Set the README file path based on the year
           if [ -n "$year" ]; then
             README_FILE="$year/README.md"
             echo "README_FILE=$README_FILE" >> $GITHUB_ENV
           else
-            echo "Year not found in file path or commit message. Exiting."
+            echo "Year not found in file path. Exiting."
             exit 1
           fi
 
