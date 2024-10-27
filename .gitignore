@@ -23,3 +23,5 @@ scripts/data/dist2coast.signed.txt
 scripts/2022/data/Street Tree Data.geojson
 .Rhistory
 .DS_store
+.gitignore
+.gitattributes
