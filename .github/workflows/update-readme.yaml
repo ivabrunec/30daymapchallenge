@@ -3,7 +3,7 @@ name: Update README with new images
 on:
   push:
     paths:
-      - "20*/day_*/*"  # Trigger for day folders in any year directory
+      - "20*/day_*/*"  # wildcard for any year
 
 jobs:
   update-readme:
