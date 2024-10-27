@@ -3,7 +3,7 @@ name: Update README with new images
 on:
   push:
     paths:
-      - "20*/day_*/*"  # wildcard for any year
+      - "20*/day_*/*"  # Trigger for day folders in any year directory
 
 jobs:
   update-readme:
@@ -15,8 +15,14 @@ jobs:
       - name: Set README Path Dynamically
         id: set-readme-path
         run: |
-          # Extract the year from the path of the changed file
-          year=$(echo "${{ github.event.head_commit.message }}" | grep -oP '20\d{2}')
+          # Extract the year from the paths of the changed files
+          year=""
+          for path in "${{ github.event.head_commit.modified }}"; do
+            if [[ $path =~ ([0-9]{4}) ]]; then
+              year="${BASH_REMATCH[1]}"
+              break  # Exit loop after finding the first match
+            fi
+          done
           
           # Set the README file path based on the year
           if [ -n "$year" ]; then
