@@ -3,7 +3,8 @@ name: Update README with new images
 on:
   push:
     paths:
-      - "day_*/*"  # Triggers only when files in "day_" folders are added/changed
+      - "2021/day_*/*"
+      - "2022/day_*/*"
 
 jobs:
   update-readme:
