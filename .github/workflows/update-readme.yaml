@@ -14,29 +14,33 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Update README
-        id: update-readme
-        run: |
-          # Define README path
-          README_FILE="README.md"
+  id: update-readme
+  run: |
+        # Define README path (adjust to the correct year if needed, or make it dynamic)
+        README_FILE="2021/README.md"  # For example, to update README in the 2021 folder
 
-          # Generate header and new entries
-          echo "## Daily Challenge Images" > new_content.md
-          
-          # Loop through folders
-          for dir in day_*; do
-            # Find the PNG image in the directory
-            image_path="$dir/$(ls "$dir" | grep .png)"
-            # Format day and description from directory name
-            day=$(echo "$dir" | cut -d'_' -f 2)
-            description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
-            # Append to new content
-            echo "## Day $day: $description" >> new_content.md
-            echo "[![alt text]($image_path)]($dir/)" >> new_content.md
-            echo "" >> new_content.md
+        # Generate header and new entries
+        echo "## Daily Challenge Images" > new_content.md
+        
+        # Loop through each "day_*" folder within the year folders
+        for year_dir in 20*; do
+          for dir in "$year_dir"/day_*; do
+            if [ -d "$dir" ]; then
+              # Find the PNG image in the directory
+              image_path="$dir/$(ls "$dir" | grep .png)"
+              # Format day and description from directory name
+              day=$(echo "$dir" | cut -d'_' -f 2)
+              description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
+              # Append to new content
+              echo "## Day $day: $description" >> new_content.md
+              echo "[![alt text]($image_path)]($dir/)" >> new_content.md
+              echo "" >> new_content.md
+            fi
           done
+        done
 
-          # Replace existing README content with new content
-          cat new_content.md > $README_FILE
+        # Replace existing README content with new content
+        cat new_content.md > $README_FILE
 
       - name: Commit changes
         run: |
