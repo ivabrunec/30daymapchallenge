@@ -1,16 +1,16 @@
 # 30DayMapChallenge 2021
 The details of the challenge can be found [here](https://github.com/tjukanovt/30DayMapChallenge). <br>
 For a post containing all maps in one place and links to all my data sources, click [here](https://ivabrunec.github.io/30daymap). I also included a link to the data source in each of my scripts (found in /scripts). <br>
-![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/2021/allmaps.png?raw=true)
+![alt text](allmaps.png)
 
 ## Day 1: Points
-![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/2021/day1_phl_trees.png?raw=true)
+[![alt text](day_1_points/day1_phl_trees.png)](day_1_points/)
 
 ## Day 2: Lines
-![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/2021/day2_phl_bike_network.png?raw=true)
+![alt text](/day_2_lines/day2_phl_bike_network.png)
 
 ## Day 3: Polygons
-![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/2021/day3_europe.png?raw=true)
+![alt text](/day_3_polygons/day3_europe.png)
 
 ## Day 4: Hexagons
 ![alt text](https://github.com/ivabrunec/30daymapchallenge/blob/main/maps/2021/day4_cardinals.png?raw=true)
