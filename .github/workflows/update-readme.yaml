@@ -12,16 +12,20 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
-      - name: Set README Path Dynamically
+      - name: Set README Path and Year Dynamically
         id: set-readme-path
         run: |
           # Initialize the year variable
           year=""
           
+          # Log modified paths for debugging
+          echo "Modified paths: ${{ github.event.head_commit.modified }}"
+
           # Loop through modified files to find the year from paths
           for path in "${{ github.event.head_commit.modified }}"; do
             if [[ $path =~ ([0-9]{4}) ]]; then
               year="${BASH_REMATCH[1]}"
+              echo "Found year in path: $year"  # Debugging output
               break  # Exit loop after finding the first match
             fi
           done
@@ -29,12 +33,14 @@ jobs:
           # If year not found in paths, try the commit message
           if [ -z "$year" ]; then
             year=$(echo "${{ github.event.head_commit.message }}" | grep -oP '20\d{2}')
+            echo "Found year in commit message: $year"  # Debugging output
           fi
           
           # Set the README file path based on the year
           if [ -n "$year" ]; then
             README_FILE="$year/README.md"
             echo "README_FILE=$README_FILE" >> $GITHUB_ENV
+            echo "YEAR=$year" >> $GITHUB_ENV  # Set year in the environment for later use
           else
             echo "Year not found in file path or commit message. Exiting."
             exit 1
@@ -47,17 +53,24 @@ jobs:
           echo "## Daily Challenge Images" > new_content.md
           
           # Loop through each "day_*" folder within the detected year
-          for dir in "$year"/day_*; do
+          for dir in "$YEAR"/day_*; do
             if [ -d "$dir" ]; then
               # Find the PNG image in the directory
-              image_path="$dir/$(ls "$dir" | grep .png)"
-              # Format day and description from directory name
-              day=$(echo "$dir" | cut -d'_' -f 2)
-              description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
-              # Append to the temporary content file
-              echo "## Day $day: $description" >> new_content.md
-              echo "[![alt text]($image_path)]($dir/)" >> new_content.md
-              echo "" >> new_content.md
+              image_path="$dir/$(ls "$dir" | grep -E '\.png$' | head -n 1)"
+              
+              # Check if the image path was found
+              if [ -n "$image_path" ] && [ -f "$image_path" ]; then
+                # Format day and description from directory name
+                day=$(echo "$dir" | cut -d'_' -f 2)
+                description=$(echo "$dir" | cut -d'_' -f 3- | tr '_' ' ')
+                
+                # Append to the temporary content file
+                echo "## Day $day: $description" >> new_content.md
+                echo "[![alt text]($image_path)]($dir/)" >> new_content.md
+                echo "" >> new_content.md
+              else
+                echo "No PNG image found in $dir"  # Debugging output
+              fi
             fi
           done
 
@@ -73,7 +86,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add $README_FILE
-          git commit -m "Update README for $year" || echo "No changes to commit"
+          git commit -m "Update README for $YEAR" || echo "No changes to commit"
 
       - name: Push changes
         run: |
