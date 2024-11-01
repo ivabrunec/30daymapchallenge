@@ -1,4 +1,5 @@
-## Day 2: Cyclist injuries and deaths in Toronto
+## Day 1: Cyclist injuries and deaths in Toronto
+# Data from: https://data.torontopolice.on.ca/pages/cyclists
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(dplyr)
 library(ggplot2)
