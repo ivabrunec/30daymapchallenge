@@ -80,6 +80,7 @@ parks <- bbx |>
 # sources: 
 # 10k in 2006 - https://spacing.ca/toronto/2007/01/07/best-bike-lane-2006/
 # jarvis - https://x.com/observinthecity/status/1852406520656302254
+# 6km cycle tracks - https://www.toronto.ca/wp-content/uploads/2019/01/94e8-Cycling-Implementation-Plan-Table-of-Contents-Section-1-4.pdf
 # bloor - https://www.communitybikewaysto.ca/a-short-history-of-bike-lanes-on-bloor
 # 96k - https://www.nationalobserver.com/2024/02/28/news/how-these-two-cities-are-making-wheels-turn-cyclists
 # bike share - https://www.cbc.ca/news/canada/toronto/bike-share-toronto-ridership-record-2024-1
@@ -87,14 +88,13 @@ parks <- bbx |>
 cycle_facts <- data.frame(
   label = c(
     '10km of bike lanes constructed in 2006. \n Bike Share Toronto begins operating in 2011.',
-    "Jarvis bike lane removed in 2012, driving time increases. \n Pilot bike lanes on Bloor installed in 2016.",
-    "More than 96km of new bike lanes installed 2018-2022. \n Record 5.7 million Bike Share trips."
+    "In 2015, only 6km of the network comprises cycle tracks. \n Pilot bike lanes on Bloor installed in 2016.",
+    "More than 96km of new bike lanes installed 2018-2022. \n Record 5.7 million Bike Share trips in 2023."
   ),
   x = rep(-79.61, 3),
   y = rep(43.57, 3),
   year_group = c("2006 - 2011", "2012 - 2017", "2018 - 2023"),
-  hjust = rep(0, 3),
-  color = c("black", "blue", "black")
+  hjust = rep(0, 3)
 ) 
 
 ggplot() +
@@ -137,8 +137,13 @@ ggplot() +
         plot.title = element_text(family = 'inconsolata',
                                   hjust = 0.5,
                                   size = 70,
-                                  color = 'grey20')) +
-  labs(title = "bike lanes save lives")
+                                  color = 'grey20'),
+        plot.subtitle = element_text(family = 'inconsolata',
+                                     hjust = 0.2,
+                                     size = 30,
+                                     color = 'grey30')) +
+  labs(title = "bike lanes save lives",
+       subtitle = "cycling accidents in Toronto, 2006-2023")
 
 ggsave('cyclist_maps.png', height = 10, width = 6, dpi = 300)
 
