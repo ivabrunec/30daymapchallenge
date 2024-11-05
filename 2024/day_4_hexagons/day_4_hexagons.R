@@ -49,7 +49,7 @@ plot_gg(pp, width = 5, height = 4, scale = 200,
         max_error = 0.01, verbose = TRUE,
         solid = FALSE)
 
-render_highquality(filename = 'test4.png',
+render_highquality(filename = 'day_4_hexagons_vancouver_island.png',
                    samples = 360,
                    light = TRUE,
                    lightdirection = 270,
