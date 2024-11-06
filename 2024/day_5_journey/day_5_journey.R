@@ -63,7 +63,7 @@ ggplot() +
         legend.position = 'none',
         panel.grid = element_line(color = 'grey', linewidth = 0.1, linetype = 'dashed'))
 
-ggsave('day_15_mta.png', height = 8, width = 14, dpi = 300)
+ggsave('day_15_mta.png', height = 8, width = 13, dpi = 300)
 
 
 # now animate
@@ -91,5 +91,5 @@ a <- ggplot() +
 library(gifski)
 library(av)
 
-animate(a, fps = 10, height = 800, width = 600, detail = 5, type = 'cairo', renderer = av_renderer())
+animate(a, fps = 10, height = 800, width = 800, detail = 7, type = 'cairo', renderer = av_renderer())
 anim_save("day_5.mp4")
