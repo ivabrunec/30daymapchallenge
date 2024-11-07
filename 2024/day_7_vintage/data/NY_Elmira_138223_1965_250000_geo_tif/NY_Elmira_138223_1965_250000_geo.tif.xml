@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>U.S. Geological Survey</origin>
+    <pubdate>1965</pubdate>
+    <title>USGS 1:250000-scale Quadrangle for Elmira, NY 1965</title>
+    <geoform>Scanned Map in GeoTIFF format</geoform>
+    <pubinfo>
+     <pubplace>Reston, Virginia</pubplace>
+     <publish>U.S. Geological Survey</publish>
+    </pubinfo>
+    <lworkcit>
+     <citeinfo>
+      <origin>U.S. Geological Survey</origin>
+      <pubdate>2006</pubdate>
+      <title>Historical Topographic Maps 1 x 2 Degree Map Series</title>
+      <onlink>https://www.sciencebase.gov/catalog/item/4f55436ce4b018de15819c95</onlink>
+     </citeinfo>
+    </lworkcit>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>USGS Historical Quadrangle in GeoTIFF format.</abstract>
+   <purpose>The USGS Historical Quadrangle Scanning Project (HQSP) is scanning all scales and all editions of topographic maps published by the U.S. Geological Survey (USGS) since the inception of the topographic mapping program in 1884.</purpose>
+   <supplinf>Map Name: Elmira, NY; Scan Filename: NY_Elmira_138223_1965_250000_geo.tif; Raster Resolution: 300 PPI; Woodland Tint = Y; NOTE: Bounding Coordinates identified in FGDC metadata are associated with the GNIS Cell ID; {"gdaId" : 5454843, "cellId" : 68766, "scale" : 250000, "pageWidth" : 28.8, "pageHeight" : 22.1}</supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <rngdates>
+     <begdate>1962</begdate>
+     <enddate>1965</enddate>
+    </rngdates>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>None planned</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-78.000</westbc>
+    <eastbc>-76.000</eastbc>
+    <northbc>43.000</northbc>
+    <southbc>42.000</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>ISO 19115 Topic Category</themekt>
+    <themekey>imageryBaseMapsEarthCover</themekey>
+   </theme>
+   <theme>
+    <themekt>The National Map Type Thesaurus</themekt>
+    <themekey>Downloadable Data</themekey>
+   </theme>
+   <theme>
+    <themekt>The National Map Theme Thesaurus</themekt>
+    <themekey>Map</themekey>
+   </theme>
+   <theme>
+    <themekt>The National Map Collection Thesaurus</themekt>
+    <themekey>Historical Topographic Maps 1 x 2 Degree Map Series</themekey>
+    <themekey>Historical Topographic Maps</themekey>
+   </theme>
+   <theme>
+    <themekt>The National Map Product Extent Thesaurus</themekt>
+    <themekey>1 X 2 Degree</themekey>
+   </theme>
+   <theme>
+    <themekt>The National Map Product Format Thesaurus</themekt>
+    <themekey>GeoTIFF</themekey>
+   </theme>
+   <place>
+    <placekt>Geographic Names Information System</placekt>
+    <placekey>NY</placekey>
+    <placekey>Elmira</placekey>
+   </place>
+  </keywords>
+  <accconst>None</accconst>
+  <useconst>None. However, users should be aware that temporal changes may have occurred since this map was originally produced and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations.</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>physical</addrtype>
+     <address>12201 Sunrise Valley Drive</address>
+     <city>Reston</city>
+     <state>Virginia</state>
+     <postal>20192</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+    <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+    <cntinst>Please visit http://www.usgs.gov/ask/ to contact us.</cntinst>
+   </cntinfo>
+  </ptcontac>
+  <browse>
+   <browsen>https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/2/12883/4680656.jpg</browsen>
+   <browsed>Thumbnail JPEG image of map</browsed>
+   <browset>JPEG</browset>
+  </browse>
+  <datacred>Acknowledgement of the U.S. Geological Survey is expected for products derived from these data.</datacred>
+ </idinfo>
+ <dataqual>
+  <logic>A logical consistency report is not applicable to raster data sets.</logic>
+  <complete>Complete topographic representation.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>The digital GeoTIFF version of the historical map was georeferenced with a methodology that preserves, but does not exceed, the accuracy of the original map. The historical map product was compiled to meet National Map Accuracy Standards (NMAS) of the era when the map was originally published.</horizpar>
+   </horizpa>
+  </posacc>
+  <lineage>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>USGS</origin>
+      <pubdate>1965</pubdate>
+      <title>Original Paper Map</title>
+      <othercit>Elmira, NY; U.S. Department of the Interior, USGS Scanned Historical Quadrangle Standard, Version 1.0.</othercit>
+     </citeinfo>
+    </srccite>
+    <srcscale>250000</srcscale>
+    <typesrc>paper</typesrc>
+    <srctime>
+     <timeinfo>
+      <sngdate>
+       <caldate>1965</caldate>
+      </sngdate>
+     </timeinfo>
+     <srccurr>publication date</srccurr>
+    </srctime>
+    <srccitea>map</srccitea>
+    <srccontr>USGS provided the scanned copy of the historical quadrangle.</srccontr>
+   </srcinfo>
+   <procstep>
+    <procdesc>The GeoTIFF for the scanned Historical Quadrangles are produced using the following steps. Historical Quadrangles are scanned typically at 600 PPI (minimum of 400 PPI). Metadata is collected from the information printed in the map collar. Scanned TIFF images are georeferenced to the original map datum, and reprojected to the original map projection. The final GeoTIFF file is downsampled to 300 PPI, compressed, and zipped with an external metadata file. Any use of trade, product, or firm names in this publication is for descriptive purposes only and does not imply endorsement by the U.S. Government.</procdesc>
+    <procdate>2014</procdate>
+   </procstep>
+   <procstep>
+    <procdesc>Date on Map</procdesc>
+    <procdate>1965</procdate>
+   </procstep>
+   <procstep>
+    <procdesc>Survey Year</procdesc>
+    <procdate>1888</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spref>
+  <horizsys>
+   <planar>
+    <mapproj>
+     <mapprojn>Transverse Mercator</mapprojn>
+     <transmer>
+      <sfctrmer>1</sfctrmer>
+      <longcm>-77</longcm>
+      <latprjo>42</latprjo>
+      <feast>0</feast>
+      <fnorth>0</fnorth>
+     </transmer>
+    </mapproj>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>21.2</absres>
+      <ordres>21.2</ordres>
+     </coordrep>
+     <plandu>Meters</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1927</horizdn>
+    <ellips>Clarke 1866</ellips>
+    <semiaxis>6378206.4</semiaxis>
+    <denflat>294.9786982</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>physical</addrtype>
+     <address>12201 Sunrise Valley Drive</address>
+     <city>Reston</city>
+     <state>Virginia</state>
+     <postal>20192</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+    <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+    <cntinst>Please visit http://www.usgs.gov/ask/ to contact us.</cntinst>
+   </cntinfo>
+  </distrib>
+  <resdesc>Downloadable Data</resdesc>
+  <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>GeoTIFF</formname>
+     <transize>18023688</transize>
+    </digtinfo>
+    <digtopt>
+     <onlinopt>
+      <computer>
+       <networka>
+        <networkr>https://ngmdb.usgs.gov/ht-bin/tv_download.pl?id=5454843&amp;tif=true</networkr>
+       </networka>
+      </computer>
+     </onlinopt>
+    </digtopt>
+   </digform>
+   <fees>None</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20170912</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>physical</addrtype>
+     <address>12201 Sunrise Valley Drive</address>
+     <city>Reston</city>
+     <state>Virginia</state>
+     <postal>20192</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+    <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+    <cntinst>Please visit http://www.usgs.gov/ask/ to contact us.</cntinst>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+ </metainfo>
+</metadata>
