@@ -57,5 +57,5 @@ ggplot() +
   labs(subtitle = "current concentration of resilient multiyear sea ice across the Arctic",
        title = "where ice stays:")
 
-ggsave('day_11_arctic.png', height = 5, width = 5, dpi = 300)
+ggsave('day_11_arctic.png', height = 5, width = 5, dpi = 400)
 
