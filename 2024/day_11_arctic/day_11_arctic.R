@@ -1,5 +1,4 @@
-## Day 11: Arctic: Svalbard
-# shapefile: https://earthworks.stanford.edu/catalog/stanford-xf635sb7068
+## Day 11: Arctic: multiyear sea ice
 # ice extent: https://nsidc.org/data/g10033/versions/1#anchor-data-access-tools
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
@@ -29,15 +28,6 @@ ocean <- st_point(x = c(-60, 70)) |>
   st_buffer(dist = 6370000) |>
   st_sfc(crs = crs_string)
 
-longitudes <- seq(-180, 180, by = 1)  # Create points every 1 degree of longitude
-latitudes <- rep(66.5, length(longitudes))  # Latitude at 66.5°N for all points
-
-col_pal<- c( "#775e33", 
-             "#b48a35", 
-             "#b5ac65", 
-             "#93caa0", 
-             "#68dece", 
-             "#96d1c9")
 col_pal<-c(  
   "#4f517e", 
   "#858de5", 
@@ -46,7 +36,6 @@ col_pal<-c(
   "#e7764c", 
   "#e69b81"
 )
-
 
 ggplot() +
   geom_sf(data = ocean, fill = '#333333', color= 'NA') +
