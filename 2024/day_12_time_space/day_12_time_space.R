@@ -1,5 +1,6 @@
 # Day 12: Time & space.
 # shrinking Aral sea
+# Data: https://global-surface-water.appspot.com/download
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
