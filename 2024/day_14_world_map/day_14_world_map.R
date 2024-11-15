@@ -178,3 +178,22 @@ render_highquality('temp.png',
                    #                                              material = rayrender::light(color= '#e38424',
                    #                                                                          intensity = 7)))
 )
+
+
+## volcanoes as dots? 
+world_polygons <- giscoR::gisco_get_countries()
+
+volcanoes$risk[volcanoes$risk == "NULL"] <- 0
+volcanoes$risk <- as.numeric(volcanoes$risk)
+
+temp <- ggplot() +
+  geom_sf(data = world_polygons,
+          fill = 'grey', color = NA) +
+  geom_point(data = volcanoes,
+             aes(x = Longitude, y = Latitude,
+                 color = risk))
+
+plot_gg(temp,
+        scale = 500, 
+        width = 10,
+        height = 6)
