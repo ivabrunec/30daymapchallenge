@@ -6,6 +6,8 @@ library(ggplot2)
 library(XML)
 library(dplyr)
 library(stringr)
+library(geosphere)
+library(rayshader)
 
 gpx_files <- list.files('data', pattern = "\\.gpx$", full.names = TRUE)
 
@@ -42,48 +44,33 @@ hike_df_all <- do.call(rbind, hike_list)
 # create base matrix
 nrows <- 1000
 ncols <- 1000
-base_matrix <- matrix(1, nrow = nrows, ncol = ncols)
+base_matrix <- matrix(0, nrow = nrows, ncol = ncols)
 
 # define extent
 extent_x <- max(hike_df_all$cumulative_dist)
-extent_y <- max(hike_data$y)
+extent_y <- max(hike_df_all$y)
 extent <- c(0, extent_x, 0, extent_y)
 
 # plot flat base
 base_matrix |>
-  plot_3d(base_matrix, zscale = 1, solid = F, shadow = T, windowsize = c(800, 800))
+  plot_3d(base_matrix, zscale = 1, solid = F, shadow = T, windowsize = c(800, 800),
+          background = 'black')
 
 # iterate over hikes in list & plot
-path_data <- hike_list[[1]]
-
 for (path_data in hike_list){
   render_path(
     extent = extent,
     lat = path_data$y,
     long = path_data$cumulative_dist,
     altitude = path_data$elevation - min(path_data$elevation),
-    color = "yellow",
+    color = "#F18805",
     linewidth = 3,
     clear_previous = FALSE
   )
 }
 
-render_highquality(filename = 'test.png',
+render_highquality(filename = 'day_15_light.png',
+                   samples = 280,
                    point_material = rayrender::light)
 
-
-
-## older below
-hike_df_all <- do.call(rbind, hike_list)
-
-temp <- ggplot() +
-  geom_point(data = hike_df_all,
-             aes(x = cumulative_dist, y = elevation,
-                 color = elevation, group = hike_name)) +
-  theme(legend.position = 'bottom') +
-  facet_wrap(~hike_name, nrow = 11)
-
-library(rayshader)
-plot_gg(temp, height = 10, width = 5)
-
-
+render_movie(filename = 'day_15_orbit.mp4')
