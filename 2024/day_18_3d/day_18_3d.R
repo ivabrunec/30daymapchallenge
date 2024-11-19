@@ -46,4 +46,4 @@ elev_mat %>%
   plot_3d(elev_mat, zscale = 10, windowsize = c(1000, 1200))
 
 render_highquality('day_18_3d_2.png', samples = 365,
-                   clamp_value = 5)
+                   clamp_value = 5, lightcolor = 'beige')
