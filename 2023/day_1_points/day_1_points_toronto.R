@@ -21,7 +21,7 @@ colnames(areas) <- c("area_sqkm","Geographic.code")
 areas <- as.data.frame(areas)
 
 # read in toronto postcodes and filter base file
-toronto_postcodes <- read.table("data/;'/postcodes_toronto.csv",header=T,sep=",")
+toronto_postcodes <- read.table("data/postcodes_toronto.csv",header=T,sep=",")
 
 # append only toronto sq km areas
 toronto_postcodes <- merge(toronto_postcodes, areas, by=c('Geographic.code'))
