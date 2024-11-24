@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Canadian Soils</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This feature service depicts all 10 of Canada's Soil Orders in the Canadian System of Soil Classification.
+
+Defined by the Canadian Soil Information Service, this data is part of a larger Soil Landscapes of Canada (SLC) database.  
+
+The data in this feature service was derived from SLC v2.2 with updates from SLC v3.1.  
+
+Map Service published and hosted by Esri Canada © 2020.
+
+Content Source(s):
+
+ 'Soils of Canada', Agriculture and Agri-Foods Canada, SLCv2.2, 1996.</abstract>
+            <purpose>This map service Canada's 10 major Soil Orders.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Canada</themekey>
+                <themekey>Canadian</themekey>
+                <themekey>Esri Canada</themekey>
+                <themekey>Education</themekey>
+                <themekey>Soil</themekey>
+                <themekey>Soil orders</themekey>
+                <themekey>Brunisolic</themekey>
+                <themekey>chernozemic</themekey>
+                <themekey>cryosolic</themekey>
+                <themekey>gleysolic</themekey>
+                <themekey>luvisolic</themekey>
+                <themekey>organic</themekey>
+                <themekey>podzolic</themekey>
+                <themekey>regosolic</themekey>
+                <themekey>solonetzic</themekey>
+                <themekey>vertizolic</themekey>
+                <themekey>Ecology</themekey>
+                <themekey>Geography</themekey>
+                <themekey>landscapes</themekey>
+                <themekey>arccanada</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst/>
+        <datacred>Agriculture and Agri-Food Canada</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
