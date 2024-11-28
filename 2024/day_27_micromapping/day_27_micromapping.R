@@ -1,5 +1,6 @@
 ## Day 27: Micromapping.
 # some section of Toronto (if I can get this to work)
+# data from: https://geohub.lio.gov.on.ca/maps/mnrf::ontario-digital-surface-model-lidar-derived/explore?location=43.636046%2C-79.467341%2C14.00&path=
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 library(terra)
@@ -7,6 +8,7 @@ library(sf)
 library(ggplot2)
 library(rayshader)
 
+# dataset too big for github but I downloaded this package: GTA-2015-DSM-03
 lidar_files <- list.files("data/GTA-2015-DSM-03/", pattern = "\\.img$", full.names = TRUE)
 
 lidar_list <- lapply(lidar_files, rast)
@@ -44,7 +46,6 @@ bbox_utm <- project(bbox_poly, crs(mosaic_raster))
 cropped_raster <- crop(mosaic_raster, bbox_utm)
 
 plot(cropped_raster)
-writeRaster(cropped_raster, "cropped_raster.tif", overwrite = TRUE)
 
 ## rayshader:
 cropped_raster_raster <- raster::raster(cropped_raster)
@@ -52,7 +53,16 @@ cropped_raster_raster <- raster::raster(cropped_raster)
 elmat <- raster_to_matrix(cropped_raster_raster)
 
 elmat |>
-  sphere_shade() |>
+  sphere_shade(texture = create_texture("white","grey80",
+                                        "black","black","grey90")) |>
   plot_3d(elmat, windowsize = c(800, 800))
 
-render_highquality('test_file.png')
+render_highquality('day_27_micromapping.png',
+                   samples = 300,
+                   height = 2500,
+                   width = 2000,
+                   #lightdirection = 130,
+                   lightintensity = 500,
+                   lightcolor = 'beige',
+                   ground_material = rayrender::diffuse('black'),
+                   parallel = T)
