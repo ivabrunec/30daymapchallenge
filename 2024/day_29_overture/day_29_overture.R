@@ -1,6 +1,6 @@
-# Day 29: overture buildings
-# repurposing basically all of day 13 
+# Day 29: overture 
 # tutorial: https://walker-data.com/posts/overture-buildings/
+# adjusted to point data
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 library(arrow)
@@ -11,47 +11,40 @@ library(tigris)
 library(rdeck) # pak::pak("rdeck")
 options(tigris_use_cache = TRUE)
 
-# updated to most (?) recent release
-# here: https://docs.overturemaps.org/release/2024-09-18.0/
-buildings <- open_dataset('s3://overturemaps-us-west-2/release/2024-09-18.0/theme=buildings?region=us-west-2')
-nrow(buildings)
+london_bbox <- c(-0.5103751, 51.2867602, 0.3340155, 51.6918741)
 
+s3_path <- "s3://overturemaps-us-west-2/release/2024-11-13.0/theme=places/type=place/"
+places_dataset <- open_dataset(s3_path, format = "parquet")
 
-ldn_lat <- c(-0.1029258906155917, -0.0794941134020941)
-ldn_long <- c(51.50335642533778, 51.515856610622706)
-
-Sys.setenv(MAPBOX_ACCESS_TOKEN = "your_token_here")
-
-ldn_buildings <- buildings |>
-  filter(bbox$xmin > ldn_lat[1],
-         bbox$ymin > ldn_long[1],
-         bbox$xmax < ldn_lat[2],
-         bbox$ymax < ldn_long[2]) |>
-  select(id, geometry, height) |> 
+ldn_pubs <- places_dataset |>
+  filter(bbox$xmin > london_bbox[1],
+         bbox$ymin > london_bbox[2],
+         bbox$xmax < london_bbox[3],
+         bbox$ymax < london_bbox[4]) |>
+  select(id, geometry, categories, names) |> 
+  filter(categories$primary == 'pub') |>
   collect() |>
-  st_as_sf(crs = 4326) |> 
-  mutate(height = ifelse(is.na(height), 8, height))
+  st_as_sf(crs = 4326)
 
-# define color
-col_pal <- scico::scico(100, palette = 'batlow')
+ldn_pubs$Name <- ldn_pubs$names$primary
 
-ldn_map <- rdeck(map_style = mapbox_light(), 
+Sys.setenv(MAPBOX_ACCESS_TOKEN = "your_mapbox_token_here")
+
+ldn_map <- rdeck(map_style = mapbox_dark(), 
                  initial_view_state = view_state(
-                   center = c(-0.09, 51.508), 
+                   center = c(-0.09, 51.508),
                    zoom = 15,
                    pitch = 30
                  )) |> 
-  add_polygon_layer(
+  add_scatterplot_layer(
     name = "London",
-    data = ldn_buildings, 
-    get_polygon = geometry, 
-    get_elevation = height, 
-    get_fill_color = scale_color_linear(
-      col = height,
-      palette = col_pal
-    ),
-    extruded = TRUE, 
-    opacity = 0.4)
+    data = ldn_pubs, 
+    get_position = geometry, 
+    filled = T,
+    get_fill_color = '#CC2936',
+    radius_scale = 10,
+    pickable = T,
+    tooltip = Name
+  )
 
 ldn_map
-htmlwidgets::saveWidget(nyc_map, "NYC_Building_Map.html", selfcontained = TRUE)
