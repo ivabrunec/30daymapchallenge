@@ -1,5 +1,6 @@
 ## Day 28: The blue planet
 # pacific ocean bathymetry
+# data from: https://neo.gsfc.nasa.gov/view.php?datasetId=GEBCO_BATHY
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
