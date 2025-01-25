@@ -7,6 +7,7 @@ library(ggplot2)
 library(ggforce)
 library(dplyr)
 library(showtext)
+library(geomtextpath)
 
 font_add_google(name = 'Work Sans', family = 'work',bold.wt = 800)
 showtext_auto()
